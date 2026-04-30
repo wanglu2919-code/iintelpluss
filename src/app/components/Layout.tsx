@@ -34,7 +34,7 @@ export function Layout() {
                 <div className="absolute -bottom-1 -right-1 w-4 h-4 bg-green-500 rounded-full border-2 border-white dark:border-gray-900"></div>
               </div>
               <div className="leading-none flex flex-col">
-                <h1 className="text-2xl font-black text-blue-600 dark:text-blue-400 leading-none whitespace-nowrap mt-2">
+                <h1 className="text-2xl font-black text-blue-600 dark:text-blue-400 leading-none whitespace-nowrap mt-4">
                   Intel Plus
                 </h1>
                 <p className="text-sm text-gray-500 dark:text-gray-400 font-semibold leading-none mt-1.5 whitespace-nowrap">Internet & TV Premium</p>
