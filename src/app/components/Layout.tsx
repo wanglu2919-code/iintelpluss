@@ -23,8 +23,8 @@ export function Layout() {
         <div className="container mx-auto px-4 py-0.5">
           <div className="flex items-center justify-between h-10">
             {/* Logo */}
-            <Link to="/" className="flex items-center gap-1.5 hover:opacity-80 transition-opacity group">
-              <div className="relative">
+            <Link to="/" className="flex items-start gap-1.5 hover:opacity-80 transition-opacity group">
+              <div className="relative flex-shrink-0">
                 <img
                   src={logoImg}
                   alt="iintel pluss Logo"
@@ -33,11 +33,11 @@ export function Layout() {
                 />
                 <div className="absolute -bottom-0.5 -right-0.5 w-2 h-2 bg-green-500 rounded-full border border-white dark:border-gray-900"></div>
               </div>
-              <div className="leading-none">
-                <h1 className="text-sm font-black text-blue-600 dark:text-blue-400 leading-none">
+              <div className="leading-none flex flex-col">
+                <h1 className="text-sm font-black text-blue-600 dark:text-blue-400 leading-none whitespace-nowrap">
                   iintel pluss
                 </h1>
-                <p className="text-[9px] text-gray-500 dark:text-gray-400 font-semibold leading-none mt-0.5">Internet & TV Premium</p>
+                <p className="text-[9px] text-gray-500 dark:text-gray-400 font-semibold leading-none mt-0.5 whitespace-nowrap">Internet & TV Premium</p>
               </div>
             </Link>
 
