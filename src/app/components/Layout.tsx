@@ -1,7 +1,7 @@
 import { Outlet, Link } from "react-router";
 import { Wifi, Tv, Zap, CreditCard, Phone, Tag, Menu, X, Moon, Sun } from "lucide-react";
 import { useState, useEffect } from "react";
-import logoImg from "../../imports/image-1.png";
+import logoImg from "../../imports/intel-plus-logo.png";
 
 export function Layout() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -27,7 +27,7 @@ export function Layout() {
               <div className="relative flex-shrink-0">
                 <img
                   src={logoImg}
-                  alt="iintel Pluss Logo"
+                  alt="Intel Plus Logo"
                   className="w-7 h-7 object-cover rounded-md bg-gradient-to-br from-blue-500 to-blue-700 p-0.5 shadow-sm group-hover:shadow-md transition-shadow"
                   style={{ imageRendering: 'crisp-edges' }}
                 />
@@ -35,7 +35,7 @@ export function Layout() {
               </div>
               <div className="leading-none flex flex-col">
                 <h1 className="text-sm font-black text-blue-600 dark:text-blue-400 leading-none whitespace-nowrap">
-                  iintel Pluss
+                  Intel Plus
                 </h1>
                 <p className="text-[9px] text-gray-500 dark:text-gray-400 font-semibold leading-none mt-0.5 whitespace-nowrap">Internet & TV Premium</p>
               </div>
@@ -204,12 +204,12 @@ export function Layout() {
               <div className="flex items-center justify-center gap-3 mb-4">
                 <img
                   src={logoImg}
-                  alt="iintel Pluss Logo"
+                  alt="Intel Plus Logo"
                   className="w-16 h-16 object-cover rounded-xl bg-gradient-to-br from-blue-500 to-blue-700 p-0.5 shadow-lg"
                   style={{ imageRendering: 'crisp-edges' }}
                 />
                 <div className="text-left">
-                  <span className="text-2xl font-black text-blue-400">iintel Pluss</span>
+                  <span className="text-2xl font-black text-blue-400">Intel Plus</span>
                   <p className="text-xs text-gray-400">Internet & TV Premium</p>
                 </div>
               </div>
@@ -223,7 +223,7 @@ export function Layout() {
 
             <div className="border-t border-gray-700 pt-6">
               <p className="text-gray-400 text-sm text-center">
-                © 2026 iintel Pluss. Todos los derechos reservados.
+                © 2026 Intel Plus. Todos los derechos reservados.
               </p>
             </div>
           </div>
