@@ -21,28 +21,28 @@ export function Layout() {
       {/* Header */}
       <header className="bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-700 text-gray-900 dark:text-white fixed top-0 left-0 right-0 z-50 shadow-sm">
         <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between h-9">
-            {/* Logo */}
-            <Link to="/" className="flex items-start gap-1.5 hover:opacity-80 transition-opacity group">
+          <div className="flex items-center justify-center h-16 relative">
+            {/* Logo - Centered */}
+            <Link to="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity group">
               <div className="relative flex-shrink-0">
                 <img
                   src={logoImg}
                   alt="Intel Plus Logo"
-                  className="w-7 h-7 object-cover rounded-md bg-gradient-to-br from-blue-500 to-blue-700 p-0.5 shadow-sm group-hover:shadow-md transition-shadow"
+                  className="w-14 h-14 object-cover rounded-xl bg-gradient-to-br from-blue-500 to-blue-700 p-1 shadow-lg group-hover:shadow-xl transition-shadow"
                   style={{ imageRendering: 'crisp-edges' }}
                 />
-                <div className="absolute -bottom-0.5 -right-0.5 w-2 h-2 bg-green-500 rounded-full border border-white dark:border-gray-900"></div>
+                <div className="absolute -bottom-1 -right-1 w-4 h-4 bg-green-500 rounded-full border-2 border-white dark:border-gray-900"></div>
               </div>
               <div className="leading-none flex flex-col">
-                <h1 className="text-sm font-black text-blue-600 dark:text-blue-400 leading-none whitespace-nowrap">
+                <h1 className="text-2xl font-black text-blue-600 dark:text-blue-400 leading-none whitespace-nowrap">
                   Intel Plus
                 </h1>
-                <p className="text-[9px] text-gray-500 dark:text-gray-400 font-semibold leading-none mt-0.5 whitespace-nowrap">Internet & TV Premium</p>
+                <p className="text-sm text-gray-500 dark:text-gray-400 font-semibold leading-none mt-1.5 whitespace-nowrap">Internet & TV Premium</p>
               </div>
             </Link>
 
             {/* Desktop Navigation */}
-            <nav className="hidden lg:flex items-center gap-0.5">
+            <nav className="hidden lg:flex items-center gap-0.5 absolute right-0">
               <Link
                 to="/servicios"
                 className="flex items-center gap-1 px-2 py-0.5 rounded-md hover:bg-blue-50 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-all text-xs font-medium"
@@ -105,7 +105,7 @@ export function Layout() {
             {/* Mobile Menu Button */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="lg:hidden p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition"
+              className="lg:hidden p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition absolute left-0"
               aria-label="Toggle menu"
             >
               {mobileMenuOpen ? (
@@ -192,7 +192,7 @@ export function Layout() {
       </header>
 
       {/* Main Content */}
-      <main className="flex-1 pt-10">
+      <main className="flex-1 pt-20">
         <Outlet />
       </main>
 
