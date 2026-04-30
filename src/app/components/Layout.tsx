@@ -20,21 +20,21 @@ export function Layout() {
     <div className="min-h-screen bg-white dark:bg-gray-900 flex flex-col">
       {/* Header */}
       <header className="bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-700 text-gray-900 dark:text-white fixed top-0 left-0 right-0 z-50 shadow-sm">
-        <div className="container mx-auto px-4 py-3">
+        <div className="container mx-auto px-4 py-2">
           <div className="flex items-center justify-between">
             {/* Logo */}
-            <Link to="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity group">
+            <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity group">
               <div className="relative">
                 <img
                   src={logoImg}
                   alt="iintel pluss Logo"
-                  className="w-14 h-14 object-cover rounded-xl bg-gradient-to-br from-blue-500 to-blue-700 p-0.5 shadow-lg group-hover:shadow-xl transition-shadow"
+                  className="w-10 h-10 object-cover rounded-lg bg-gradient-to-br from-blue-500 to-blue-700 p-0.5 shadow-md group-hover:shadow-lg transition-shadow"
                   style={{ imageRendering: 'crisp-edges' }}
                 />
-                <div className="absolute -bottom-1 -right-1 w-4 h-4 bg-green-500 rounded-full border-2 border-white dark:border-gray-900"></div>
+                <div className="absolute -bottom-0.5 -right-0.5 w-3 h-3 bg-green-500 rounded-full border-2 border-white dark:border-gray-900"></div>
               </div>
               <div>
-                <h1 className="text-2xl font-black text-blue-600 dark:text-blue-400">
+                <h1 className="text-lg font-black text-blue-600 dark:text-blue-400">
                   iintel pluss
                 </h1>
                 <p className="text-xs text-gray-500 dark:text-gray-400 font-semibold">Internet & TV Premium</p>
@@ -45,59 +45,59 @@ export function Layout() {
             <nav className="hidden lg:flex items-center gap-1">
               <Link
                 to="/servicios"
-                className="flex items-center gap-2 px-4 py-2 rounded-lg hover:bg-blue-50 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-all font-medium"
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg hover:bg-blue-50 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-all text-sm font-medium"
               >
-                <Wifi className="w-4 h-4" />
+                <Wifi className="w-3.5 h-3.5" />
                 Servicios
               </Link>
               <a
                 href="/#trabajos"
-                className="flex items-center gap-2 px-4 py-2 rounded-lg hover:bg-blue-50 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-all font-medium"
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg hover:bg-blue-50 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-all text-sm font-medium"
               >
-                <Tv className="w-4 h-4" />
+                <Tv className="w-3.5 h-3.5" />
                 Nuestro Trabajo
               </a>
               <a
                 href="/#planes"
-                className="flex items-center gap-2 px-4 py-2 rounded-lg hover:bg-blue-50 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-all font-medium"
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg hover:bg-blue-50 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-all text-sm font-medium"
               >
-                <Zap className="w-4 h-4" />
+                <Zap className="w-3.5 h-3.5" />
                 Planes
               </a>
               <a
                 href="/#metodos-pago"
-                className="flex items-center gap-2 px-4 py-2 rounded-lg hover:bg-blue-50 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-all font-medium"
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg hover:bg-blue-50 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-all text-sm font-medium"
               >
-                <CreditCard className="w-4 h-4" />
+                <CreditCard className="w-3.5 h-3.5" />
                 Métodos de Pago
               </a>
               <a
                 href="/#contacto"
-                className="flex items-center gap-2 px-4 py-2 rounded-lg hover:bg-blue-50 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-all font-medium"
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg hover:bg-blue-50 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-all text-sm font-medium"
               >
-                <Phone className="w-4 h-4" />
+                <Phone className="w-3.5 h-3.5" />
                 Contacto
               </a>
 
               {/* Dark Mode Toggle */}
               <button
                 onClick={() => setDarkMode(!darkMode)}
-                className="flex items-center gap-2 px-4 py-2 rounded-lg hover:bg-blue-50 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-all font-medium"
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg hover:bg-blue-50 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-all text-sm font-medium"
                 aria-label="Toggle dark mode"
               >
                 {darkMode ? (
-                  <Sun className="w-4 h-4" />
+                  <Sun className="w-3.5 h-3.5" />
                 ) : (
-                  <Moon className="w-4 h-4" />
+                  <Moon className="w-3.5 h-3.5" />
                 )}
               </button>
 
               {/* CTA Button */}
               <a
                 href="/#oferta-especial"
-                className="ml-2 flex items-center gap-2 bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white px-5 py-2.5 rounded-full font-bold transition-all shadow-lg hover:shadow-xl transform hover:scale-105"
+                className="ml-2 flex items-center gap-1.5 bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white px-4 py-2 rounded-full text-sm font-bold transition-all shadow-lg hover:shadow-xl transform hover:scale-105"
               >
-                <Tag className="w-4 h-4" />
+                <Tag className="w-3.5 h-3.5" />
                 OFERTA ESPECIAL
               </a>
             </nav>
@@ -192,7 +192,7 @@ export function Layout() {
       </header>
 
       {/* Main Content */}
-      <main className="flex-1 pt-24">
+      <main className="flex-1 pt-16">
         <Outlet />
       </main>
 
