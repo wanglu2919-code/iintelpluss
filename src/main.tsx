@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import { Layout } from './app/components/Layout'
 import { Home } from './app/pages/Home'
+import { OGPreviewGenerator } from './app/pages/OGPreviewGenerator'
 import './styles/index.css'
 
 const router = createBrowserRouter([
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
         element: <Home />,
       },
     ],
+  },
+  {
+    path: '/og-preview-generator',
+    element: <OGPreviewGenerator />,
   },
 ])
 
