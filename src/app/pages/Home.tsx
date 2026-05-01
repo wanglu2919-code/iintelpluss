@@ -436,35 +436,67 @@ export function Home() {
           </div>
           <div className="grid md:grid-cols-3 gap-2">
             {/* Plan Básico */}
-            <div className="bg-gradient-to-br from-cyan-500 to-blue-600 p-2.5 rounded-lg shadow-xl hover:scale-105 transition-all duration-300 text-white relative border border-cyan-300">
-              <div className="absolute -top-1.5 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-cyan-400 to-blue-400 text-white px-4 py-0.5 rounded-full font-bold text-sm shadow-md">
-                💎 ECONÓMICO
+            <div className="bg-gradient-to-br from-orange-500 via-red-500 to-orange-600 p-2.5 rounded-lg shadow-2xl hover:scale-105 transition-all duration-300 text-white relative border-4 border-yellow-300">
+              <div className="absolute top-2 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-red-500 to-orange-500 text-white px-3 py-2 rounded-full font-black text-xs shadow-lg w-11/12 text-center">
+                🚀🔥 EL MÁS SOLICITADO 🔥🚀
               </div>
-              <h3 className="text-lg font-bold mb-4 mt-3.5">Plan Básico</h3>
-              <div className="mb-4">
-                <span className="text-sm font-bold">$25</span>
-                <span className="text-cyan-100 text-sm">/mes</span>
+
+              <h3 className="text-xl font-black mb-2 mt-12 text-center">PLAN BÁSICO ECONÓMICO</h3>
+              <p className="text-yellow-200 font-bold text-center mb-3 text-base">¿Quieres internet rápido + MUCHÍSIMOS canales sin pagar de más? 👀</p>
+              <p className="text-white font-bold text-center mb-4 text-base bg-red-600 py-2 px-2 rounded-lg">Este plan está rompiendo precios 👇</p>
+
+              <div className="mb-3 bg-white/20 backdrop-blur-sm p-3 rounded-lg border-2 border-yellow-300">
+                <p className="text-center text-xl font-black">💰 Solo $25/mes</p>
+                <p className="text-center text-base font-bold text-yellow-200">🛠️ Instalación: $120 (pago único)</p>
               </div>
-              <div className="mb-3 p-2 bg-white border border-cyan-200 rounded shadow-md">
-                <p className="text-center font-bold text-blue-700 text-sm">+ $120 Instalación</p>
+
+              <div className="mb-3 p-3 bg-gradient-to-r from-yellow-400 to-orange-400 rounded-lg shadow-lg">
+                <p className="text-center font-black text-blue-900 text-base">📡 INCLUYE:</p>
               </div>
-              <ul className="space-y-0.5 mb-3 text-sm">
-                <li className="flex items-center gap-2">
-                  <CheckCircle className="w-7 h-7 text-cyan-200" />
-                  <span>1000 Mbps Internet</span>
+
+              <ul className="space-y-2 mb-3 text-base">
+                <li className="flex items-center gap-2 bg-white/10 p-2 rounded">
+                  <CheckCircle className="w-7 h-7 text-yellow-300" />
+                  <span className="font-bold">✅ Internet de 1000 Mbps ULTRA RÁPIDO ⚡️</span>
                 </li>
-                <li className="flex items-center gap-2">
-                  <CheckCircle className="w-7 h-7 text-cyan-200" />
-                  <span>80 canales TV</span>
+                <li className="flex items-center gap-2 bg-white/10 p-2 rounded">
+                  <CheckCircle className="w-7 h-7 text-yellow-300" />
+                  <span className="font-bold">📺 +250 CANALES EN VIVO (deportes, películas, noticias y más)</span>
                 </li>
-                <li className="flex items-center gap-2">
-                  <CheckCircle className="w-7 h-7 text-cyan-200" />
-                  <span>Router WiFi incluido</span>
+                <li className="flex items-center gap-2 bg-white/10 p-2 rounded">
+                  <CheckCircle className="w-7 h-7 text-yellow-300" />
+                  <span className="font-bold">📶 Router WiFi incluido (listo para conectar)</span>
                 </li>
               </ul>
+
+              <div className="mb-3 p-3 bg-green-500 rounded-lg shadow-lg">
+                <p className="text-center font-black text-white text-base mb-2">🔥 LO MEJOR DE TODO:</p>
+                <ul className="space-y-1 text-sm">
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-5 h-5" />
+                    <span>✔️ Sin contrato</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-5 h-5" />
+                    <span>✔️ Sin pagos por adelantado</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-5 h-5" />
+                    <span>✔️ Pagas cuando ya esté instalado y funcionando</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="mb-3 p-2 bg-red-600 rounded-lg animate-pulse">
+                <p className="text-center font-black text-white text-base">🚨 Oferta limitada — muchos ya se están cambiando</p>
+              </div>
+
+              <div className="mb-3 p-2 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg">
+                <p className="text-center font-black text-white text-base">📩 Escríbeme ahora o entra y agenda tu instalación HOY MISMO 🚀</p>
+              </div>
               <div className="space-y-0.5">
                 <a
-                  href="https://wa.me/14256528120?text=Hola%2C%20estoy%20interesado%20en%20el%20Plan%20Básico%20de%20Intel%20Plus%20(%241000%20Mbps%20-%20%2425%2Fmes).%20¿Me%20pueden%20dar%20más%20información%3F"
+                  href="https://wa.me/14256528120?text=🚀%20Hola%2C%20quiero%20el%20Plan%20Básico%20Económico%20de%20Intel%20Plus%20(1000%20Mbps%20ULTRA%20RÁPIDO%20%2B%20250%2B%20Canales%20-%20%2425%2Fmes).%20¡EL%20MÁS%20SOLICITADO!"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full bg-green-600 hover:bg-green-700 text-white py-4 rounded font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-2 text-sm"
@@ -477,10 +509,10 @@ export function Home() {
                   onClick={() => {
                     setShowScheduler(true);
                     setSelectedPlan({
-                      name: "Plan Básico",
+                      name: "Plan Básico Económico 🚀",
                       price: "$25/mes",
-                      speed: "1000 Mbps",
-                      channels: "80 canales TV",
+                      speed: "1000 Mbps ULTRA RÁPIDO",
+                      channels: "+250 canales EN VIVO",
                       installation: "$120"
                     });
                   }}
