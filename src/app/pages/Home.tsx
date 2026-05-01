@@ -678,99 +678,99 @@ export function Home() {
 
 
       {/* Appointment Scheduler Section */}
-      <section id="agenda-instalacion" className="py-12 bg-gradient-to-br from-orange-50 to-red-50 dark:from-gray-800 dark:to-gray-900">
+      <section id="agenda-instalacion" className="py-3 bg-gradient-to-br from-orange-50 to-red-50 dark:from-gray-800 dark:to-gray-900">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-8">
-              <h2 className="text-4xl md:text-4xl font-black text-gray-900 dark:text-white mb-4">
+            <div className="text-center mb-2">
+              <h2 className="text-base md:text-lg font-black text-gray-900 dark:text-white mb-1">
                 📅 Agenda Tu Instalación
               </h2>
-              <p className="text-xl text-gray-600 dark:text-gray-300">
+              <p className="text-xs text-gray-600 dark:text-gray-300">
                 Elige el día y hora que mejor te convenga
               </p>
             </div>
 
-            <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-2xl p-6 border-4 border-orange-200 dark:border-orange-700">
+            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-2xl p-2 border-2 border-orange-200 dark:border-orange-700">
               {isProcessing ? (
-                <div className="text-center py-10">
-                  <div className="mx-auto w-20 h-20 border-4 border-blue-500 border-t-transparent rounded-full animate-spin mb-6"></div>
-                  <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">
+                <div className="text-center py-2">
+                  <div className="mx-auto w-8 h-8 border-2 border-blue-500 border-t-transparent rounded-full animate-spin mb-2"></div>
+                  <h3 className="text-sm font-bold text-gray-900 dark:text-white mb-1">
                     Procesando tu solicitud...
                   </h3>
-                  <p className="text-gray-600 dark:text-gray-400">
-                    Estamos verificando la disponibilidad y reservando tu cita
+                  <p className="text-gray-600 dark:text-gray-400 text-xs">
+                    Estamos verificando la disponibilidad
                   </p>
                 </div>
               ) : showConfirmation ? (
-                <div className="text-center py-8">
-                  <div className="mx-auto w-24 h-24 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center mb-6">
-                    <CheckCircle className="w-16 h-16 text-green-600 dark:text-green-400" />
+                <div className="text-center py-2">
+                  <div className="mx-auto w-12 h-12 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center mb-2">
+                    <CheckCircle className="w-8 h-8 text-green-600 dark:text-green-400" />
                   </div>
 
-                  <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
+                  <h3 className="text-base font-bold text-gray-900 dark:text-white mb-2">
                     ¡Cita Agendada con Éxito!
                   </h3>
 
-                  <div className="bg-gradient-to-r from-blue-50 to-blue-100 dark:from-blue-900 dark:to-blue-800 rounded-xl p-6 mb-6 max-w-md mx-auto">
-                    <p className="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                  <div className="bg-gradient-to-r from-blue-50 to-blue-100 dark:from-blue-900 dark:to-blue-800 rounded p-2 mb-2 max-w-md mx-auto">
+                    <p className="text-xs text-gray-600 dark:text-gray-400 mb-1">
                       Número de Confirmación
                     </p>
-                    <p className="text-4xl font-black text-blue-600 dark:text-blue-400 tracking-wider">
+                    <p className="text-xl font-black text-blue-600 dark:text-blue-400 tracking-wider">
                       {confirmationNumber}
                     </p>
                   </div>
 
                   {selectedPlan && (
-                    <div className="bg-gradient-to-br from-green-50 via-emerald-50 to-teal-50 dark:from-green-900/40 dark:via-emerald-900/40 dark:to-teal-900/40 border-4 border-green-400 dark:border-green-600 rounded-2xl p-6 mb-6 max-w-2xl mx-auto shadow-2xl">
-                      <div className="flex items-center justify-center gap-3 mb-6">
-                        <div className="bg-green-500 p-3 rounded-full">
-                          <CheckCircle className="w-8 h-8 text-white" />
+                    <div className="bg-gradient-to-br from-green-50 via-emerald-50 to-teal-50 dark:from-green-900/40 dark:via-emerald-900/40 dark:to-teal-900/40 border border-green-400 dark:border-green-600 rounded p-2 mb-2 max-w-2xl mx-auto shadow-2xl">
+                      <div className="flex items-center justify-center gap-1 mb-1">
+                        <div className="bg-green-500 p-1 rounded-full">
+                          <CheckCircle className="w-4 h-4 text-white" />
                         </div>
-                        <h4 className="text-3xl font-black text-green-900 dark:text-green-100">
+                        <h4 className="text-sm font-black text-green-900 dark:text-green-100">
                           Tu Plan Seleccionado
                         </h4>
                       </div>
 
-                      <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg mb-6">
-                        <div className="text-center mb-6 pb-6 border-b-2 border-green-200 dark:border-green-700">
-                          <h5 className="text-3xl font-black text-green-700 dark:text-green-400 mb-2">{selectedPlan.name}</h5>
-                          <p className="text-4xl font-black text-blue-600 dark:text-blue-400">{selectedPlan.price}</p>
+                      <div className="bg-white dark:bg-gray-800 rounded p-2 shadow-lg mb-2">
+                        <div className="text-center mb-2 pb-2 border-b border-green-200 dark:border-green-700">
+                          <h5 className="text-base font-black text-green-700 dark:text-green-400 mb-0.5">{selectedPlan.name}</h5>
+                          <p className="text-lg font-black text-blue-600 dark:text-blue-400">{selectedPlan.price}</p>
                         </div>
 
-                        <div className="space-y-4">
-                          <div className="bg-gradient-to-r from-blue-50 to-blue-100 dark:from-blue-900/30 dark:to-blue-800/30 rounded-lg p-4 flex items-center gap-4">
-                            <div className="bg-blue-500 p-2 rounded-lg">
-                              <Wifi className="w-6 h-6 text-white" />
+                        <div className="space-y-1">
+                          <div className="bg-gradient-to-r from-blue-50 to-blue-100 dark:from-blue-900/30 dark:to-blue-800/30 rounded p-1 flex items-center gap-1">
+                            <div className="bg-blue-500 p-0.5 rounded">
+                              <Wifi className="w-3 h-3 text-white" />
                             </div>
                             <div className="flex-1">
-                              <p className="text-sm text-gray-600 dark:text-gray-400 font-semibold">Velocidad de Internet</p>
-                              <p className="text-xl font-black text-blue-700 dark:text-blue-300">{selectedPlan.speed}</p>
+                              <p className="text-xs text-gray-600 dark:text-gray-400 font-semibold">Velocidad de Internet</p>
+                              <p className="text-sm font-black text-blue-700 dark:text-blue-300">{selectedPlan.speed}</p>
                             </div>
                           </div>
 
-                          <div className="bg-gradient-to-r from-purple-50 to-purple-100 dark:from-purple-900/30 dark:to-purple-800/30 rounded-lg p-4 flex items-center gap-4">
-                            <div className="bg-purple-500 p-2 rounded-lg">
-                              <Tv className="w-6 h-6 text-white" />
+                          <div className="bg-gradient-to-r from-purple-50 to-purple-100 dark:from-purple-900/30 dark:to-purple-800/30 rounded p-1 flex items-center gap-1">
+                            <div className="bg-purple-500 p-0.5 rounded">
+                              <Tv className="w-3 h-3 text-white" />
                             </div>
                             <div className="flex-1">
-                              <p className="text-sm text-gray-600 dark:text-gray-400 font-semibold">Canales de TV</p>
-                              <p className="text-xl font-black text-purple-700 dark:text-purple-300">{selectedPlan.channels}</p>
+                              <p className="text-xs text-gray-600 dark:text-gray-400 font-semibold">Canales de TV</p>
+                              <p className="text-sm font-black text-purple-700 dark:text-purple-300">{selectedPlan.channels}</p>
                             </div>
                           </div>
 
-                          <div className="bg-gradient-to-r from-orange-50 to-orange-100 dark:from-orange-900/30 dark:to-orange-800/30 rounded-lg p-4 flex items-center gap-4">
-                            <div className="bg-orange-500 p-2 rounded-lg">
-                              <Zap className="w-6 h-6 text-white" />
+                          <div className="bg-gradient-to-r from-orange-50 to-orange-100 dark:from-orange-900/30 dark:to-orange-800/30 rounded p-1 flex items-center gap-1">
+                            <div className="bg-orange-500 p-0.5 rounded">
+                              <Zap className="w-3 h-3 text-white" />
                             </div>
                             <div className="flex-1">
-                              <p className="text-sm text-gray-600 dark:text-gray-400 font-semibold">Costo de Instalación</p>
+                              <p className="text-xs text-gray-600 dark:text-gray-400 font-semibold">Costo de Instalación</p>
                               {isCodeValid && discountAmount > 0 ? (
                                 <div>
-                                  <p className="text-sm text-gray-500 dark:text-gray-400 line-through">{selectedPlan.installation}</p>
-                                  <p className="text-xl font-black text-green-600 dark:text-green-400">$100</p>
+                                  <p className="text-xs text-gray-500 dark:text-gray-400 line-through">{selectedPlan.installation}</p>
+                                  <p className="text-sm font-black text-green-600 dark:text-green-400">$100</p>
                                 </div>
                               ) : (
-                                <p className="text-xl font-black text-orange-700 dark:text-orange-300">{selectedPlan.installation}</p>
+                                <p className="text-sm font-black text-orange-700 dark:text-orange-300">{selectedPlan.installation}</p>
                               )}
                             </div>
                           </div>
@@ -1618,50 +1618,50 @@ export function Home() {
 
 
       {/* Real-Time Speed Panel */}
-      <section className="py-12 bg-gradient-to-r from-cyan-500 to-blue-600 dark:from-cyan-700 dark:to-blue-800">
+      <section className="py-2 bg-gradient-to-r from-cyan-500 to-blue-600 dark:from-cyan-700 dark:to-blue-800">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <div className="bg-white/10 dark:bg-white/5 backdrop-blur-lg rounded-2xl p-6 border-2 border-white/30">
-              <div className="text-center mb-6">
-                <h3 className="text-3xl font-bold text-white mb-2">
+            <div className="bg-white/10 dark:bg-white/5 backdrop-blur-lg rounded-lg p-2 border border-white/30">
+              <div className="text-center mb-1">
+                <h3 className="text-base font-bold text-white mb-0.5">
                   🚀 Velocidad Promedio en Tiempo Real
                 </h3>
-                <p className="text-blue-100 dark:text-blue-200">
+                <p className="text-blue-100 dark:text-blue-200 text-xs">
                   Velocidad actual de nuestros clientes ahora mismo
                 </p>
               </div>
 
-              <div className="grid md:grid-cols-3 gap-6">
-                <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-xl text-center transform hover:scale-105 transition">
-                  <div className="text-4xl mb-2">⚡</div>
-                  <p className="text-gray-600 dark:text-gray-300 text-sm mb-2">Velocidad Promedio</p>
-                  <p className="text-4xl font-black text-blue-600 dark:text-blue-400">
+              <div className="grid md:grid-cols-3 gap-2">
+                <div className="bg-white dark:bg-gray-800 rounded p-2 shadow-xl text-center transform hover:scale-105 transition">
+                  <div className="text-lg mb-0.5">⚡</div>
+                  <p className="text-gray-600 dark:text-gray-300 text-xs mb-0.5">Velocidad Promedio</p>
+                  <p className="text-lg font-black text-blue-600 dark:text-blue-400">
                     {Math.round(averageSpeed)}
                   </p>
-                  <p className="text-gray-500 dark:text-gray-400 text-sm">Mbps</p>
+                  <p className="text-gray-500 dark:text-gray-400 text-xs">Mbps</p>
                 </div>
 
-                <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-xl text-center transform hover:scale-105 transition">
-                  <div className="text-4xl mb-2">📊</div>
-                  <p className="text-gray-600 dark:text-gray-300 text-sm mb-2">Usuarios Activos</p>
-                  <p className="text-4xl font-black text-green-600 dark:text-green-400">
+                <div className="bg-white dark:bg-gray-800 rounded p-2 shadow-xl text-center transform hover:scale-105 transition">
+                  <div className="text-lg mb-0.5">📊</div>
+                  <p className="text-gray-600 dark:text-gray-300 text-xs mb-0.5">Usuarios Activos</p>
+                  <p className="text-lg font-black text-green-600 dark:text-green-400">
                     1,350
                   </p>
-                  <p className="text-gray-500 dark:text-gray-400 text-sm">En línea ahora</p>
+                  <p className="text-gray-500 dark:text-gray-400 text-xs">En línea ahora</p>
                 </div>
 
-                <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-xl text-center transform hover:scale-105 transition">
-                  <div className="text-4xl mb-2">⭐</div>
-                  <p className="text-gray-600 dark:text-gray-300 text-sm mb-2">Satisfacción</p>
-                  <p className="text-4xl font-black text-yellow-600 dark:text-yellow-400">
+                <div className="bg-white dark:bg-gray-800 rounded p-2 shadow-xl text-center transform hover:scale-105 transition">
+                  <div className="text-lg mb-0.5">⭐</div>
+                  <p className="text-gray-600 dark:text-gray-300 text-xs mb-0.5">Satisfacción</p>
+                  <p className="text-lg font-black text-yellow-600 dark:text-yellow-400">
                     98%
                   </p>
-                  <p className="text-gray-500 dark:text-gray-400 text-sm">Clientes felices</p>
+                  <p className="text-gray-500 dark:text-gray-400 text-xs">Clientes felices</p>
                 </div>
               </div>
 
-              <div className="mt-6 bg-white/20 dark:bg-white/10 rounded-lg p-4">
-                <p className="text-center text-white text-sm">
+              <div className="mt-1 bg-white/20 dark:bg-white/10 rounded p-1">
+                <p className="text-center text-white text-xs">
                   🔄 Actualizado cada 5 segundos • {new Date().toLocaleTimeString('es-ES')}
                 </p>
               </div>
