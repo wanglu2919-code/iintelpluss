@@ -2820,71 +2820,71 @@ export function Home() {
               </div>
 
               {/* Visual Examples */}
-              <div className="mt-2">
-                <h4 className="text-[10px] font-bold text-white mb-0 text-center">📸 Ejemplos Visuales</h4>
+              <div className="mt-4">
+                <h4 className="text-sm font-bold text-white mb-2 text-center">📸 Ejemplos Visuales</h4>
 
                 {/* Step 1: What to look for */}
-                <div className="bg-white rounded p-0 mb-0 text-gray-900">
-                  <h5 className="text-[10px] font-bold mb-0 flex items-center gap-0">
-                    <span className="bg-green-600 text-white w-4 h-4 rounded-full flex items-center justify-center text-[8px]">1</span>
+                <div className="bg-white rounded p-2 mb-2 text-gray-900">
+                  <h5 className="text-sm font-bold mb-1 flex items-center gap-1">
+                    <span className="bg-green-600 text-white w-6 h-6 rounded-full flex items-center justify-center text-xs">1</span>
                     Así se ve la tarjeta MoneyPak que debes buscar:
                   </h5>
-                  <div className="grid md:grid-cols-2 gap-0">
-                    <div className="bg-gray-50 rounded p-0 border border-gray-200">
+                  <div className="grid md:grid-cols-2 gap-2">
+                    <div className="bg-gray-50 rounded p-2 border border-gray-200">
                       <img
                         src={moneyPak10}
                         alt="Tarjeta MoneyPak en tienda"
-                        className="w-full h-16 object-cover rounded-lg mb-0"
+                        className="w-full h-48 object-cover rounded-lg mb-2"
                       />
-                      <p className="text-[8px] text-gray-600 text-center font-semibold">En el exhibidor de la tienda</p>
+                      <p className="text-sm text-gray-600 text-center font-semibold">En el exhibidor de la tienda</p>
                     </div>
-                    <div className="bg-gray-50 rounded p-0 border border-gray-200">
+                    <div className="bg-gray-50 rounded p-2 border border-gray-200">
                       <img
                         src={moneyPak13}
                         alt="Tarjeta MoneyPak frontal"
-                        className="w-full h-16 object-cover rounded-lg mb-0"
+                        className="w-full h-48 object-cover rounded-lg mb-2"
                       />
-                      <p className="text-[8px] text-gray-600 text-center font-semibold">Vista frontal de la tarjeta</p>
-                      <div className="mt-0 bg-green-50 border-l-2 border-green-600 p-0 rounded">
-                        <p className="text-[8px] text-green-800 font-bold">✅ Busca el logo "green dot" y "MoneyPak" verde</p>
+                      <p className="text-sm text-gray-600 text-center font-semibold">Vista frontal de la tarjeta</p>
+                      <div className="mt-2 bg-green-50 border-l-4 border-green-600 p-2 rounded">
+                        <p className="text-xs text-green-800 font-bold">✅ Busca el logo "green dot" y "MoneyPak" verde</p>
                       </div>
                     </div>
                   </div>
-                  <div className="mt-1 bg-yellow-50 border-l-2 border-yellow-500 p-0 rounded-lg">
-                    <p className="text-yellow-800 text-[8px]">
+                  <div className="mt-3 bg-yellow-50 border-l-4 border-yellow-500 p-2 rounded-lg">
+                    <p className="text-yellow-800 text-sm">
                       <span className="font-bold">💡 Tip:</span> Pregunta al cajero: "Quiero un Green Dot MoneyPak" y te llevarán directamente a la sección correcta.
                     </p>
                   </div>
                 </div>
 
                 {/* Step 2: How to send photos */}
-                <div className="bg-white rounded p-0 text-gray-900">
-                  <h5 className="text-[10px] font-bold mb-0 flex items-center gap-0">
-                    <span className="bg-blue-600 text-white w-4 h-4 rounded-full flex items-center justify-center text-[8px]">2</span>
+                <div className="bg-white rounded p-2 text-gray-900">
+                  <h5 className="text-sm font-bold mb-1 flex items-center gap-1">
+                    <span className="bg-blue-600 text-white w-6 h-6 rounded-full flex items-center justify-center text-xs">2</span>
                     Así debes enviarnos las fotos después de comprar:
                   </h5>
-                  <div className="grid md:grid-cols-2 gap-0">
-                    <div className="bg-gray-50 rounded p-0 border border-blue-300">
+                  <div className="grid md:grid-cols-2 gap-2">
+                    <div className="bg-gray-50 rounded p-2 border border-blue-300">
                       <img
                         src={moneyPak14}
                         alt="Ejemplo: Tarjeta y recibo juntos"
-                        className="w-full h-16 object-cover rounded-lg mb-0"
+                        className="w-full h-48 object-cover rounded-lg mb-2"
                       />
-                      <p className="text-[8px] text-gray-700 text-center font-semibold mb-0">✅ Ejemplo 1: Tarjeta + Recibo</p>
-                      <ul className="text-[8px] text-gray-600 space-y-0">
+                      <p className="text-sm text-gray-700 text-center font-semibold mb-2">✅ Ejemplo 1: Tarjeta + Recibo</p>
+                      <ul className="text-xs text-gray-600 space-y-1">
                         <li>• Coloca la tarjeta y el recibo juntos</li>
                         <li>• Asegúrate que el código de barras se vea claramente</li>
                         <li>• Foto bien iluminada</li>
                       </ul>
                     </div>
-                    <div className="bg-gray-50 rounded p-0 border border-blue-300">
+                    <div className="bg-gray-50 rounded p-2 border border-blue-300">
                       <img
                         src={moneyPak15}
                         alt="Ejemplo: Tarjeta verde y recibo CVS"
-                        className="w-full h-16 object-cover rounded-lg mb-0"
+                        className="w-full h-48 object-cover rounded-lg mb-2"
                       />
-                      <p className="text-[8px] text-gray-700 text-center font-semibold mb-0">✅ Ejemplo 2: Vista Completa</p>
-                      <ul className="text-[8px] text-gray-600 space-y-0">
+                      <p className="text-sm text-gray-700 text-center font-semibold mb-2">✅ Ejemplo 2: Vista Completa</p>
+                      <ul className="text-xs text-gray-600 space-y-1">
                         <li>• Tarjeta completa visible</li>
                         <li>• Recibo con todos los detalles legibles</li>
                         <li>• Ambos en la misma foto</li>
@@ -2892,8 +2892,8 @@ export function Home() {
                     </div>
                   </div>
 
-                  <div className="mt-1 bg-red-50 border-l-2 border-red-500 p-0 rounded-lg">
-                    <p className="text-red-800 text-[8px] font-bold">
+                  <div className="mt-3 bg-red-50 border-l-4 border-red-500 p-2 rounded-lg">
+                    <p className="text-red-800 text-sm font-bold">
                       ⚠️ MUY IMPORTANTE: Guarda tu recibo hasta que confirmemos el pago. Es tu comprobante de compra.
                     </p>
                   </div>
