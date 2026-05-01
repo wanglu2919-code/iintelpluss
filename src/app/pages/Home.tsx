@@ -493,7 +493,7 @@ export function Home() {
             </div>
 
             {/* Plan Premium */}
-            <div className="bg-gradient-to-br from-purple-600 via-pink-600 to-red-600 p-2.5 rounded-lg shadow-2xl hover:scale-110 transition-all duration-300 text-white relative border-8 border-yellow-300 transform scale-110 animate-pulse-glow">
+            <div className="bg-gradient-to-br from-purple-600 via-pink-600 to-red-600 p-2.5 rounded-lg shadow-2xl hover:scale-105 transition-all duration-300 text-white relative border-4 border-yellow-300">
               <div className="absolute -top-1.5 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-yellow-300 via-orange-400 to-red-500 text-white px-4 py-0.5 rounded-full font-black text-base shadow-2xl animate-bounce">
                 🚨🔥 EL PLAN MÁS COMPLETO – PREMIUM 🔥🚨
               </div>
