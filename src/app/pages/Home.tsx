@@ -473,15 +473,6 @@ export function Home() {
                   WhatsApp
                 </a>
                 <a
-                  href="https://m.me/366942046511890"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full bg-white text-blue-600 hover:bg-cyan-50 py-1 rounded font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-0.5 text-xs"
-                >
-                  <MessageCircle className="w-3 h-3" />
-                  Messenger
-                </a>
-                <a
                   href="#agenda-instalacion"
                   onClick={() => {
                     setShowScheduler(true);
@@ -3204,15 +3195,6 @@ export function Home() {
                   <MessageCircle className="w-6 h-6" />
                   Solicitar Código por WhatsApp
                 </a>
-                <a
-                  href="https://m.me/366942046511890"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-blue-500 hover:bg-blue-600 text-white px-2 py-3 rounded font-bold text-xs transition-all shadow-lg inline-flex items-center justify-center gap-0.5 transform hover:scale-105"
-                >
-                  <MessageCircle className="w-6 h-6" />
-                  Solicitar por Messenger
-                </a>
               </div>
               <p className="text-green-100 text-sm mt-6">
                 💬 Respuesta inmediata • Código enviado al instante • Pago seguro garantizado
@@ -3253,7 +3235,7 @@ export function Home() {
                 },
                 {
                   q: "¿Qué pasa si tengo problemas técnicos?",
-                  a: "Nuestro equipo de soporte está disponible 24/7 por WhatsApp y Messenger. Respondemos en minutos y resolvemos la mayoría de problemas de forma remota. Si necesitamos visitar, programamos una cita el mismo día o siguiente."
+                  a: "Nuestro equipo de soporte está disponible 24/7 por WhatsApp. Respondemos en minutos y resolvemos la mayoría de problemas de forma remota. Si necesitamos visitar, programamos una cita el mismo día o siguiente."
                 },
                 {
                   q: "¿Puedo cambiar de plan después?",
@@ -3332,15 +3314,6 @@ export function Home() {
                   <MessageCircle className="w-5 h-5" />
                   Contactar por WhatsApp
                 </a>
-                <a
-                  href="https://m.me/366942046511890"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full bg-blue-500 hover:bg-blue-600 text-white py-3 rounded-lg font-bold transition-all shadow-lg flex items-center justify-center gap-0.5"
-                >
-                  <MessageCircle className="w-5 h-5" />
-                  Contactar por Messenger
-                </a>
               </div>
             </div>
 
@@ -3356,15 +3329,6 @@ export function Home() {
                 >
                   <MessageCircle className="w-6 h-6" />
                   Chatear por WhatsApp
-                </a>
-                <a
-                  href="https://m.me/366942046511890"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full bg-blue-500 hover:bg-blue-600 text-white py-4 rounded-lg font-bold transition-all shadow-lg flex items-center justify-center gap-0.5 text-xs"
-                >
-                  <MessageCircle className="w-6 h-6" />
-                  Chatear por Messenger
                 </a>
                 <div className="mt-6 p-1 bg-white/10 backdrop-blur-sm rounded-lg">
                   <p className="text-center text-sm text-blue-100">
