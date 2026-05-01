@@ -496,7 +496,7 @@ export function Home() {
                   className="w-full bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white py-1 rounded font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-0.5 text-xs"
                 >
                   <Clock className="w-3 h-3" />
-                  Agendar
+                  Agendar Instalación Ahora
                 </a>
               </div>
             </div>
@@ -597,7 +597,7 @@ export function Home() {
                   className="w-full bg-white hover:bg-gray-100 text-blue-900 py-1 rounded font-bold text-xs transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-0.5 border border-yellow-400"
                 >
                   <Clock className="w-3 h-3" />
-                  Agendar
+                  Agendar Instalación Ahora
                 </a>
               </div>
               <p className="text-center text-yellow-300 text-xs mt-0.5 font-semibold">Oferta limitada</p>
@@ -668,7 +668,7 @@ export function Home() {
                   className="w-full bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white py-1 rounded font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-0.5 text-xs"
                 >
                   <Clock className="w-3 h-3" />
-                  Agendar
+                  Agendar Instalación Ahora
                 </a>
               </div>
             </div>
@@ -848,7 +848,7 @@ export function Home() {
                     }}
                     className="bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white px-2 py-3 rounded text-xs font-bold transition-all shadow-lg transform hover:scale-105"
                   >
-                    Agendar Ahora
+                    Agendar Instalación Ahora
                   </button>
                 </div>
               ) : (
@@ -1343,7 +1343,7 @@ export function Home() {
                       ) : (
                         <>
                           <CheckCircle className="w-5 h-5" />
-                          Agendar Instalación
+                          Agendar Instalación Ahora
                         </>
                       )}
                     </button>
