@@ -195,18 +195,18 @@ export function Home() {
         {/* Grid pattern overlay */}
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f12_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f12_1px,transparent_1px)] bg-[size:64px_64px]"></div>
 
-        <div className="container mx-auto px-1 relative z-10">
+        <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-6xl mx-auto text-center">
             {/* Badge */}
-            <div className="inline-block mb-2 animate-fade-in">
-              <span className="bg-gradient-to-r from-yellow-400 to-orange-400 text-blue-900 px-2 py-1 rounded-full font-bold text-xs shadow-lg inline-flex items-center gap-1">
-                <Zap className="w-3 h-3" />
+            <div className="inline-block mb-4 animate-fade-in">
+              <span className="bg-gradient-to-r from-yellow-400 to-orange-400 text-blue-900 px-4 py-4 rounded-full font-bold text-sm shadow-lg inline-flex items-center gap-2">
+                <Zap className="w-7 h-7" />
                 Proveedor Autorizado de AT&T, Xfinity, Spectrum y más
               </span>
             </div>
 
             {/* Main headline */}
-            <h1 className="text-xs md:text-xs lg:text-xs font-black text-white mb-2 leading-[1.1] tracking-tight">
+            <h1 className="text-sm md:text-sm lg:text-sm font-black text-white mb-4 leading-[1.1] tracking-tight">
               Conectividad Premium<br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-orange-400 to-red-400">
                 Sin Límites
@@ -214,7 +214,7 @@ export function Home() {
             </h1>
 
             {/* Subheadline */}
-            <p className="text-xs md:text-sm text-blue-100 dark:text-gray-300 mb-3 max-w-4xl mx-auto leading-relaxed font-light">
+            <p className="text-sm md:text-base text-blue-100 dark:text-gray-300 mb-3 max-w-4xl mx-auto leading-relaxed font-light">
               Internet de fibra óptica hasta <span className="font-bold text-yellow-300">2000 Mbps</span> y más de
               <span className="font-bold text-yellow-300"> 300 canales premium</span>.
               <br className="hidden md:block" />
@@ -224,19 +224,19 @@ export function Home() {
             {/* Features highlights */}
             <div className="grid md:grid-cols-3 gap-2 mb-3 max-w-4xl mx-auto">
               <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-lg p-2 hover:bg-white/15 transition-all group">
-                <Zap className="w-5 h-5 text-yellow-300 mb-1 mx-auto group-hover:scale-110 transition-transform" />
-                <p className="font-bold text-white text-sm mb-0.5">Ultra Rápido</p>
-                <p className="text-blue-200 text-xs">Hasta 2000 Mbps</p>
+                <Zap className="w-7 h-7 text-yellow-300 mb-3 mx-auto group-hover:scale-110 transition-transform" />
+                <p className="font-bold text-white text-base mb-4">Ultra Rápido</p>
+                <p className="text-blue-200 text-sm">Hasta 2000 Mbps</p>
               </div>
               <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-lg p-2 hover:bg-white/15 transition-all group">
-                <Shield className="w-5 h-5 text-yellow-300 mb-1 mx-auto group-hover:scale-110 transition-transform" />
-                <p className="font-bold text-white text-sm mb-0.5">100% Confiable</p>
-                <p className="text-blue-200 text-xs">Sin interrupciones</p>
+                <Shield className="w-7 h-7 text-yellow-300 mb-3 mx-auto group-hover:scale-110 transition-transform" />
+                <p className="font-bold text-white text-base mb-4">100% Confiable</p>
+                <p className="text-blue-200 text-sm">Sin interrupciones</p>
               </div>
               <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-lg p-2 hover:bg-white/15 transition-all group">
-                <Users className="w-5 h-5 text-yellow-300 mb-1 mx-auto group-hover:scale-110 transition-transform" />
-                <p className="font-bold text-white text-sm mb-0.5">Soporte 24/7</p>
-                <p className="text-blue-200 text-xs">Siempre disponibles</p>
+                <Users className="w-7 h-7 text-yellow-300 mb-3 mx-auto group-hover:scale-110 transition-transform" />
+                <p className="font-bold text-white text-base mb-4">Soporte 24/7</p>
+                <p className="text-blue-200 text-sm">Siempre disponibles</p>
               </div>
             </div>
 
@@ -244,24 +244,24 @@ export function Home() {
             <div className="flex flex-col sm:flex-row gap-2 justify-center items-center mb-3">
               <a
                 href="#planes"
-                className="group bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-500 hover:to-orange-600 text-gray-900 px-1 py-1.5 rounded-lg text-sm font-bold transition-all shadow-2xl inline-flex items-center gap-1 transform hover:scale-105 hover:shadow-yellow-500/50"
+                className="group bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-500 hover:to-orange-600 text-gray-900 px-4 py-4.5 rounded-lg text-base font-bold transition-all shadow-2xl inline-flex items-center gap-2 transform hover:scale-105 hover:shadow-yellow-500/50"
               >
                 Ver Planes y Precios
-                <span className="text-base group-hover:translate-x-1 transition-transform">→</span>
+                <span className="text-lg group-hover:translate-x-1 transition-transform">→</span>
               </a>
               <a
                 href="#oferta-especial"
-                className="bg-white/10 backdrop-blur-md border border-white/40 hover:bg-white hover:text-blue-900 text-white px-1 py-1.5 rounded-lg text-sm font-bold transition-all inline-flex items-center gap-1 hover:shadow-xl"
+                className="bg-white/10 backdrop-blur-md border border-white/40 hover:bg-white hover:text-blue-900 text-white px-4 py-4.5 rounded-lg text-base font-bold transition-all inline-flex items-center gap-2 hover:shadow-xl"
               >
-                <span className="text-base">🔥</span>
+                <span className="text-lg">🔥</span>
                 Ver Oferta Especial
               </a>
             </div>
 
             {/* Trust indicator */}
-            <div className="inline-flex items-center gap-1 bg-white/10 backdrop-blur-sm border border-white/20 px-3 py-1 rounded-full">
-              <Star className="w-3 h-3 text-yellow-300 fill-yellow-300" />
-              <p className="text-white font-semibold text-xs">
+            <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 px-3 py-4 rounded-full">
+              <Star className="w-7 h-7 text-yellow-300 fill-yellow-300" />
+              <p className="text-white font-semibold text-sm">
                 Más de 50,000 clientes satisfechos en Estados Unidos
               </p>
             </div>
@@ -274,31 +274,31 @@ export function Home() {
       <section className="py-3 bg-gradient-to-br from-blue-600 via-blue-700 to-purple-700 dark:from-blue-900 dark:via-purple-900 dark:to-gray-900 relative overflow-hidden">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f12_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f12_1px,transparent_1px)] bg-[size:64px_64px]"></div>
 
-        <div className="container mx-auto px-1 relative z-10">
-          <div className="text-center mb-2">
-            <h2 className="text-base md:text-xs font-black text-white mb-1">Números que Hablan por Sí Solos</h2>
-            <p className="text-blue-100 text-xs">La confianza de miles de clientes nos respalda</p>
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="text-center mb-4">
+            <h2 className="text-lg md:text-sm font-black text-white mb-3">Números que Hablan por Sí Solos</h2>
+            <p className="text-blue-100 text-sm">La confianza de miles de clientes nos respalda</p>
           </div>
 
           <div className="grid md:grid-cols-4 gap-2 max-w-6xl mx-auto">
             <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-lg p-2 text-center hover:bg-white/15 transition-all transform hover:scale-105">
-              <div className="text-xs md:text-xs font-black text-yellow-300 mb-0.5">50K+</div>
-              <p className="text-white text-xs font-semibold">Clientes Satisfechos</p>
+              <div className="text-sm md:text-sm font-black text-yellow-300 mb-4">50K+</div>
+              <p className="text-white text-sm font-semibold">Clientes Satisfechos</p>
             </div>
 
             <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-lg p-2 text-center hover:bg-white/15 transition-all transform hover:scale-105">
-              <div className="text-xs md:text-xs font-black text-green-300 mb-0.5">6+</div>
-              <p className="text-white text-xs font-semibold">Años de Experiencia</p>
+              <div className="text-sm md:text-sm font-black text-green-300 mb-4">6+</div>
+              <p className="text-white text-sm font-semibold">Años de Experiencia</p>
             </div>
 
             <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-lg p-2 text-center hover:bg-white/15 transition-all transform hover:scale-105">
-              <div className="text-xs md:text-xs font-black text-pink-300 mb-0.5">98%</div>
-              <p className="text-white text-xs font-semibold">Satisfacción del Cliente</p>
+              <div className="text-sm md:text-sm font-black text-pink-300 mb-4">98%</div>
+              <p className="text-white text-sm font-semibold">Satisfacción del Cliente</p>
             </div>
 
             <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-lg p-2 text-center hover:bg-white/15 transition-all transform hover:scale-105">
-              <div className="text-xs md:text-xs font-black text-orange-300 mb-0.5">24/7</div>
-              <p className="text-white text-xs font-semibold">Soporte Disponible</p>
+              <div className="text-sm md:text-sm font-black text-orange-300 mb-4">24/7</div>
+              <p className="text-white text-sm font-semibold">Soporte Disponible</p>
             </div>
           </div>
         </div>
@@ -307,17 +307,17 @@ export function Home() {
 
       {/* Coverage Checker Section */}
       <section className="py-3 bg-gradient-to-br from-blue-600 to-purple-700 dark:from-purple-900 dark:to-blue-900">
-        <div className="container mx-auto px-1">
+        <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto text-center">
-            <h2 className="text-base md:text-xs font-bold text-white mb-1">
+            <h2 className="text-lg md:text-sm font-bold text-white mb-3">
               ¿Tenemos Servicio en Tu Área?
             </h2>
-            <p className="text-blue-100 text-xs mb-2">
+            <p className="text-blue-100 text-sm mb-4">
               Ingresa tu código postal (ZIP Code) para verificar la disponibilidad de servicio
             </p>
 
             <div className="bg-white rounded-lg shadow-2xl p-2">
-              <div className="flex flex-col sm:flex-row gap-1 mb-2">
+              <div className="flex flex-col sm:flex-row gap-2 mb-4">
                 <input
                   type="text"
                   placeholder="Ej: 98101"
@@ -327,13 +327,13 @@ export function Home() {
                     setZipCode(value);
                     setCoverageResult(null);
                   }}
-                  className="flex-1 px-3 py-2 border border-gray-300 rounded text-sm focus:outline-none focus:border-blue-600 transition"
+                  className="flex-1 px-3 py-4 border border-gray-300 rounded text-base focus:outline-none focus:border-blue-600 transition"
                   maxLength={5}
                 />
                 <button
                   onClick={checkCoverage}
                   disabled={zipCode.length !== 5 || isCheckingCoverage}
-                  className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-3 py-2 rounded font-bold text-xs transition-all shadow-lg disabled:opacity-50 disabled:cursor-not-allowed transform hover:scale-105"
+                  className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-3 py-4 rounded font-bold text-sm transition-all shadow-lg disabled:opacity-50 disabled:cursor-not-allowed transform hover:scale-105"
                 >
                   {isCheckingCoverage ? "Verificando..." : "Verificar"}
                 </button>
@@ -341,16 +341,16 @@ export function Home() {
 
               {isCheckingCoverage && (
                 <div className="bg-blue-50 dark:bg-blue-900/30 border border-blue-300 dark:border-blue-700 rounded p-2 animate-fade-in">
-                  <div className="flex flex-col items-center justify-center gap-1">
+                  <div className="flex flex-col items-center justify-center gap-2">
                     <div className="relative w-8 h-8">
                       <div className="absolute inset-0 border border-blue-200 dark:border-blue-800 rounded-full"></div>
                       <div className="absolute inset-0 border border-blue-600 dark:border-blue-400 rounded-full border-t-transparent animate-spin"></div>
                     </div>
                     <div className="text-center">
-                      <h3 className="text-xs font-bold text-blue-800 dark:text-blue-300 mb-0.5">
+                      <h3 className="text-sm font-bold text-blue-800 dark:text-blue-300 mb-4">
                         Verificando Cobertura...
                       </h3>
-                      <p className="text-blue-600 dark:text-blue-400 text-xs">
+                      <p className="text-blue-600 dark:text-blue-400 text-sm">
                         Consultando ZIP {zipCode}
                       </p>
                     </div>
@@ -360,26 +360,26 @@ export function Home() {
 
               {coverageResult === "available" && !isCheckingCoverage && (
                 <div className="bg-green-50 border border-green-500 rounded p-2 animate-fade-in">
-                  <div className="flex items-center justify-center gap-1 mb-1">
-                    <CheckCircle className="w-4 h-4 text-green-600" />
-                    <h3 className="text-sm font-bold text-green-800">¡Excelente Noticia!</h3>
+                  <div className="flex items-center justify-center gap-2 mb-3">
+                    <CheckCircle className="w-6 h-6 text-green-600" />
+                    <h3 className="text-base font-bold text-green-800">¡Excelente Noticia!</h3>
                   </div>
-                  <p className="text-green-700 text-xs mb-2">
+                  <p className="text-green-700 text-sm mb-4">
                     Tenemos cobertura en tu área (ZIP {zipCode})
                   </p>
-                  <div className="flex flex-col sm:flex-row gap-1 justify-center">
+                  <div className="flex flex-col sm:flex-row gap-2 justify-center">
                     <a
                       href="https://wa.me/14256528120?text=Hola%2C%20verificqué%20que%20tienen%20servicio%20en%20mi%20área%20(ZIP%20{zipCode}).%20Quiero%20más%20información."
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="bg-green-600 hover:bg-green-700 text-white px-3 py-1 rounded text-xs font-bold transition-all inline-flex items-center justify-center gap-1"
+                      className="bg-green-600 hover:bg-green-700 text-white px-3 py-4 rounded text-sm font-bold transition-all inline-flex items-center justify-center gap-2"
                     >
-                      <MessageCircle className="w-3 h-3" />
+                      <MessageCircle className="w-7 h-7" />
                       WhatsApp
                     </a>
                     <a
                       href="#planes"
-                      className="bg-blue-600 hover:bg-blue-700 text-white px-3 py-1 rounded text-xs font-bold transition-all"
+                      className="bg-blue-600 hover:bg-blue-700 text-white px-3 py-4 rounded text-sm font-bold transition-all"
                     >
                       Ver Planes
                     </a>
@@ -389,30 +389,30 @@ export function Home() {
 
               {coverageResult === "unavailable" && !isCheckingCoverage && (
                 <div className="bg-orange-50 border border-orange-500 rounded p-2 animate-fade-in">
-                  <div className="flex items-center justify-center gap-1 mb-1">
-                    <MapPin className="w-4 h-4 text-orange-600" />
-                    <h3 className="text-sm font-bold text-orange-800">Área en Expansión</h3>
+                  <div className="flex items-center justify-center gap-2 mb-3">
+                    <MapPin className="w-6 h-6 text-orange-600" />
+                    <h3 className="text-base font-bold text-orange-800">Área en Expansión</h3>
                   </div>
-                  <p className="text-orange-700 text-xs mb-1">
+                  <p className="text-orange-700 text-sm mb-3">
                     Aún no tenemos servicio en ZIP {zipCode}, pero estamos expandiéndonos.
                   </p>
-                  <p className="text-orange-600 text-xs mb-1">
+                  <p className="text-orange-600 text-sm mb-3">
                     Déjanos tu contacto y te avisaremos cuando lleguemos.
                   </p>
                   <a
                     href="https://wa.me/14256528120?text=Hola%2C%20quiero%20que%20me%20avisen%20cuando%20tengan%20servicio%20en%20mi%20área%20(ZIP%20{zipCode})"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-orange-600 hover:bg-orange-700 text-white px-3 py-1 rounded text-xs font-bold transition-all inline-flex items-center justify-center gap-1"
+                    className="bg-orange-600 hover:bg-orange-700 text-white px-3 py-4 rounded text-sm font-bold transition-all inline-flex items-center justify-center gap-2"
                   >
-                    <MessageCircle className="w-3 h-3" />
+                    <MessageCircle className="w-7 h-7" />
                     Dejar contacto
                   </a>
                 </div>
               )}
             </div>
 
-            <p className="text-blue-100 text-xs mt-2">
+            <p className="text-blue-100 text-sm mt-4">
               📍 Actualmente damos servicio en Washington, Oregon y áreas circundantes
             </p>
           </div>
@@ -421,44 +421,44 @@ export function Home() {
 
 
       {/* Plans Section */}
-      <section id="planes" className="py-2 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
-        <div className="container mx-auto px-1">
+      <section id="planes" className="py-4 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
+        <div className="container mx-auto px-4">
           <div className="text-center mb-3">
-            <span className="inline-block px-2 py-0.5 bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 rounded-full text-xs font-bold mb-1">
+            <span className="inline-block px-4 py-0.5 bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 rounded-full text-sm font-bold mb-3">
               PLANES
             </span>
-            <h2 className="text-xs md:text-xs font-black text-gray-900 dark:text-white mb-1">
+            <h2 className="text-sm md:text-sm font-black text-gray-900 dark:text-white mb-3">
               Elige Tu Plan Perfecto
             </h2>
-            <p className="text-sm text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+            <p className="text-base text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
               Opciones flexibles para todos los presupuestos y necesidades
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-2">
             {/* Plan Básico */}
-            <div className="bg-gradient-to-br from-cyan-500 to-blue-600 p-1.5 rounded-lg shadow-xl hover:scale-105 transition-all duration-300 text-white relative border border-cyan-300">
-              <div className="absolute -top-1.5 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-cyan-400 to-blue-400 text-white px-2 py-0.5 rounded-full font-bold text-xs shadow-md">
+            <div className="bg-gradient-to-br from-cyan-500 to-blue-600 p-2.5 rounded-lg shadow-xl hover:scale-105 transition-all duration-300 text-white relative border border-cyan-300">
+              <div className="absolute -top-1.5 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-cyan-400 to-blue-400 text-white px-4 py-0.5 rounded-full font-bold text-sm shadow-md">
                 💎 ECONÓMICO
               </div>
-              <h3 className="text-base font-bold mb-0.5 mt-1.5">Plan Básico</h3>
-              <div className="mb-0.5">
-                <span className="text-xs font-bold">$25</span>
-                <span className="text-cyan-100 text-xs">/mes</span>
+              <h3 className="text-lg font-bold mb-4 mt-3.5">Plan Básico</h3>
+              <div className="mb-4">
+                <span className="text-sm font-bold">$25</span>
+                <span className="text-cyan-100 text-sm">/mes</span>
               </div>
-              <div className="mb-1 p-1 bg-white border border-cyan-200 rounded shadow-md">
-                <p className="text-center font-bold text-blue-700 text-xs">+ $120 Instalación</p>
+              <div className="mb-3 p-2 bg-white border border-cyan-200 rounded shadow-md">
+                <p className="text-center font-bold text-blue-700 text-sm">+ $120 Instalación</p>
               </div>
-              <ul className="space-y-0.5 mb-1 text-xs">
-                <li className="flex items-center gap-0.5">
-                  <CheckCircle className="w-3 h-3 text-cyan-200" />
+              <ul className="space-y-0.5 mb-3 text-sm">
+                <li className="flex items-center gap-2">
+                  <CheckCircle className="w-7 h-7 text-cyan-200" />
                   <span>1000 Mbps Internet</span>
                 </li>
-                <li className="flex items-center gap-0.5">
-                  <CheckCircle className="w-3 h-3 text-cyan-200" />
+                <li className="flex items-center gap-2">
+                  <CheckCircle className="w-7 h-7 text-cyan-200" />
                   <span>80 canales TV</span>
                 </li>
-                <li className="flex items-center gap-0.5">
-                  <CheckCircle className="w-3 h-3 text-cyan-200" />
+                <li className="flex items-center gap-2">
+                  <CheckCircle className="w-7 h-7 text-cyan-200" />
                   <span>Router WiFi incluido</span>
                 </li>
               </ul>
@@ -467,9 +467,9 @@ export function Home() {
                   href="https://wa.me/14256528120?text=Hola%2C%20estoy%20interesado%20en%20el%20Plan%20Básico%20de%20Intel%20Plus%20(%241000%20Mbps%20-%20%2425%2Fmes).%20¿Me%20pueden%20dar%20más%20información%3F"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-green-600 hover:bg-green-700 text-white py-1 rounded font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-0.5 text-xs"
+                  className="w-full bg-green-600 hover:bg-green-700 text-white py-4 rounded font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-2 text-sm"
                 >
-                  <MessageCircle className="w-3 h-3" />
+                  <MessageCircle className="w-7 h-7" />
                   WhatsApp
                 </a>
                 <a
@@ -484,73 +484,73 @@ export function Home() {
                       installation: "$120"
                     });
                   }}
-                  className="w-full bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white py-1 rounded font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-0.5 text-xs"
+                  className="w-full bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white py-4 rounded font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-2 text-sm"
                 >
-                  <Clock className="w-3 h-3" />
+                  <Clock className="w-7 h-7" />
                   Agendar Instalación Ahora
                 </a>
               </div>
             </div>
 
             {/* Plan Premium */}
-            <div className="bg-gradient-to-br from-blue-600 via-purple-600 to-blue-800 p-1.5 rounded-lg shadow-2xl hover:scale-110 transition-all duration-300 text-white relative border border-yellow-400 transform scale-105">
-              <div className="absolute -top-1.5 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-yellow-400 to-orange-400 text-blue-900 px-2 py-0.5 rounded-full font-bold text-xs shadow-lg">
+            <div className="bg-gradient-to-br from-blue-600 via-purple-600 to-blue-800 p-2.5 rounded-lg shadow-2xl hover:scale-110 transition-all duration-300 text-white relative border border-yellow-400 transform scale-105">
+              <div className="absolute -top-1.5 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-yellow-400 to-orange-400 text-blue-900 px-4 py-0.5 rounded-full font-bold text-sm shadow-lg">
                 ⭐ MEJOR OFERTA ⭐
               </div>
-              <div className="absolute top-1 right-1 bg-red-500 text-white px-1.5 py-0.5 rounded-full font-bold text-xs animate-pulse">
+              <div className="absolute top-1 right-1 bg-red-500 text-white px-4.5 py-0.5 rounded-full font-bold text-sm animate-pulse">
                 AHORRA
               </div>
-              <h3 className="text-base font-bold mb-0.5 mt-2">Plan Premium</h3>
-              <p className="text-blue-100 mb-0.5 text-xs">El favorito de nuestros clientes</p>
-              <div className="mb-0.5">
-                <span className="text-xs font-bold">$40</span>
-                <span className="text-blue-100 text-xs">/mes</span>
+              <h3 className="text-lg font-bold mb-4 mt-4">Plan Premium</h3>
+              <p className="text-blue-100 mb-4 text-sm">El favorito de nuestros clientes</p>
+              <div className="mb-4">
+                <span className="text-sm font-bold">$40</span>
+                <span className="text-blue-100 text-sm">/mes</span>
               </div>
-              <div className="mb-1 p-1 bg-yellow-400 border border-yellow-500 rounded shadow-lg">
-                <p className="text-center font-bold text-blue-900 text-xs">+ $135 Instalación</p>
+              <div className="mb-3 p-2 bg-yellow-400 border border-yellow-500 rounded shadow-lg">
+                <p className="text-center font-bold text-blue-900 text-sm">+ $135 Instalación</p>
               </div>
-              <div className="bg-white/10 backdrop-blur-sm p-0.5 rounded mb-1">
-                <p className="text-center text-yellow-300 font-bold text-xs">🎁 BENEFICIOS EXCLUSIVOS</p>
+              <div className="bg-white/10 backdrop-blur-sm p-0.5 rounded mb-3">
+                <p className="text-center text-yellow-300 font-bold text-sm">🎁 BENEFICIOS EXCLUSIVOS</p>
               </div>
-              <ul className="space-y-0.5 mb-1 text-xs">
-                <li className="flex items-center gap-0.5">
-                  <Star className="w-3 h-3 text-yellow-300 fill-yellow-300" />
+              <ul className="space-y-0.5 mb-3 text-sm">
+                <li className="flex items-center gap-2">
+                  <Star className="w-7 h-7 text-yellow-300 fill-yellow-300" />
                   <span className="font-semibold">Internet Ilimitado sin límite de velocidad</span>
                 </li>
-                <li className="flex items-center gap-0.5">
-                  <Star className="w-3 h-3 text-yellow-300 fill-yellow-300" />
+                <li className="flex items-center gap-2">
+                  <Star className="w-7 h-7 text-yellow-300 fill-yellow-300" />
                   <span className="font-semibold">🎬 300+ Canales Premium HD</span>
                 </li>
-                <li className="flex items-center gap-0.5 ml-2">
-                  <CheckCircle className="w-3 h-3 text-yellow-300" />
-                  <span className="text-xs">HBO, Showtime, Starz, Cinemax</span>
+                <li className="flex items-center gap-2 ml-2">
+                  <CheckCircle className="w-7 h-7 text-yellow-300" />
+                  <span className="text-sm">HBO, Showtime, Starz, Cinemax</span>
                 </li>
-                <li className="flex items-center gap-0.5 ml-2">
-                  <CheckCircle className="w-3 h-3 text-yellow-300" />
-                  <span className="text-xs">Todos los canales deportivos (ESPN, Fox Sports)</span>
+                <li className="flex items-center gap-2 ml-2">
+                  <CheckCircle className="w-7 h-7 text-yellow-300" />
+                  <span className="text-sm">Todos los canales deportivos (ESPN, Fox Sports)</span>
                 </li>
-                <li className="flex items-center gap-0.5 ml-2">
-                  <CheckCircle className="w-3 h-3 text-yellow-300" />
-                  <span className="text-xs">Paquete familiar completo</span>
+                <li className="flex items-center gap-2 ml-2">
+                  <CheckCircle className="w-7 h-7 text-yellow-300" />
+                  <span className="text-sm">Paquete familiar completo</span>
                 </li>
-                <li className="flex items-center gap-0.5">
-                  <Star className="w-3 h-3 text-yellow-300 fill-yellow-300" />
+                <li className="flex items-center gap-2">
+                  <Star className="w-7 h-7 text-yellow-300 fill-yellow-300" />
                   <span className="font-semibold">Router WiFi 6 de última generación</span>
                 </li>
-                <li className="flex items-center gap-0.5">
-                  <Star className="w-3 h-3 text-yellow-300 fill-yellow-300" />
+                <li className="flex items-center gap-2">
+                  <Star className="w-7 h-7 text-yellow-300 fill-yellow-300" />
                   <span className="font-semibold">DVR Cloud ilimitado</span>
                 </li>
-                <li className="flex items-center gap-0.5">
-                  <Star className="w-3 h-3 text-yellow-300 fill-yellow-300" />
+                <li className="flex items-center gap-2">
+                  <Star className="w-7 h-7 text-yellow-300 fill-yellow-300" />
                   <span className="font-semibold">Soporte VIP 24/7</span>
                 </li>
-                <li className="flex items-center gap-0.5">
-                  <Star className="w-3 h-3 text-yellow-300 fill-yellow-300" />
+                <li className="flex items-center gap-2">
+                  <Star className="w-7 h-7 text-yellow-300 fill-yellow-300" />
                   <span className="font-semibold">3 meses gratis de streaming</span>
                 </li>
-                <li className="flex items-center gap-0.5">
-                  <Star className="w-3 h-3 text-yellow-300 fill-yellow-300" />
+                <li className="flex items-center gap-2">
+                  <Star className="w-7 h-7 text-yellow-300 fill-yellow-300" />
                   <span className="font-semibold">Sin contratos - Cancela cuando quieras</span>
                 </li>
               </ul>
@@ -559,9 +559,9 @@ export function Home() {
                   href="https://wa.me/14256528120?text=🔥%20Hola%2C%20quiero%20el%20Plan%20Premium%20de%20Intel%20Plus%20(Internet%20Ilimitado%20%2B%20300%2B%20Canales%20-%20%2440%2Fmes).%20¡La%20mejor%20oferta!"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-green-600 hover:bg-green-700 text-white py-1 rounded font-bold text-xs transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-0.5"
+                  className="w-full bg-green-600 hover:bg-green-700 text-white py-4 rounded font-bold text-sm transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-2"
                 >
-                  <MessageCircle className="w-3 h-3" />
+                  <MessageCircle className="w-7 h-7" />
                   WhatsApp
                 </a>
                 <a
@@ -576,43 +576,43 @@ export function Home() {
                       installation: "$135"
                     });
                   }}
-                  className="w-full bg-white hover:bg-gray-100 text-blue-900 py-1 rounded font-bold text-xs transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-0.5 border border-yellow-400"
+                  className="w-full bg-white hover:bg-gray-100 text-blue-900 py-4 rounded font-bold text-sm transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-2 border border-yellow-400"
                 >
-                  <Clock className="w-3 h-3" />
+                  <Clock className="w-7 h-7" />
                   Agendar Instalación Ahora
                 </a>
               </div>
-              <p className="text-center text-yellow-300 text-xs mt-0.5 font-semibold">Oferta limitada</p>
+              <p className="text-center text-yellow-300 text-sm mt-0.5 font-semibold">Oferta limitada</p>
             </div>
 
             {/* Plan Ultra */}
-            <div className="bg-gradient-to-br from-orange-500 to-red-600 p-1.5 rounded-lg shadow-xl hover:scale-105 transition-all duration-300 text-white relative border border-orange-300">
-              <div className="absolute -top-1.5 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-orange-400 to-red-400 text-white px-2 py-0.5 rounded-full font-bold text-xs shadow-md">
+            <div className="bg-gradient-to-br from-orange-500 to-red-600 p-2.5 rounded-lg shadow-xl hover:scale-105 transition-all duration-300 text-white relative border border-orange-300">
+              <div className="absolute -top-1.5 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-orange-400 to-red-400 text-white px-4 py-0.5 rounded-full font-bold text-sm shadow-md">
                 ⚡ ALTA VELOCIDAD
               </div>
-              <h3 className="text-base font-bold mb-0.5 mt-1.5">Plan Ultra</h3>
-              <div className="mb-0.5">
-                <span className="text-xs font-bold">$60</span>
-                <span className="text-orange-100 text-xs">/mes</span>
+              <h3 className="text-lg font-bold mb-4 mt-3.5">Plan Ultra</h3>
+              <div className="mb-4">
+                <span className="text-sm font-bold">$60</span>
+                <span className="text-orange-100 text-sm">/mes</span>
               </div>
-              <div className="mb-1 p-1 bg-white border border-orange-200 rounded shadow-md">
-                <p className="text-center font-bold text-red-700 text-xs">+ $150 Instalación</p>
+              <div className="mb-3 p-2 bg-white border border-orange-200 rounded shadow-md">
+                <p className="text-center font-bold text-red-700 text-sm">+ $150 Instalación</p>
               </div>
-              <ul className="space-y-0.5 mb-1 text-xs">
-                <li className="flex items-center gap-0.5">
-                  <CheckCircle className="w-3 h-3 text-orange-200" />
+              <ul className="space-y-0.5 mb-3 text-sm">
+                <li className="flex items-center gap-2">
+                  <CheckCircle className="w-7 h-7 text-orange-200" />
                   <span>2000 Mbps Internet</span>
                 </li>
-                <li className="flex items-center gap-0.5">
-                  <CheckCircle className="w-3 h-3 text-orange-200" />
+                <li className="flex items-center gap-2">
+                  <CheckCircle className="w-7 h-7 text-orange-200" />
                   <span>150 canales TV básicos</span>
                 </li>
-                <li className="flex items-center gap-0.5">
-                  <CheckCircle className="w-3 h-3 text-orange-200" />
+                <li className="flex items-center gap-2">
+                  <CheckCircle className="w-7 h-7 text-orange-200" />
                   <span>DVR Cloud incluido</span>
                 </li>
-                <li className="flex items-center gap-0.5">
-                  <CheckCircle className="w-3 h-3 text-orange-200" />
+                <li className="flex items-center gap-2">
+                  <CheckCircle className="w-7 h-7 text-orange-200" />
                   <span>Router WiFi 6 gratis</span>
                 </li>
               </ul>
@@ -621,9 +621,9 @@ export function Home() {
                   href="https://wa.me/14256528120?text=Hola%2C%20estoy%20interesado%20en%20el%20Plan%20Ultra%20de%20Intel%20Plus%20(2000%20Mbps%20-%20%2460%2Fmes).%20¿Me%20pueden%20dar%20más%20información%3F"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-green-600 hover:bg-green-700 text-white py-1 rounded font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-0.5 text-xs"
+                  className="w-full bg-green-600 hover:bg-green-700 text-white py-4 rounded font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-2 text-sm"
                 >
-                  <MessageCircle className="w-3 h-3" />
+                  <MessageCircle className="w-7 h-7" />
                   WhatsApp
                 </a>
                 <a
@@ -638,9 +638,9 @@ export function Home() {
                       installation: "$150"
                     });
                   }}
-                  className="w-full bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white py-1 rounded font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-0.5 text-xs"
+                  className="w-full bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white py-4 rounded font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-2 text-sm"
                 >
-                  <Clock className="w-3 h-3" />
+                  <Clock className="w-7 h-7" />
                   Agendar Instalación Ahora
                 </a>
               </div>
@@ -652,98 +652,98 @@ export function Home() {
 
       {/* Appointment Scheduler Section */}
       <section id="agenda-instalacion" className="py-3 bg-gradient-to-br from-orange-50 to-red-50 dark:from-gray-800 dark:to-gray-900">
-        <div className="container mx-auto px-1">
+        <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-2">
-              <h2 className="text-base md:text-xs font-black text-gray-900 dark:text-white mb-1">
+            <div className="text-center mb-4">
+              <h2 className="text-lg md:text-sm font-black text-gray-900 dark:text-white mb-3">
                 📅 Agenda Tu Instalación
               </h2>
-              <p className="text-xs text-gray-600 dark:text-gray-300">
+              <p className="text-sm text-gray-600 dark:text-gray-300">
                 Elige el día y hora que mejor te convenga
               </p>
             </div>
 
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-2xl p-2 border border-orange-200 dark:border-orange-700">
               {isProcessing ? (
-                <div className="text-center py-2">
-                  <div className="mx-auto w-8 h-8 border border-blue-500 border-t-transparent rounded-full animate-spin mb-2"></div>
-                  <h3 className="text-sm font-bold text-gray-900 dark:text-white mb-1">
+                <div className="text-center py-4">
+                  <div className="mx-auto w-8 h-8 border border-blue-500 border-t-transparent rounded-full animate-spin mb-4"></div>
+                  <h3 className="text-base font-bold text-gray-900 dark:text-white mb-3">
                     Procesando tu solicitud...
                   </h3>
-                  <p className="text-gray-600 dark:text-gray-400 text-xs">
+                  <p className="text-gray-600 dark:text-gray-400 text-sm">
                     Estamos verificando la disponibilidad
                   </p>
                 </div>
               ) : showConfirmation ? (
-                <div className="text-center py-2">
-                  <div className="mx-auto w-4 h-4 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center mb-2">
+                <div className="text-center py-4">
+                  <div className="mx-auto w-6 h-6 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center mb-4">
                     <CheckCircle className="w-8 h-8 text-green-600 dark:text-green-400" />
                   </div>
 
-                  <h3 className="text-base font-bold text-gray-900 dark:text-white mb-2">
+                  <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4">
                     ¡Cita Agendada con Éxito!
                   </h3>
 
-                  <div className="bg-gradient-to-r from-blue-50 to-blue-100 dark:from-blue-900 dark:to-blue-800 rounded p-2 mb-2 max-w-md mx-auto">
-                    <p className="text-xs text-gray-600 dark:text-gray-400 mb-1">
+                  <div className="bg-gradient-to-r from-blue-50 to-blue-100 dark:from-blue-900 dark:to-blue-800 rounded p-2 mb-4 max-w-md mx-auto">
+                    <p className="text-sm text-gray-600 dark:text-gray-400 mb-3">
                       Número de Confirmación
                     </p>
-                    <p className="text-xs font-black text-blue-600 dark:text-blue-400 tracking-wider">
+                    <p className="text-sm font-black text-blue-600 dark:text-blue-400 tracking-wider">
                       {confirmationNumber}
                     </p>
                   </div>
 
                   {selectedPlan && (
-                    <div className="bg-gradient-to-br from-green-50 via-emerald-50 to-teal-50 dark:from-green-900/40 dark:via-emerald-900/40 dark:to-teal-900/40 border border-green-400 dark:border-green-600 rounded p-2 mb-2 max-w-2xl mx-auto shadow-2xl">
-                      <div className="flex items-center justify-center gap-1 mb-1">
-                        <div className="bg-green-500 p-1 rounded-full">
-                          <CheckCircle className="w-4 h-4 text-white" />
+                    <div className="bg-gradient-to-br from-green-50 via-emerald-50 to-teal-50 dark:from-green-900/40 dark:via-emerald-900/40 dark:to-teal-900/40 border border-green-400 dark:border-green-600 rounded p-2 mb-4 max-w-2xl mx-auto shadow-2xl">
+                      <div className="flex items-center justify-center gap-2 mb-3">
+                        <div className="bg-green-500 p-2 rounded-full">
+                          <CheckCircle className="w-6 h-6 text-white" />
                         </div>
-                        <h4 className="text-sm font-black text-green-900 dark:text-green-100">
+                        <h4 className="text-base font-black text-green-900 dark:text-green-100">
                           Tu Plan Seleccionado
                         </h4>
                       </div>
 
-                      <div className="bg-white dark:bg-gray-800 rounded p-2 shadow-lg mb-2">
-                        <div className="text-center mb-2 pb-2 border-b border-green-200 dark:border-green-700">
-                          <h5 className="text-base font-black text-green-700 dark:text-green-400 mb-0.5">{selectedPlan.name}</h5>
-                          <p className="text-xs font-black text-blue-600 dark:text-blue-400">{selectedPlan.price}</p>
+                      <div className="bg-white dark:bg-gray-800 rounded p-2 shadow-lg mb-4">
+                        <div className="text-center mb-4 pb-2 border-b border-green-200 dark:border-green-700">
+                          <h5 className="text-lg font-black text-green-700 dark:text-green-400 mb-4">{selectedPlan.name}</h5>
+                          <p className="text-sm font-black text-blue-600 dark:text-blue-400">{selectedPlan.price}</p>
                         </div>
 
                         <div className="space-y-1">
-                          <div className="bg-gradient-to-r from-blue-50 to-blue-100 dark:from-blue-900/30 dark:to-blue-800/30 rounded p-1 flex items-center gap-1">
+                          <div className="bg-gradient-to-r from-blue-50 to-blue-100 dark:from-blue-900/30 dark:to-blue-800/30 rounded p-2 flex items-center gap-2">
                             <div className="bg-blue-500 p-0.5 rounded">
-                              <Wifi className="w-3 h-3 text-white" />
+                              <Wifi className="w-7 h-7 text-white" />
                             </div>
                             <div className="flex-1">
-                              <p className="text-xs text-gray-600 dark:text-gray-400 font-semibold">Velocidad de Internet</p>
-                              <p className="text-sm font-black text-blue-700 dark:text-blue-300">{selectedPlan.speed}</p>
+                              <p className="text-sm text-gray-600 dark:text-gray-400 font-semibold">Velocidad de Internet</p>
+                              <p className="text-base font-black text-blue-700 dark:text-blue-300">{selectedPlan.speed}</p>
                             </div>
                           </div>
 
-                          <div className="bg-gradient-to-r from-purple-50 to-purple-100 dark:from-purple-900/30 dark:to-purple-800/30 rounded p-1 flex items-center gap-1">
+                          <div className="bg-gradient-to-r from-purple-50 to-purple-100 dark:from-purple-900/30 dark:to-purple-800/30 rounded p-2 flex items-center gap-2">
                             <div className="bg-purple-500 p-0.5 rounded">
-                              <Tv className="w-3 h-3 text-white" />
+                              <Tv className="w-7 h-7 text-white" />
                             </div>
                             <div className="flex-1">
-                              <p className="text-xs text-gray-600 dark:text-gray-400 font-semibold">Canales de TV</p>
-                              <p className="text-sm font-black text-purple-700 dark:text-purple-300">{selectedPlan.channels}</p>
+                              <p className="text-sm text-gray-600 dark:text-gray-400 font-semibold">Canales de TV</p>
+                              <p className="text-base font-black text-purple-700 dark:text-purple-300">{selectedPlan.channels}</p>
                             </div>
                           </div>
 
-                          <div className="bg-gradient-to-r from-orange-50 to-orange-100 dark:from-orange-900/30 dark:to-orange-800/30 rounded p-1 flex items-center gap-1">
+                          <div className="bg-gradient-to-r from-orange-50 to-orange-100 dark:from-orange-900/30 dark:to-orange-800/30 rounded p-2 flex items-center gap-2">
                             <div className="bg-orange-500 p-0.5 rounded">
-                              <Zap className="w-3 h-3 text-white" />
+                              <Zap className="w-7 h-7 text-white" />
                             </div>
                             <div className="flex-1">
-                              <p className="text-xs text-gray-600 dark:text-gray-400 font-semibold">Costo de Instalación</p>
+                              <p className="text-sm text-gray-600 dark:text-gray-400 font-semibold">Costo de Instalación</p>
                               {isCodeValid && discountAmount > 0 ? (
                                 <div>
-                                  <p className="text-xs text-gray-500 dark:text-gray-400 line-through">{selectedPlan.installation}</p>
-                                  <p className="text-sm font-black text-green-600 dark:text-green-400">$100</p>
+                                  <p className="text-sm text-gray-500 dark:text-gray-400 line-through">{selectedPlan.installation}</p>
+                                  <p className="text-base font-black text-green-600 dark:text-green-400">$100</p>
                                 </div>
                               ) : (
-                                <p className="text-sm font-black text-orange-700 dark:text-orange-300">{selectedPlan.installation}</p>
+                                <p className="text-base font-black text-orange-700 dark:text-orange-300">{selectedPlan.installation}</p>
                               )}
                             </div>
                           </div>
@@ -751,31 +751,31 @@ export function Home() {
                       </div>
 
                       {isCodeValid && discountAmount > 0 && (
-                        <div className="bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/40 dark:to-emerald-900/40 border border-green-400 dark:border-green-600 rounded p-1 mb-1">
-                          <div className="flex items-center gap-0.5 mb-3">
+                        <div className="bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/40 dark:to-emerald-900/40 border border-green-400 dark:border-green-600 rounded p-2 mb-3">
+                          <div className="flex items-center gap-2 mb-3">
                             <div className="bg-green-500 p-2 rounded-lg">
                               <CheckCircle className="w-6 h-6 text-white" />
                             </div>
-                            <h4 className="text-xs font-black text-green-900 dark:text-green-100">
+                            <h4 className="text-sm font-black text-green-900 dark:text-green-100">
                               ¡Descuento Aplicado!
                             </h4>
                           </div>
-                          <div className="bg-white dark:bg-gray-800 rounded-lg p-1">
-                            <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">Código usado:</p>
-                            <p className="text-xs font-black text-green-600 dark:text-green-400 mb-3">{discountCode}</p>
-                            <div className="flex justify-between items-center text-sm">
+                          <div className="bg-white dark:bg-gray-800 rounded-lg p-2">
+                            <p className="text-base text-gray-600 dark:text-gray-400 mb-4">Código usado:</p>
+                            <p className="text-sm font-black text-green-600 dark:text-green-400 mb-3">{discountCode}</p>
+                            <div className="flex justify-between items-center text-base">
                               <span className="text-gray-600 dark:text-gray-400">Ahorraste:</span>
-                              <span className="text-xs font-black text-green-600 dark:text-green-400">${discountAmount} 💰</span>
+                              <span className="text-sm font-black text-green-600 dark:text-green-400">${discountAmount} 💰</span>
                             </div>
                           </div>
                         </div>
                       )}
 
-                      <div className="bg-gradient-to-r from-yellow-100 to-orange-100 dark:from-yellow-900/30 dark:to-orange-900/30 border border-yellow-400 dark:border-yellow-600 rounded p-1 text-center">
-                        <p className="text-xs font-bold text-gray-800 dark:text-gray-200">
+                      <div className="bg-gradient-to-r from-yellow-100 to-orange-100 dark:from-yellow-900/30 dark:to-orange-900/30 border border-yellow-400 dark:border-yellow-600 rounded p-2 text-center">
+                        <p className="text-sm font-bold text-gray-800 dark:text-gray-200">
                           💡 Guarda este número de confirmación y los detalles de tu plan
                         </p>
-                        <p className="text-sm text-gray-700 dark:text-gray-300 mt-2">
+                        <p className="text-base text-gray-700 dark:text-gray-300 mt-4">
                           Uno de nuestros agentes te contactará pronto para coordinar la instalación
                         </p>
                       </div>
@@ -791,18 +791,18 @@ export function Home() {
                       setIsCodeValid(null);
                       setDiscountAmount(0);
                     }}
-                    className="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-2 py-3 rounded text-xs font-bold transition-all shadow-lg transform hover:scale-105"
+                    className="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-4 py-3 rounded text-sm font-bold transition-all shadow-lg transform hover:scale-105"
                   >
                     Entendido
                   </button>
                 </div>
               ) : !showScheduler ? (
                 <div className="text-center">
-                  <div className="text-5xl mb-1">📆</div>
-                  <h3 className="text-xs font-bold text-gray-900 dark:text-white mb-0.5">
+                  <div className="text-5xl mb-3">📆</div>
+                  <h3 className="text-sm font-bold text-gray-900 dark:text-white mb-4">
                     ¿Listo para comenzar?
                   </h3>
-                  <p className="text-gray-600 dark:text-gray-300 mb-1">
+                  <p className="text-gray-600 dark:text-gray-300 mb-3">
                     Reserva tu instalación en solo unos clics. Nuestros técnicos están disponibles de lunes a domingo.
                   </p>
                   <button
@@ -819,60 +819,60 @@ export function Home() {
                         });
                       }
                     }}
-                    className="bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white px-2 py-3 rounded text-xs font-bold transition-all shadow-lg transform hover:scale-105"
+                    className="bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white px-4 py-3 rounded text-sm font-bold transition-all shadow-lg transform hover:scale-105"
                   >
                     Agendar Instalación Ahora
                   </button>
                 </div>
               ) : (
                 <div>
-                  <h3 className="text-xs font-bold text-gray-900 dark:text-white mb-1 text-center">
+                  <h3 className="text-sm font-bold text-gray-900 dark:text-white mb-3 text-center">
                     Completa tus datos
                   </h3>
 
                   {selectedPlan && (
-                    <div className="bg-gradient-to-br from-blue-50 via-purple-50 to-blue-50 dark:from-blue-900/30 dark:via-purple-900/30 dark:to-blue-900/30 border border-blue-400 dark:border-blue-600 rounded p-1 mb-1 shadow-xl">
-                      <div className="flex items-center gap-0.5 mb-0.5">
+                    <div className="bg-gradient-to-br from-blue-50 via-purple-50 to-blue-50 dark:from-blue-900/30 dark:via-purple-900/30 dark:to-blue-900/30 border border-blue-400 dark:border-blue-600 rounded p-2 mb-3 shadow-xl">
+                      <div className="flex items-center gap-2 mb-4">
                         <div className="bg-blue-500 p-2 rounded-lg">
                           <CheckCircle className="w-6 h-6 text-white" />
                         </div>
-                        <h4 className="text-xs font-black text-blue-900 dark:text-blue-100">
+                        <h4 className="text-sm font-black text-blue-900 dark:text-blue-100">
                           Plan Seleccionado
                         </h4>
                       </div>
 
-                      <div className="bg-white dark:bg-gray-800 rounded-lg p-1 shadow-md">
-                        <div className="text-center mb-0.5 pb-4 border-b-2 border-blue-200 dark:border-blue-700">
-                          <h5 className="text-xs font-black text-blue-700 dark:text-blue-400 mb-1">{selectedPlan.name}</h5>
-                          <p className="text-base font-black text-green-600 dark:text-green-400">{selectedPlan.price}</p>
+                      <div className="bg-white dark:bg-gray-800 rounded-lg p-2 shadow-md">
+                        <div className="text-center mb-4 pb-4 border-b-2 border-blue-200 dark:border-blue-700">
+                          <h5 className="text-sm font-black text-blue-700 dark:text-blue-400 mb-3">{selectedPlan.name}</h5>
+                          <p className="text-lg font-black text-green-600 dark:text-green-400">{selectedPlan.price}</p>
                         </div>
 
-                        <div className="grid md:grid-cols-3 gap-0.5">
+                        <div className="grid md:grid-cols-3 gap-2">
                           <div className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/40 dark:to-blue-800/40 rounded-lg p-3 text-center">
-                            <Wifi className="w-5 h-5 text-blue-600 dark:text-blue-400 mx-auto mb-2" />
-                            <p className="text-xs text-gray-600 dark:text-gray-400 font-semibold mb-1">Internet</p>
-                            <p className="text-sm font-black text-blue-700 dark:text-blue-300">{selectedPlan.speed}</p>
+                            <Wifi className="w-7 h-7 text-blue-600 dark:text-blue-400 mx-auto mb-4" />
+                            <p className="text-sm text-gray-600 dark:text-gray-400 font-semibold mb-3">Internet</p>
+                            <p className="text-base font-black text-blue-700 dark:text-blue-300">{selectedPlan.speed}</p>
                           </div>
 
                           <div className="bg-gradient-to-br from-purple-50 to-purple-100 dark:from-purple-900/40 dark:to-purple-800/40 rounded-lg p-3 text-center">
-                            <Tv className="w-5 h-5 text-purple-600 dark:text-purple-400 mx-auto mb-2" />
-                            <p className="text-xs text-gray-600 dark:text-gray-400 font-semibold mb-1">TV</p>
-                            <p className="text-sm font-black text-purple-700 dark:text-purple-300">{selectedPlan.channels}</p>
+                            <Tv className="w-7 h-7 text-purple-600 dark:text-purple-400 mx-auto mb-4" />
+                            <p className="text-sm text-gray-600 dark:text-gray-400 font-semibold mb-3">TV</p>
+                            <p className="text-base font-black text-purple-700 dark:text-purple-300">{selectedPlan.channels}</p>
                           </div>
 
                           <div className="bg-gradient-to-br from-orange-50 to-orange-100 dark:from-orange-900/40 dark:to-orange-800/40 rounded-lg p-3 text-center">
-                            <Zap className="w-5 h-5 text-orange-600 dark:text-orange-400 mx-auto mb-2" />
-                            <p className="text-xs text-gray-600 dark:text-gray-400 font-semibold mb-1">Instalación</p>
-                            <p className="text-sm font-black text-orange-700 dark:text-orange-300">{selectedPlan.installation}</p>
+                            <Zap className="w-7 h-7 text-orange-600 dark:text-orange-400 mx-auto mb-4" />
+                            <p className="text-sm text-gray-600 dark:text-gray-400 font-semibold mb-3">Instalación</p>
+                            <p className="text-base font-black text-orange-700 dark:text-orange-300">{selectedPlan.installation}</p>
                           </div>
                         </div>
                       </div>
                     </div>
                   )}
 
-                  <div className="grid md:grid-cols-2 gap-1 mb-1">
+                  <div className="grid md:grid-cols-2 gap-2 mb-3">
                     <div>
-                      <label className="block text-gray-700 dark:text-gray-300 font-semibold mb-2">
+                      <label className="block text-gray-700 dark:text-gray-300 font-semibold mb-4">
                         Tu Nombre Completo
                       </label>
                       <input
@@ -884,12 +884,12 @@ export function Home() {
                           const value = e.target.value.replace(/[^a-zA-ZáéíóúÁÉÍÓÚñÑüÜ\s]/g, '');
                           setAppointmentName(value);
                         }}
-                        className="w-full px-1 py-3 border border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white rounded-lg focus:outline-none focus:border-orange-500 transition"
+                        className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white rounded-lg focus:outline-none focus:border-orange-500 transition"
                       />
                     </div>
 
                     <div>
-                      <label className="block text-gray-700 dark:text-gray-300 font-semibold mb-2">
+                      <label className="block text-gray-700 dark:text-gray-300 font-semibold mb-4">
                         Teléfono
                       </label>
                       <input
@@ -917,16 +917,16 @@ export function Home() {
 
                           setAppointmentPhone(formatted);
                         }}
-                        className="w-full px-1 py-3 border border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white rounded-lg focus:outline-none focus:border-orange-500 transition"
+                        className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white rounded-lg focus:outline-none focus:border-orange-500 transition"
                       />
                     </div>
 
                     <div className="md:col-span-2 relative">
-                      <label className="block text-gray-700 dark:text-gray-300 font-semibold mb-2">
+                      <label className="block text-gray-700 dark:text-gray-300 font-semibold mb-4">
                         Dirección de Instalación
                       </label>
                       <div className="relative">
-                        <MapPin className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
+                        <MapPin className="absolute left-3 top-1/2 transform -translate-y-1/2 w-7 h-7 text-gray-400" />
                         <input
                           type="text"
                           placeholder="Empieza a escribir tu dirección..."
@@ -1012,10 +1012,10 @@ export function Home() {
 
                       {/* Sugerencias de direcciones */}
                       {showAddressSuggestions && addressSuggestions.length > 0 && (
-                        <div className="absolute z-50 w-full mt-1 bg-white dark:bg-gray-700 border border-orange-300 dark:border-orange-600 rounded-lg shadow-2xl max-h-6 overflow-y-auto">
-                          <div className="px-1 py-2 bg-gray-50 dark:bg-gray-800 border-b border-gray-200 dark:border-gray-600">
-                            <p className="text-xs text-gray-500 dark:text-gray-400 flex items-center gap-1">
-                              <MapPin className="w-3 h-3" />
+                        <div className="absolute z-50 w-full mt-3 bg-white dark:bg-gray-700 border border-orange-300 dark:border-orange-600 rounded-lg shadow-2xl max-h-6 overflow-y-auto">
+                          <div className="px-4 py-4 bg-gray-50 dark:bg-gray-800 border-b border-gray-200 dark:border-gray-600">
+                            <p className="text-sm text-gray-500 dark:text-gray-400 flex items-center gap-2">
+                              <MapPin className="w-7 h-7" />
                               Direcciones sugeridas
                             </p>
                           </div>
@@ -1028,11 +1028,11 @@ export function Home() {
                                 setAppointmentAddress(suggestion);
                                 setShowAddressSuggestions(false);
                               }}
-                              className="w-full text-left px-1 py-3 hover:bg-orange-50 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-200 transition-colors border-b border-gray-200 dark:border-gray-600 last:border-b-0 cursor-pointer"
+                              className="w-full text-left px-4 py-3 hover:bg-orange-50 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-200 transition-colors border-b border-gray-200 dark:border-gray-600 last:border-b-0 cursor-pointer"
                             >
-                              <div className="flex items-center gap-0.5">
-                                <MapPin className="w-5 h-5 text-orange-500 flex-shrink-0" />
-                                <span className="text-sm font-medium">{suggestion}</span>
+                              <div className="flex items-center gap-2">
+                                <MapPin className="w-7 h-7 text-orange-500 flex-shrink-0" />
+                                <span className="text-base font-medium">{suggestion}</span>
                               </div>
                             </button>
                           ))}
@@ -1041,7 +1041,7 @@ export function Home() {
                     </div>
 
                     <div>
-                      <label className="block text-gray-700 dark:text-gray-300 font-semibold mb-2">
+                      <label className="block text-gray-700 dark:text-gray-300 font-semibold mb-4">
                         Fecha Preferida
                       </label>
                       <input
@@ -1053,18 +1053,18 @@ export function Home() {
                           setSelectedTime("");
                         }}
                         min={new Date().toISOString().split('T')[0]}
-                        className="w-full px-1 py-3 border border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white rounded-lg focus:outline-none focus:border-orange-500 transition"
+                        className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white rounded-lg focus:outline-none focus:border-orange-500 transition"
                       />
                     </div>
 
                     <div>
-                      <label className="block text-gray-700 dark:text-gray-300 font-semibold mb-2">
+                      <label className="block text-gray-700 dark:text-gray-300 font-semibold mb-4">
                         Hora Preferida
                       </label>
                       <select
                         value={selectedTime}
                         onChange={(e) => setSelectedTime(e.target.value)}
-                        className="w-full px-1 py-3 border border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white rounded-lg focus:outline-none focus:border-orange-500 transition"
+                        className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white rounded-lg focus:outline-none focus:border-orange-500 transition"
                       >
                         <option value="">Selecciona una hora</option>
                         {(() => {
@@ -1101,8 +1101,8 @@ export function Home() {
                   </div>
 
                   {/* Discount Code Field */}
-                  <div className="mb-1">
-                    <label className="block text-gray-700 dark:text-gray-300 font-bold mb-2">
+                  <div className="mb-3">
+                    <label className="block text-gray-700 dark:text-gray-300 font-bold mb-4">
                       ✨ ¿Tienes un código de descuento? (Opcional)
                     </label>
                     <div className="flex gap-2">
@@ -1116,7 +1116,7 @@ export function Home() {
                           setCodeErrorMessage("");
                         }}
                         placeholder=""
-                        className="flex-1 px-1 py-3 border border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white rounded-lg focus:outline-none focus:border-orange-500 transition uppercase"
+                        className="flex-1 px-4 py-3 border border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white rounded-lg focus:outline-none focus:border-orange-500 transition uppercase"
                       />
                       <button
                         onClick={async () => {
@@ -1178,7 +1178,7 @@ export function Home() {
                           }
                         }}
                         disabled={isValidatingCode}
-                        className={`px-2 py-3 rounded-lg font-bold transition-all shadow-lg flex items-center gap-2 ${
+                        className={`px-4 py-3 rounded-lg font-bold transition-all shadow-lg flex items-center gap-2 ${
                           isValidatingCode
                             ? 'bg-gray-400 cursor-not-allowed'
                             : 'bg-orange-500 hover:bg-orange-600 text-white'
@@ -1186,7 +1186,7 @@ export function Home() {
                       >
                         {isValidatingCode ? (
                           <>
-                            <div className="w-4 h-4 border border-white border-t-transparent rounded-full animate-spin"></div>
+                            <div className="w-6 h-6 border border-white border-t-transparent rounded-full animate-spin"></div>
                             Validando...
                           </>
                         ) : (
@@ -1196,22 +1196,22 @@ export function Home() {
                     </div>
 
                     {isValidatingCode && (
-                      <div className="mt-3 bg-blue-50 dark:bg-blue-900/30 border border-blue-400 dark:border-blue-600 rounded-lg p-1">
-                        <p className="text-blue-800 dark:text-blue-200 font-bold text-sm flex items-center gap-2">
-                          <div className="w-5 h-5 border border-blue-600 border-t-transparent rounded-full animate-spin"></div>
+                      <div className="mt-3 bg-blue-50 dark:bg-blue-900/30 border border-blue-400 dark:border-blue-600 rounded-lg p-2">
+                        <p className="text-blue-800 dark:text-blue-200 font-bold text-base flex items-center gap-2">
+                          <div className="w-7 h-7 border border-blue-600 border-t-transparent rounded-full animate-spin"></div>
                           Validando código...
                         </p>
                       </div>
                     )}
 
                     {isCodeValid === true && !isValidatingCode && (
-                      <div className="mt-3 bg-green-50 dark:bg-green-900/30 border border-green-400 dark:border-green-600 rounded-lg p-1">
-                        <p className="text-green-800 dark:text-green-200 font-bold text-sm flex items-center gap-2">
-                          <CheckCircle className="w-5 h-5" />
+                      <div className="mt-3 bg-green-50 dark:bg-green-900/30 border border-green-400 dark:border-green-600 rounded-lg p-2">
+                        <p className="text-green-800 dark:text-green-200 font-bold text-base flex items-center gap-2">
+                          <CheckCircle className="w-7 h-7" />
                           ¡Código válido! Ahorraste ${discountAmount} en la instalación 💰
                         </p>
                         {selectedPlan && (
-                          <p className="text-green-700 dark:text-green-300 text-xs mt-2">
+                          <p className="text-green-700 dark:text-green-300 text-sm mt-4">
                             Precio original: ${selectedPlan.installation.replace('$', '')} → Nuevo precio: $100
                           </p>
                         )}
@@ -1219,24 +1219,24 @@ export function Home() {
                     )}
 
                     {isCodeValid === false && !isValidatingCode && (
-                      <div className="mt-3 bg-red-50 dark:bg-red-900/30 border border-red-400 dark:border-red-600 rounded-lg p-1">
-                        <p className="text-red-800 dark:text-red-200 font-bold text-sm">
+                      <div className="mt-3 bg-red-50 dark:bg-red-900/30 border border-red-400 dark:border-red-600 rounded-lg p-2">
+                        <p className="text-red-800 dark:text-red-200 font-bold text-base">
                           ❌ {codeErrorMessage || "Código inválido. Verifica e intenta de nuevo."}
                         </p>
                       </div>
                     )}
                   </div>
 
-                  <div className="bg-blue-50 dark:bg-blue-900/30 border border-blue-200 dark:border-blue-700 rounded-lg p-1 mb-1">
-                    <p className="text-blue-800 dark:text-blue-200 text-sm">
+                  <div className="bg-blue-50 dark:bg-blue-900/30 border border-blue-200 dark:border-blue-700 rounded-lg p-2 mb-3">
+                    <p className="text-blue-800 dark:text-blue-200 text-base">
                       <span className="font-bold">📍 Nota:</span> Asegúrate de ingresar la dirección correcta para la instalación. Un técnico te contactará para confirmar la cita.
                     </p>
                   </div>
 
-                  <div className="flex flex-col md:flex-row gap-0.5">
+                  <div className="flex flex-col md:flex-row gap-2">
                     <button
                       onClick={() => setShowScheduler(false)}
-                      className="w-full md:w-auto bg-gray-300 dark:bg-gray-600 hover:bg-gray-400 dark:hover:bg-gray-500 text-gray-800 dark:text-white px-2 py-3 rounded-lg font-bold transition"
+                      className="w-full md:w-auto bg-gray-300 dark:bg-gray-600 hover:bg-gray-400 dark:hover:bg-gray-500 text-gray-800 dark:text-white px-4 py-3 rounded-lg font-bold transition"
                     >
                       Cancelar
                     </button>
@@ -1302,7 +1302,7 @@ export function Home() {
                         }
                       }}
                       disabled={isProcessing || !appointmentName || !appointmentPhone || !appointmentAddress || !selectedDate || !selectedTime}
-                      className={`w-full md:flex-1 bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-2 py-3 rounded-lg font-bold transition-all shadow-lg flex items-center justify-center gap-2 ${
+                      className={`w-full md:flex-1 bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-4 py-3 rounded-lg font-bold transition-all shadow-lg flex items-center justify-center gap-2 ${
                         isProcessing || !appointmentName || !appointmentPhone || !appointmentAddress || !selectedDate || !selectedTime
                           ? 'opacity-50 cursor-not-allowed'
                           : ''
@@ -1310,12 +1310,12 @@ export function Home() {
                     >
                       {isProcessing ? (
                         <>
-                          <div className="w-5 h-5 border border-white border-t-transparent rounded-full animate-spin"></div>
+                          <div className="w-7 h-7 border border-white border-t-transparent rounded-full animate-spin"></div>
                           Procesando...
                         </>
                       ) : (
                         <>
-                          <CheckCircle className="w-5 h-5" />
+                          <CheckCircle className="w-7 h-7" />
                           Agendar Instalación Ahora
                         </>
                       )}
@@ -1324,7 +1324,7 @@ export function Home() {
                       href={`https://wa.me/14256528120?text=Hola%2C%20quiero%20agendar%20una%20instalación%0A%0ANombre%3A%20${appointmentName}%0ATeléfono%3A%20${appointmentPhone}%0ADirección%3A%20${appointmentAddress}%0AFecha%3A%20${selectedDate}%0AHora%3A%20${selectedTime}${selectedPlan ? `%0A%0APlan%20seleccionado%3A%20${selectedPlan.name}%20-%20${selectedPlan.price}%0AInternet%3A%20${selectedPlan.speed}%0ATV%3A%20${selectedPlan.channels}` : ''}${isCodeValid && discountAmount > 0 ? `%0A%0ACódigo%20descuento%3A%20${discountCode}%0ADescuento%3A%20%24${discountAmount}%0AInstalación%20final%3A%20%24100` : ''}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className={`w-full md:flex-1 bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white px-2 py-3 rounded-lg font-bold transition-all shadow-lg flex items-center justify-center gap-2 ${
+                      className={`w-full md:flex-1 bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white px-4 py-3 rounded-lg font-bold transition-all shadow-lg flex items-center justify-center gap-2 ${
                         !appointmentName || !appointmentPhone || !appointmentAddress || !selectedDate || !selectedTime
                           ? 'opacity-50 cursor-not-allowed'
                           : ''
@@ -1365,7 +1365,7 @@ export function Home() {
                         }
                       }}
                     >
-                      <MessageCircle className="w-5 h-5" />
+                      <MessageCircle className="w-7 h-7" />
                       Confirmar por WhatsApp
                     </a>
                   </div>
@@ -1374,7 +1374,7 @@ export function Home() {
             </div>
 
             <div className="mt-8 text-center">
-              <p className="text-gray-600 dark:text-gray-400 text-sm">
+              <p className="text-gray-600 dark:text-gray-400 text-base">
                 ⏰ Horarios disponibles: Lunes a Domingo, 8:00 AM - 8:00 PM
               </p>
             </div>
@@ -1384,138 +1384,138 @@ export function Home() {
 
 
       {/* Special Promotion Section */}
-      <section id="oferta-especial" className="py-2 bg-gradient-to-br from-orange-500 via-red-500 to-pink-600 relative overflow-hidden">
+      <section id="oferta-especial" className="py-4 bg-gradient-to-br from-orange-500 via-red-500 to-pink-600 relative overflow-hidden">
         {/* Animated background elements */}
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-1 left-10 w-72 h-72 bg-yellow-300 rounded-full blur-3xl animate-pulse"></div>
           <div className="absolute bottom-10 right-10 w-96 h-96 bg-purple-300 rounded-full blur-3xl animate-pulse delay-1000"></div>
         </div>
 
-        <div className="container mx-auto px-1 relative z-10">
+        <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-5xl mx-auto">
             {/* Header */}
-            <div className="text-center mb-1">
-              <div className="inline-block bg-yellow-400 text-red-600 px-2 py-0.5 rounded-full font-black text-xs mb-0.5 animate-bounce">
+            <div className="text-center mb-3">
+              <div className="inline-block bg-yellow-400 text-red-600 px-4 py-0.5 rounded-full font-black text-sm mb-4 animate-bounce">
                 🔥 OFERTA LIMITADA 🔥
               </div>
-              <h2 className="text-base md:text-xs font-black text-white mb-0.5 drop-shadow-lg">
+              <h2 className="text-lg md:text-sm font-black text-white mb-4 drop-shadow-lg">
                 🌟 ¡Plan Especial del Año! 🌟
               </h2>
-              <p className="text-xs text-yellow-300 font-bold">
+              <p className="text-sm text-yellow-300 font-bold">
                 ¡Ahorra $200 y no pagues nada más hasta Abril 2027!
               </p>
             </div>
 
             {/* Main offer card */}
-            <div className="bg-white rounded-lg shadow-2xl p-2 mb-2 border border-yellow-400 transform hover:scale-105 transition-all duration-300">
+            <div className="bg-white rounded-lg shadow-2xl p-2 mb-4 border border-yellow-400 transform hover:scale-105 transition-all duration-300">
               {/* Price comparison */}
-              <div className="text-center mb-1">
-                <div className="flex items-center justify-center gap-2 mb-0.5">
+              <div className="text-center mb-3">
+                <div className="flex items-center justify-center gap-2 mb-4">
                   <div className="relative">
-                    <span className="text-base text-gray-400 line-through">$450</span>
-                    <div className="absolute -top-0.5 -right-0.5 bg-red-500 text-white text-xs font-bold px-1 py-0.5 rounded-full rotate-12">
+                    <span className="text-lg text-gray-400 line-through">$450</span>
+                    <div className="absolute -top-0.5 -right-0.5 bg-red-500 text-white text-sm font-bold px-4 py-0.5 rounded-full rotate-12">
                       ANTES
                     </div>
                   </div>
-                  <span className="text-xs font-black text-blue-600">→</span>
+                  <span className="text-sm font-black text-blue-600">→</span>
                   <div className="relative">
-                    <span className="text-xs font-black text-green-600">$250</span>
-                    <div className="absolute -top-0.5 -right-0.5 bg-green-500 text-white text-xs font-bold px-1 py-0.5 rounded-full rotate-12">
+                    <span className="text-sm font-black text-green-600">$250</span>
+                    <div className="absolute -top-0.5 -right-0.5 bg-green-500 text-white text-sm font-bold px-4 py-0.5 rounded-full rotate-12">
                       ¡AHORA!
                     </div>
                   </div>
                 </div>
-                <div className="inline-block bg-red-500 text-white px-2 py-0.5 rounded-full font-bold text-xs">
+                <div className="inline-block bg-red-500 text-white px-4 py-0.5 rounded-full font-bold text-sm">
                   💸 ¡Ahorras $200 al año!
                 </div>
               </div>
 
               {/* Key benefits */}
-              <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded p-1 mb-1">
-                <h3 className="text-xs font-black text-gray-900 mb-0.5 text-center">
+              <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded p-2 mb-3">
+                <h3 className="text-sm font-black text-gray-900 mb-4 text-center">
                   ✅ Sin Preocupaciones hasta Abril 2027
                 </h3>
-                <div className="grid md:grid-cols-3 gap-1 text-center">
-                  <div className="bg-white p-1 rounded shadow-md">
-                    <p className="font-bold text-xs text-red-600">❌ Sin Mensualidades</p>
+                <div className="grid md:grid-cols-3 gap-2 text-center">
+                  <div className="bg-white p-2 rounded shadow-md">
+                    <p className="font-bold text-sm text-red-600">❌ Sin Mensualidades</p>
                   </div>
-                  <div className="bg-white p-1 rounded shadow-md">
-                    <p className="font-bold text-xs text-red-600">❌ Sin Cortes</p>
+                  <div className="bg-white p-2 rounded shadow-md">
+                    <p className="font-bold text-sm text-red-600">❌ Sin Cortes</p>
                   </div>
-                  <div className="bg-white p-1 rounded shadow-md">
-                    <p className="font-bold text-xs text-red-600">❌ Sin Recargos</p>
+                  <div className="bg-white p-2 rounded shadow-md">
+                    <p className="font-bold text-sm text-red-600">❌ Sin Recargos</p>
                   </div>
                 </div>
               </div>
 
               {/* Benefits grid */}
-              <div className="mb-1">
-                <h3 className="text-xs font-black text-gray-900 mb-0.5 text-center">
+              <div className="mb-3">
+                <h3 className="text-sm font-black text-gray-900 mb-4 text-center">
                   🎁 Beneficios Exclusivos Incluidos:
                 </h3>
-                <div className="grid md:grid-cols-2 gap-1">
-                  <div className="flex items-start gap-1 bg-gradient-to-r from-green-50 to-green-100 p-1 rounded-lg border border-green-300">
-                    <Star className="w-4 h-4 text-green-600 fill-green-600 flex-shrink-0 mt-0.5" />
+                <div className="grid md:grid-cols-2 gap-2">
+                  <div className="flex items-start gap-2 bg-gradient-to-r from-green-50 to-green-100 p-2 rounded-lg border border-green-300">
+                    <Star className="w-6 h-6 text-green-600 fill-green-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <p className="font-bold text-xs text-gray-900">📹 Cámaras de Seguridad</p>
-                      <p className="text-xs text-gray-600">Totalmente gratis</p>
+                      <p className="font-bold text-sm text-gray-900">📹 Cámaras de Seguridad</p>
+                      <p className="text-sm text-gray-600">Totalmente gratis</p>
                     </div>
                   </div>
-                  <div className="flex items-start gap-1 bg-gradient-to-r from-blue-50 to-blue-100 p-1 rounded-lg border border-blue-300">
-                    <Star className="w-4 h-4 text-blue-600 fill-blue-600 flex-shrink-0 mt-0.5" />
+                  <div className="flex items-start gap-2 bg-gradient-to-r from-blue-50 to-blue-100 p-2 rounded-lg border border-blue-300">
+                    <Star className="w-6 h-6 text-blue-600 fill-blue-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <p className="font-bold text-xs text-gray-900">🚚 Traslado Sin Costo</p>
-                      <p className="text-xs text-gray-600">Si te mudas, te seguimos</p>
+                      <p className="font-bold text-sm text-gray-900">🚚 Traslado Sin Costo</p>
+                      <p className="text-sm text-gray-600">Si te mudas, te seguimos</p>
                     </div>
                   </div>
-                  <div className="flex items-start gap-1 bg-gradient-to-r from-purple-50 to-purple-100 p-1 rounded-lg border border-purple-300">
-                    <Star className="w-4 h-4 text-purple-600 fill-purple-600 flex-shrink-0" />
+                  <div className="flex items-start gap-2 bg-gradient-to-r from-purple-50 to-purple-100 p-2 rounded-lg border border-purple-300">
+                    <Star className="w-6 h-6 text-purple-600 fill-purple-600 flex-shrink-0" />
                     <div>
-                      <p className="font-bold text-xs text-gray-900">🛠️ Soporte Técnico 24/7</p>
-                      <p className="text-xs text-gray-600">Asistencia cuando la necesites</p>
+                      <p className="font-bold text-sm text-gray-900">🛠️ Soporte Técnico 24/7</p>
+                      <p className="text-sm text-gray-600">Asistencia cuando la necesites</p>
                     </div>
                   </div>
-                  <div className="flex items-start gap-1 bg-gradient-to-r from-yellow-50 to-yellow-100 p-1 rounded-lg border border-yellow-300">
-                    <Star className="w-4 h-4 text-yellow-600 fill-yellow-600 flex-shrink-0" />
+                  <div className="flex items-start gap-2 bg-gradient-to-r from-yellow-50 to-yellow-100 p-2 rounded-lg border border-yellow-300">
+                    <Star className="w-6 h-6 text-yellow-600 fill-yellow-600 flex-shrink-0" />
                     <div>
-                      <p className="font-bold text-xs text-gray-900">🎁 Tarjeta de Regalo</p>
-                      <p className="text-xs text-gray-600">$150-$200 después de 25 días</p>
+                      <p className="font-bold text-sm text-gray-900">🎁 Tarjeta de Regalo</p>
+                      <p className="text-sm text-gray-600">$150-$200 después de 25 días</p>
                     </div>
                   </div>
-                  <div className="flex items-start gap-1 bg-gradient-to-r from-red-50 to-red-100 p-1 rounded-lg border border-red-300">
-                    <Star className="w-4 h-4 text-red-600 fill-red-600 flex-shrink-0" />
+                  <div className="flex items-start gap-2 bg-gradient-to-r from-red-50 to-red-100 p-2 rounded-lg border border-red-300">
+                    <Star className="w-6 h-6 text-red-600 fill-red-600 flex-shrink-0" />
                     <div>
-                      <p className="font-bold text-xs text-gray-900">📺 TV 58 Pulgadas</p>
-                      <p className="text-xs text-gray-600">Televisor gratis incluido</p>
+                      <p className="font-bold text-sm text-gray-900">📺 TV 58 Pulgadas</p>
+                      <p className="text-sm text-gray-600">Televisor gratis incluido</p>
                     </div>
                   </div>
-                  <div className="flex items-start gap-1 bg-gradient-to-r from-pink-50 to-pink-100 p-1 rounded-lg border border-pink-300">
-                    <Star className="w-4 h-4 text-pink-600 fill-pink-600 flex-shrink-0" />
+                  <div className="flex items-start gap-2 bg-gradient-to-r from-pink-50 to-pink-100 p-2 rounded-lg border border-pink-300">
+                    <Star className="w-6 h-6 text-pink-600 fill-pink-600 flex-shrink-0" />
                     <div>
-                      <p className="font-bold text-xs text-gray-900">🍿 Netflix & HBO Max</p>
-                      <p className="text-xs text-gray-600">Streaming premium incluido</p>
+                      <p className="font-bold text-sm text-gray-900">🍿 Netflix & HBO Max</p>
+                      <p className="text-sm text-gray-600">Streaming premium incluido</p>
                     </div>
                   </div>
                 </div>
               </div>
 
               {/* Payment summary */}
-              <div className="bg-gradient-to-r from-gray-800 to-gray-900 text-white rounded p-1 mb-1">
-                <h3 className="text-base font-black text-center mb-2 text-yellow-400">💰 Resumen de Pago</h3>
-                <div className="space-y-1.5 max-w-md mx-auto text-sm">
+              <div className="bg-gradient-to-r from-gray-800 to-gray-900 text-white rounded p-2 mb-3">
+                <h3 className="text-lg font-black text-center mb-4 text-yellow-400">💰 Resumen de Pago</h3>
+                <div className="space-y-1.5 max-w-md mx-auto text-base">
                   <div className="flex justify-between items-center pb-1 border-b border-gray-600">
-                    <span className="text-xs">Plan Anual Completo:</span>
-                    <span className="text-base font-bold text-green-400">$250</span>
+                    <span className="text-sm">Plan Anual Completo:</span>
+                    <span className="text-lg font-bold text-green-400">$250</span>
                   </div>
                   <div className="flex justify-between items-center pb-1 border-b border-gray-600">
-                    <span className="text-xs">Instalación (con descuento):</span>
-                    <span className="text-base font-bold text-green-400">$110</span>
+                    <span className="text-sm">Instalación (con descuento):</span>
+                    <span className="text-lg font-bold text-green-400">$110</span>
                   </div>
                   <div className="flex justify-between items-center pt-1.5 border-t-2 border-yellow-400">
-                    <span className="text-sm font-black">TOTAL ÚNICO:</span>
-                    <span className="text-xs font-black text-yellow-400">$360</span>
+                    <span className="text-base font-black">TOTAL ÚNICO:</span>
+                    <span className="text-sm font-black text-yellow-400">$360</span>
                   </div>
-                  <p className="text-center text-yellow-300 font-bold text-xs pt-1.5">
+                  <p className="text-center text-yellow-300 font-bold text-sm pt-1.5">
                     ✅ ¡Sin pagar nada más hasta Abril 2027!
                   </p>
                 </div>
@@ -1523,27 +1523,27 @@ export function Home() {
 
               {/* Important info badges */}
               <div className="space-y-1 mb-3">
-                <div className="bg-green-100 border-l-2 border-green-600 p-1.5 rounded text-xs">
-                  <p className="text-green-800 font-bold flex items-center gap-1">
-                    <span className="text-sm">✅</span>
+                <div className="bg-green-100 border-l-2 border-green-600 p-2.5 rounded text-sm">
+                  <p className="text-green-800 font-bold flex items-center gap-2">
+                    <span className="text-base">✅</span>
                     <span>¿Ya tienes servicio con nosotros? ¡Puedes aplicar a esta oferta después de la instalación!</span>
                   </p>
                 </div>
-                <div className="bg-blue-100 border-l-2 border-blue-600 p-1.5 rounded text-xs">
-                  <p className="text-blue-800 font-bold flex items-center gap-1">
-                    <span className="text-sm">💡</span>
+                <div className="bg-blue-100 border-l-2 border-blue-600 p-2.5 rounded text-sm">
+                  <p className="text-blue-800 font-bold flex items-center gap-2">
+                    <span className="text-base">💡</span>
                     <span>Clientes nuevos y existentes pueden beneficiarse de esta promoción especial</span>
                   </p>
                 </div>
-                <div className="bg-red-100 border-l-2 border-red-600 p-1.5 rounded text-xs">
-                  <p className="text-red-800 font-bold flex items-center gap-1">
-                    <span className="text-sm">⚠️</span>
+                <div className="bg-red-100 border-l-2 border-red-600 p-2.5 rounded text-sm">
+                  <p className="text-red-800 font-bold flex items-center gap-2">
+                    <span className="text-base">⚠️</span>
                     <span>Este plan especial es limitado y no siempre está disponible</span>
                   </p>
                 </div>
-                <div className="bg-orange-100 border-l-2 border-orange-600 p-1.5 rounded text-xs">
-                  <p className="text-orange-800 font-bold flex items-center gap-1">
-                    <span className="text-sm">⚠️</span>
+                <div className="bg-orange-100 border-l-2 border-orange-600 p-2.5 rounded text-sm">
+                  <p className="text-orange-800 font-bold flex items-center gap-2">
+                    <span className="text-base">⚠️</span>
                     <span>No está disponible para todos los clientes y puede cerrarse en cualquier momento</span>
                   </p>
                 </div>
@@ -1551,28 +1551,28 @@ export function Home() {
 
               {/* CTA Buttons */}
               <div className="space-y-0.5">
-                <p className="text-center text-xs font-bold text-gray-900 mb-0.5">
+                <p className="text-center text-sm font-bold text-gray-900 mb-4">
                   👉 Asegura este precio exclusivo
                 </p>
                 <a
                   href="https://wa.me/14256528120?text=🌟%20Hola%2C%20quiero%20información%20sobre%20el%20Plan%20Especial%20Anual%20de%20%24250%20(ahorro%20de%20%24200).%20¡No%20quiero%20perder%20esta%20oferta!"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white py-1 rounded font-black text-xs transition-all shadow-2xl transform hover:scale-105 flex items-center justify-center gap-1"
+                  className="w-full bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white py-4 rounded font-black text-sm transition-all shadow-2xl transform hover:scale-105 flex items-center justify-center gap-2"
                 >
-                  <MessageCircle className="w-3 h-3" />
+                  <MessageCircle className="w-7 h-7" />
                   🔥 WHATSAPP
                 </a>
               </div>
 
-              <p className="text-center text-gray-600 text-xs mt-0.5 font-semibold">
+              <p className="text-center text-gray-600 text-sm mt-0.5 font-semibold">
                 ⏰ Oferta puede terminar en cualquier momento
               </p>
             </div>
 
             {/* Urgency footer */}
             <div className="text-center">
-              <p className="text-white text-xs font-bold drop-shadow-lg">
+              <p className="text-white text-sm font-bold drop-shadow-lg">
                 ⚡ No dejes pasar esta oportunidad ⚡
               </p>
             </div>
@@ -1582,50 +1582,50 @@ export function Home() {
 
 
       {/* Real-Time Speed Panel */}
-      <section className="py-2 bg-gradient-to-r from-cyan-500 to-blue-600 dark:from-cyan-700 dark:to-blue-800">
-        <div className="container mx-auto px-1">
+      <section className="py-4 bg-gradient-to-r from-cyan-500 to-blue-600 dark:from-cyan-700 dark:to-blue-800">
+        <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="bg-white/10 dark:bg-white/5 backdrop-blur-lg rounded-lg p-2 border border-white/30">
-              <div className="text-center mb-1">
-                <h3 className="text-base font-bold text-white mb-0.5">
+              <div className="text-center mb-3">
+                <h3 className="text-lg font-bold text-white mb-4">
                   🚀 Velocidad Promedio en Tiempo Real
                 </h3>
-                <p className="text-blue-100 dark:text-blue-200 text-xs">
+                <p className="text-blue-100 dark:text-blue-200 text-sm">
                   Velocidad actual de nuestros clientes ahora mismo
                 </p>
               </div>
 
               <div className="grid md:grid-cols-3 gap-2">
                 <div className="bg-white dark:bg-gray-800 rounded p-2 shadow-xl text-center transform hover:scale-105 transition">
-                  <div className="text-xs mb-0.5">⚡</div>
-                  <p className="text-gray-600 dark:text-gray-300 text-xs mb-0.5">Velocidad Promedio</p>
-                  <p className="text-xs font-black text-blue-600 dark:text-blue-400">
+                  <div className="text-sm mb-4">⚡</div>
+                  <p className="text-gray-600 dark:text-gray-300 text-sm mb-4">Velocidad Promedio</p>
+                  <p className="text-sm font-black text-blue-600 dark:text-blue-400">
                     {Math.round(averageSpeed)}
                   </p>
-                  <p className="text-gray-500 dark:text-gray-400 text-xs">Mbps</p>
+                  <p className="text-gray-500 dark:text-gray-400 text-sm">Mbps</p>
                 </div>
 
                 <div className="bg-white dark:bg-gray-800 rounded p-2 shadow-xl text-center transform hover:scale-105 transition">
-                  <div className="text-xs mb-0.5">📊</div>
-                  <p className="text-gray-600 dark:text-gray-300 text-xs mb-0.5">Usuarios Activos</p>
-                  <p className="text-xs font-black text-green-600 dark:text-green-400">
+                  <div className="text-sm mb-4">📊</div>
+                  <p className="text-gray-600 dark:text-gray-300 text-sm mb-4">Usuarios Activos</p>
+                  <p className="text-sm font-black text-green-600 dark:text-green-400">
                     1,350
                   </p>
-                  <p className="text-gray-500 dark:text-gray-400 text-xs">En línea ahora</p>
+                  <p className="text-gray-500 dark:text-gray-400 text-sm">En línea ahora</p>
                 </div>
 
                 <div className="bg-white dark:bg-gray-800 rounded p-2 shadow-xl text-center transform hover:scale-105 transition">
-                  <div className="text-xs mb-0.5">⭐</div>
-                  <p className="text-gray-600 dark:text-gray-300 text-xs mb-0.5">Satisfacción</p>
-                  <p className="text-xs font-black text-yellow-600 dark:text-yellow-400">
+                  <div className="text-sm mb-4">⭐</div>
+                  <p className="text-gray-600 dark:text-gray-300 text-sm mb-4">Satisfacción</p>
+                  <p className="text-sm font-black text-yellow-600 dark:text-yellow-400">
                     98%
                   </p>
-                  <p className="text-gray-500 dark:text-gray-400 text-xs">Clientes felices</p>
+                  <p className="text-gray-500 dark:text-gray-400 text-sm">Clientes felices</p>
                 </div>
               </div>
 
-              <div className="mt-1 bg-white/20 dark:bg-white/10 rounded p-1">
-                <p className="text-center text-white text-xs">
+              <div className="mt-3 bg-white/20 dark:bg-white/10 rounded p-2">
+                <p className="text-center text-white text-sm">
                   🔄 Actualizado cada 5 segundos • {new Date().toLocaleTimeString('es-ES')}
                 </p>
               </div>
@@ -1636,77 +1636,77 @@ export function Home() {
 
 
       {/* About Us Section */}
-      <section className="py-2 bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-gray-800">
-        <div className="container mx-auto px-1">
+      <section className="py-4 bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-gray-800">
+        <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-1">
-              <span className="inline-block px-1 py-2 bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 rounded-full text-sm font-bold mb-0.5">
+            <div className="text-center mb-3">
+              <span className="inline-block px-4 py-4 bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 rounded-full text-base font-bold mb-4">
                 SOBRE NOSOTROS
               </span>
-              <h2 className="text-base md:text-base font-black text-gray-900 dark:text-white mb-0.5">¿Quiénes Somos?</h2>
-              <p className="text-gray-600 dark:text-gray-400 text-xs max-w-2xl mx-auto">
+              <h2 className="text-lg md:text-lg font-black text-gray-900 dark:text-white mb-4">¿Quiénes Somos?</h2>
+              <p className="text-gray-600 dark:text-gray-400 text-sm max-w-2xl mx-auto">
                 Tu socio de confianza en soluciones de conectividad
               </p>
             </div>
 
-            <div className="grid lg:grid-cols-2 gap-16 items-center mb-1">
+            <div className="grid lg:grid-cols-2 gap-16 items-center mb-3">
               <div className="space-y-1">
-                <div className="inline-flex items-center gap-0.5 bg-blue-50 dark:bg-blue-900/20 px-5 py-3 rounded-full">
+                <div className="inline-flex items-center gap-2 bg-blue-50 dark:bg-blue-900/20 px-5 py-3 rounded-full">
                   <Award className="w-6 h-6 text-blue-600 dark:text-blue-400" />
                   <span className="font-bold text-gray-900 dark:text-white">Proveedor Autorizado</span>
                 </div>
-                <p className="text-xs text-gray-700 dark:text-gray-300 leading-relaxed">
+                <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
                   <span className="font-bold text-blue-600 dark:text-blue-400">Intel Plus</span> es tu proveedor autorizado de servicios de internet
                   y televisión por cable. Trabajamos con las compañías más reconocidas del mercado para ofrecerte
                   las mejores opciones de conectividad.
                 </p>
-                <p className="text-xs text-gray-700 dark:text-gray-300 leading-relaxed">
+                <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
                   Como distribuidor oficial autorizado, te brindamos acceso a los servicios de internet de alta velocidad
                   y paquetes de televisión premium de proveedores líderes como <span className="font-semibold">AT&T</span>,
                   <span className="font-semibold"> Xfinity</span>, y otros operadores de primera línea.
                 </p>
-                <p className="text-xs text-gray-700 dark:text-gray-300 leading-relaxed">
+                <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
                   Nuestro compromiso es simplificar tu experiencia, ayudándote a encontrar el plan perfecto que se
                   ajuste a tus necesidades y presupuesto, con el respaldo de las mejores compañías del sector.
                 </p>
               </div>
 
-              <div className="bg-gradient-to-br from-blue-500 to-blue-700 dark:from-blue-600 dark:to-blue-900 p-1 rounded shadow-2xl">
-                <h3 className="text-sm font-black text-white mb-1">¿Por Qué Elegirnos?</h3>
+              <div className="bg-gradient-to-br from-blue-500 to-blue-700 dark:from-blue-600 dark:to-blue-900 p-2 rounded shadow-2xl">
+                <h3 className="text-base font-black text-white mb-3">¿Por Qué Elegirnos?</h3>
                 <div className="space-y-1">
-                  <div className="flex items-start gap-1">
+                  <div className="flex items-start gap-2">
                     <div className="bg-white/20 p-2 rounded-lg flex-shrink-0">
                       <CheckCircle className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h4 className="font-bold text-white text-xs mb-1">Proveedores de Confianza</h4>
+                      <h4 className="font-bold text-white text-sm mb-3">Proveedores de Confianza</h4>
                       <p className="text-blue-100">Trabajamos solo con las compañías más reconocidas del mercado</p>
                     </div>
                   </div>
-                  <div className="flex items-start gap-1">
+                  <div className="flex items-start gap-2">
                     <div className="bg-white/20 p-2 rounded-lg flex-shrink-0">
                       <CheckCircle className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h4 className="font-bold text-white text-xs mb-1">Asesoría Personalizada</h4>
+                      <h4 className="font-bold text-white text-sm mb-3">Asesoría Personalizada</h4>
                       <p className="text-blue-100">Te ayudamos a encontrar el plan ideal para ti</p>
                     </div>
                   </div>
-                  <div className="flex items-start gap-1">
+                  <div className="flex items-start gap-2">
                     <div className="bg-white/20 p-2 rounded-lg flex-shrink-0">
                       <CheckCircle className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h4 className="font-bold text-white text-xs mb-1">Mejores Ofertas</h4>
+                      <h4 className="font-bold text-white text-sm mb-3">Mejores Ofertas</h4>
                       <p className="text-blue-100">Acceso a promociones exclusivas y mejores precios</p>
                     </div>
                   </div>
-                  <div className="flex items-start gap-1">
+                  <div className="flex items-start gap-2">
                     <div className="bg-white/20 p-2 rounded-lg flex-shrink-0">
                       <CheckCircle className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h4 className="font-bold text-white text-xs mb-1">Soporte Dedicado</h4>
+                      <h4 className="font-bold text-white text-sm mb-3">Soporte Dedicado</h4>
                       <p className="text-blue-100">Atención personalizada antes, durante y después de la instalación</p>
                     </div>
                   </div>
@@ -1715,35 +1715,35 @@ export function Home() {
             </div>
 
             {/* Partner Logos Section */}
-            <div className="bg-gradient-to-br from-gray-50 to-white dark:from-gray-800 dark:to-gray-800/50 border border-gray-200 dark:border-gray-700 py-2 px-10 rounded shadow-xl">
-              <div className="text-center mb-1">
-                <p className="text-xs font-bold text-gray-400 dark:text-gray-500 uppercase tracking-widest mb-2">Partners</p>
-                <h3 className="text-xs font-black text-gray-900 dark:text-white">Proveedor Autorizado</h3>
+            <div className="bg-gradient-to-br from-gray-50 to-white dark:from-gray-800 dark:to-gray-800/50 border border-gray-200 dark:border-gray-700 py-4 px-10 rounded shadow-xl">
+              <div className="text-center mb-3">
+                <p className="text-sm font-bold text-gray-400 dark:text-gray-500 uppercase tracking-widest mb-4">Partners</p>
+                <h3 className="text-sm font-black text-gray-900 dark:text-white">Proveedor Autorizado</h3>
               </div>
-              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-1 max-w-5xl mx-auto">
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2 max-w-5xl mx-auto">
                 <div className="flex items-center justify-center">
                   <div className="bg-white dark:bg-gray-900 w-full h-4 rounded hover:shadow-2xl transition-all transform hover:scale-105 border border-blue-100 dark:border-blue-900 hover:border-blue-300 dark:hover:border-blue-700 flex items-center justify-center group">
-                    <p className="text-xs font-black text-blue-600 dark:text-blue-400 group-hover:scale-110 transition-transform">AT&T</p>
+                    <p className="text-sm font-black text-blue-600 dark:text-blue-400 group-hover:scale-110 transition-transform">AT&T</p>
                   </div>
                 </div>
                 <div className="flex items-center justify-center">
                   <div className="bg-white dark:bg-gray-900 w-full h-4 rounded hover:shadow-2xl transition-all transform hover:scale-105 border border-purple-100 dark:border-purple-900 hover:border-purple-300 dark:hover:border-purple-700 flex items-center justify-center group">
-                    <p className="text-xs font-black text-purple-600 dark:text-purple-400 group-hover:scale-110 transition-transform">Xfinity</p>
+                    <p className="text-sm font-black text-purple-600 dark:text-purple-400 group-hover:scale-110 transition-transform">Xfinity</p>
                   </div>
                 </div>
                 <div className="flex items-center justify-center">
                   <div className="bg-white dark:bg-gray-900 w-full h-4 rounded hover:shadow-2xl transition-all transform hover:scale-105 border border-pink-100 dark:border-pink-900 hover:border-pink-300 dark:hover:border-pink-700 flex items-center justify-center group">
-                    <p className="text-xs font-black text-pink-600 dark:text-pink-400 group-hover:scale-110 transition-transform">T-Mobile</p>
+                    <p className="text-sm font-black text-pink-600 dark:text-pink-400 group-hover:scale-110 transition-transform">T-Mobile</p>
                   </div>
                 </div>
                 <div className="flex items-center justify-center">
                   <div className="bg-white dark:bg-gray-900 w-full h-4 rounded hover:shadow-2xl transition-all transform hover:scale-105 border border-indigo-100 dark:border-indigo-900 hover:border-indigo-300 dark:hover:border-indigo-700 flex items-center justify-center group">
-                    <p className="text-xs font-black text-indigo-700 dark:text-indigo-400 group-hover:scale-110 transition-transform">Spectrum</p>
+                    <p className="text-sm font-black text-indigo-700 dark:text-indigo-400 group-hover:scale-110 transition-transform">Spectrum</p>
                   </div>
                 </div>
                 <div className="flex items-center justify-center">
                   <div className="bg-white dark:bg-gray-900 w-full h-4 rounded hover:shadow-2xl transition-all transform hover:scale-105 border border-gray-200 dark:border-gray-700 hover:border-gray-300 dark:hover:border-gray-600 flex items-center justify-center group">
-                    <p className="text-base font-bold text-gray-600 dark:text-gray-300 group-hover:scale-110 transition-transform">+ Más</p>
+                    <p className="text-lg font-bold text-gray-600 dark:text-gray-300 group-hover:scale-110 transition-transform">+ Más</p>
                   </div>
                 </div>
               </div>
@@ -1754,75 +1754,75 @@ export function Home() {
 
 
       {/* Testimonials Section */}
-      <section className="py-2 bg-white dark:bg-gray-900">
-        <div className="container mx-auto px-1">
-          <div className="text-center mb-1">
-            <span className="inline-block px-1 py-2 bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 rounded-full text-sm font-bold mb-0.5">
+      <section className="py-4 bg-white dark:bg-gray-900">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-3">
+            <span className="inline-block px-4 py-4 bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 rounded-full text-base font-bold mb-4">
               TESTIMONIOS
             </span>
-            <h2 className="text-base md:text-base font-black text-gray-900 dark:text-white mb-0.5">Lo Que Dicen Nuestros Clientes</h2>
-            <p className="text-gray-600 dark:text-gray-400 text-xs max-w-2xl mx-auto">
+            <h2 className="text-lg md:text-lg font-black text-gray-900 dark:text-white mb-4">Lo Que Dicen Nuestros Clientes</h2>
+            <p className="text-gray-600 dark:text-gray-400 text-sm max-w-2xl mx-auto">
               Historias reales de personas que confiaron en nosotros
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-1 max-w-6xl mx-auto">
-            <div className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-gray-800 dark:to-gray-700 p-1 rounded shadow-lg hover:shadow-2xl transition-all transform hover:scale-105">
-              <div className="flex gap-1 mb-0.5">
+          <div className="grid md:grid-cols-3 gap-2 max-w-6xl mx-auto">
+            <div className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-gray-800 dark:to-gray-700 p-2 rounded shadow-lg hover:shadow-2xl transition-all transform hover:scale-105">
+              <div className="flex gap-2 mb-4">
                 {[1,2,3,4,5].map((star) => (
-                  <Star key={star} className="w-5 h-5 text-yellow-400 fill-yellow-400" />
+                  <Star key={star} className="w-7 h-7 text-yellow-400 fill-yellow-400" />
                 ))}
               </div>
-              <p className="text-gray-700 dark:text-gray-200 mb-1 italic">
+              <p className="text-gray-700 dark:text-gray-200 mb-3 italic">
                 "Excelente servicio! La instalación fue rápida y el internet es súper rápido. El técnico fue muy profesional y me explicó todo claramente."
               </p>
-              <div className="flex items-center gap-0.5">
-                <div className="w-4 h-4 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-xs">
+              <div className="flex items-center gap-2">
+                <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-sm">
                   M
                 </div>
                 <div>
                   <p className="font-bold text-gray-900 dark:text-white">María González</p>
-                  <p className="text-sm text-gray-600 dark:text-gray-400">Seattle, WA</p>
+                  <p className="text-base text-gray-600 dark:text-gray-400">Seattle, WA</p>
                 </div>
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-purple-50 to-purple-100 dark:from-gray-800 dark:to-gray-700 p-1 rounded shadow-lg hover:shadow-2xl transition-all transform hover:scale-105">
-              <div className="flex gap-1 mb-0.5">
+            <div className="bg-gradient-to-br from-purple-50 to-purple-100 dark:from-gray-800 dark:to-gray-700 p-2 rounded shadow-lg hover:shadow-2xl transition-all transform hover:scale-105">
+              <div className="flex gap-2 mb-4">
                 {[1,2,3,4,5].map((star) => (
-                  <Star key={star} className="w-5 h-5 text-yellow-400 fill-yellow-400" />
+                  <Star key={star} className="w-7 h-7 text-yellow-400 fill-yellow-400" />
                 ))}
               </div>
-              <p className="text-gray-700 dark:text-gray-200 mb-1 italic">
+              <p className="text-gray-700 dark:text-gray-200 mb-3 italic">
                 "Mejor precio que cualquier otra compañía. Los canales de TV son increíbles y el internet nunca falla. 100% recomendado!"
               </p>
-              <div className="flex items-center gap-0.5">
-                <div className="w-4 h-4 bg-purple-600 rounded-full flex items-center justify-center text-white font-bold text-xs">
+              <div className="flex items-center gap-2">
+                <div className="w-6 h-6 bg-purple-600 rounded-full flex items-center justify-center text-white font-bold text-sm">
                   C
                 </div>
                 <div>
                   <p className="font-bold text-gray-900 dark:text-white">Carlos Ramirez</p>
-                  <p className="text-sm text-gray-600 dark:text-gray-400">Tacoma, WA</p>
+                  <p className="text-base text-gray-600 dark:text-gray-400">Tacoma, WA</p>
                 </div>
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-pink-50 to-pink-100 dark:from-gray-800 dark:to-gray-700 p-1 rounded shadow-lg hover:shadow-2xl transition-all transform hover:scale-105">
-              <div className="flex gap-1 mb-0.5">
+            <div className="bg-gradient-to-br from-pink-50 to-pink-100 dark:from-gray-800 dark:to-gray-700 p-2 rounded shadow-lg hover:shadow-2xl transition-all transform hover:scale-105">
+              <div className="flex gap-2 mb-4">
                 {[1,2,3,4,5].map((star) => (
-                  <Star key={star} className="w-5 h-5 text-yellow-400 fill-yellow-400" />
+                  <Star key={star} className="w-7 h-7 text-yellow-400 fill-yellow-400" />
                 ))}
               </div>
-              <p className="text-gray-700 dark:text-gray-200 mb-1 italic">
+              <p className="text-gray-700 dark:text-gray-200 mb-3 italic">
                 "Atención al cliente de primera. Siempre responden rápido y resuelven cualquier duda. El servicio funciona perfecto desde el día uno."
               </p>
-              <div className="flex items-center gap-0.5">
-                <div className="w-4 h-4 bg-pink-600 rounded-full flex items-center justify-center text-white font-bold text-xs">
+              <div className="flex items-center gap-2">
+                <div className="w-6 h-6 bg-pink-600 rounded-full flex items-center justify-center text-white font-bold text-sm">
                   A
                 </div>
                 <div>
                   <p className="font-bold text-gray-900 dark:text-white">Ana Martínez</p>
-                  <p className="text-sm text-gray-600 dark:text-gray-400">Bellevue, WA</p>
+                  <p className="text-base text-gray-600 dark:text-gray-400">Bellevue, WA</p>
                 </div>
               </div>
             </div>
@@ -1835,13 +1835,13 @@ export function Home() {
       <section id="trabajos" className="py-14 bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-gray-800">
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
-            <span className="inline-block px-4 py-2 bg-orange-100 dark:bg-orange-900/30 text-orange-600 dark:text-orange-400 rounded-full text-sm font-bold mb-4">
+            <span className="inline-block px-4 py-4 bg-orange-100 dark:bg-orange-900/30 text-orange-600 dark:text-orange-400 rounded-full text-base font-bold mb-4">
               PORTAFOLIO
             </span>
             <h2 className="text-4xl md:text-4xl font-black text-gray-900 dark:text-white mb-4">
               Nuestro Trabajo en Acción
             </h2>
-            <p className="text-lg text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
               Instalaciones profesionales con equipos de última generación de los proveedores líderes
             </p>
           </div>
@@ -1866,8 +1866,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">AT&T Fiber Internet</p>
-                      <p className="text-sm text-gray-200">Equipos de última generación</p>
+                      <p className="font-bold text-xl">AT&T Fiber Internet</p>
+                      <p className="text-base text-gray-200">Equipos de última generación</p>
                     </div>
                   </div>
                 </div>
@@ -1881,8 +1881,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">T-Mobile Home Internet</p>
-                      <p className="text-sm text-gray-200">Equipos nuevos sellados</p>
+                      <p className="font-bold text-xl">T-Mobile Home Internet</p>
+                      <p className="text-base text-gray-200">Equipos nuevos sellados</p>
                     </div>
                   </div>
                 </div>
@@ -1896,8 +1896,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">Equipos Activados</p>
-                      <p className="text-sm text-gray-200">Listos para usar</p>
+                      <p className="font-bold text-xl">Equipos Activados</p>
+                      <p className="text-base text-gray-200">Listos para usar</p>
                     </div>
                   </div>
                 </div>
@@ -1911,8 +1911,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">5G Gateway</p>
-                      <p className="text-sm text-gray-200">Tecnología de punta</p>
+                      <p className="font-bold text-xl">5G Gateway</p>
+                      <p className="text-base text-gray-200">Tecnología de punta</p>
                     </div>
                   </div>
                 </div>
@@ -1926,8 +1926,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">Configuración Completa</p>
-                      <p className="text-sm text-gray-200">Todo listo para conectar</p>
+                      <p className="font-bold text-xl">Configuración Completa</p>
+                      <p className="text-base text-gray-200">Todo listo para conectar</p>
                     </div>
                   </div>
                 </div>
@@ -1941,8 +1941,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">T-Mobile Gateway Activando</p>
-                      <p className="text-sm text-gray-200">Proceso de conexión inicial</p>
+                      <p className="font-bold text-xl">T-Mobile Gateway Activando</p>
+                      <p className="text-base text-gray-200">Proceso de conexión inicial</p>
                     </div>
                   </div>
                 </div>
@@ -1956,8 +1956,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">Gateway Instalado</p>
-                      <p className="text-sm text-gray-200">Ubicación óptima para señal</p>
+                      <p className="font-bold text-xl">Gateway Instalado</p>
+                      <p className="text-base text-gray-200">Ubicación óptima para señal</p>
                     </div>
                   </div>
                 </div>
@@ -1971,8 +1971,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">Conexiones del Router</p>
-                      <p className="text-sm text-gray-200">Puertos y especificaciones</p>
+                      <p className="font-bold text-xl">Conexiones del Router</p>
+                      <p className="text-base text-gray-200">Puertos y especificaciones</p>
                     </div>
                   </div>
                 </div>
@@ -1986,8 +1986,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">Sistema Iniciando</p>
-                      <p className="text-sm text-gray-200">Configuración automática</p>
+                      <p className="font-bold text-xl">Sistema Iniciando</p>
+                      <p className="text-base text-gray-200">Configuración automática</p>
                     </div>
                   </div>
                 </div>
@@ -2001,8 +2001,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">Detalles Técnicos</p>
-                      <p className="text-sm text-gray-200">Información del modelo y potencia</p>
+                      <p className="font-bold text-xl">Detalles Técnicos</p>
+                      <p className="text-base text-gray-200">Información del modelo y potencia</p>
                     </div>
                   </div>
                 </div>
@@ -2016,8 +2016,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">All-Fi Hub Activo</p>
-                      <p className="text-sm text-gray-200">Señal óptima garantizada</p>
+                      <p className="font-bold text-xl">All-Fi Hub Activo</p>
+                      <p className="text-base text-gray-200">Señal óptima garantizada</p>
                     </div>
                   </div>
                 </div>
@@ -2031,8 +2031,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">Equipo Configurado</p>
-                      <p className="text-sm text-gray-200">Conexión estable activa</p>
+                      <p className="font-bold text-xl">Equipo Configurado</p>
+                      <p className="text-base text-gray-200">Conexión estable activa</p>
                     </div>
                   </div>
                 </div>
@@ -2046,8 +2046,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">AT&T Air-Fi Hub</p>
-                      <p className="text-sm text-gray-200">Equipos nuevos listos para instalar</p>
+                      <p className="font-bold text-xl">AT&T Air-Fi Hub</p>
+                      <p className="text-base text-gray-200">Equipos nuevos listos para instalar</p>
                     </div>
                   </div>
                 </div>
@@ -2061,8 +2061,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">Air-Fi Hub Conectado</p>
-                      <p className="text-sm text-gray-200">Luces verdes indicando conexión activa</p>
+                      <p className="font-bold text-xl">Air-Fi Hub Conectado</p>
+                      <p className="text-base text-gray-200">Luces verdes indicando conexión activa</p>
                     </div>
                   </div>
                 </div>
@@ -2076,8 +2076,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">Hub con Adaptador</p>
-                      <p className="text-sm text-gray-200">Configuración completa de conexión</p>
+                      <p className="font-bold text-xl">Hub con Adaptador</p>
+                      <p className="text-base text-gray-200">Configuración completa de conexión</p>
                     </div>
                   </div>
                 </div>
@@ -2091,8 +2091,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">Equipos Conectados</p>
-                      <p className="text-sm text-gray-200">Modem y router configurados</p>
+                      <p className="font-bold text-xl">Equipos Conectados</p>
+                      <p className="text-base text-gray-200">Modem y router configurados</p>
                     </div>
                   </div>
                 </div>
@@ -2117,8 +2117,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">Técnicos Certificados</p>
-                      <p className="text-sm text-gray-200">Equipos de seguridad y profesionalismo</p>
+                      <p className="font-bold text-xl">Técnicos Certificados</p>
+                      <p className="text-base text-gray-200">Equipos de seguridad y profesionalismo</p>
                     </div>
                   </div>
                 </div>
@@ -2132,8 +2132,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">Instalación AT&T</p>
-                      <p className="text-sm text-gray-200">Técnico autorizado en acción</p>
+                      <p className="font-bold text-xl">Instalación AT&T</p>
+                      <p className="text-base text-gray-200">Técnico autorizado en acción</p>
                     </div>
                   </div>
                 </div>
@@ -2147,8 +2147,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">Instalación de TV</p>
-                      <p className="text-sm text-gray-200">Técnicos certificados</p>
+                      <p className="font-bold text-xl">Instalación de TV</p>
+                      <p className="text-base text-gray-200">Técnicos certificados</p>
                     </div>
                   </div>
                 </div>
@@ -2162,8 +2162,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">Instalación Exterior</p>
-                      <p className="text-sm text-gray-200">Trabajo profesional garantizado</p>
+                      <p className="font-bold text-xl">Instalación Exterior</p>
+                      <p className="text-base text-gray-200">Trabajo profesional garantizado</p>
                     </div>
                   </div>
                 </div>
@@ -2177,8 +2177,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">Cableado Profesional</p>
-                      <p className="text-sm text-gray-200">Instalación interna limpia</p>
+                      <p className="font-bold text-xl">Cableado Profesional</p>
+                      <p className="text-base text-gray-200">Instalación interna limpia</p>
                     </div>
                   </div>
                 </div>
@@ -2192,8 +2192,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">Configuración de Servicios</p>
-                      <p className="text-sm text-gray-200">Pruebas de calidad y velocidad</p>
+                      <p className="font-bold text-xl">Configuración de Servicios</p>
+                      <p className="text-base text-gray-200">Pruebas de calidad y velocidad</p>
                     </div>
                   </div>
                 </div>
@@ -2207,8 +2207,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">Instalación Completa</p>
-                      <p className="text-sm text-gray-200">Cableado estructurado profesional</p>
+                      <p className="font-bold text-xl">Instalación Completa</p>
+                      <p className="text-base text-gray-200">Cableado estructurado profesional</p>
                     </div>
                   </div>
                 </div>
@@ -2222,8 +2222,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">Instalación con Seguridad</p>
-                      <p className="text-sm text-gray-200">Protección y profesionalismo</p>
+                      <p className="font-bold text-xl">Instalación con Seguridad</p>
+                      <p className="text-base text-gray-200">Protección y profesionalismo</p>
                     </div>
                   </div>
                 </div>
@@ -2237,8 +2237,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">Montaje de TV</p>
-                      <p className="text-sm text-gray-200">Instalación en dormitorios</p>
+                      <p className="font-bold text-xl">Montaje de TV</p>
+                      <p className="text-base text-gray-200">Instalación en dormitorios</p>
                     </div>
                   </div>
                 </div>
@@ -2252,8 +2252,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">Equipo Completo</p>
-                      <p className="text-sm text-gray-200">Instalación de TV en pared</p>
+                      <p className="font-bold text-xl">Equipo Completo</p>
+                      <p className="text-base text-gray-200">Instalación de TV en pared</p>
                     </div>
                   </div>
                 </div>
@@ -2267,8 +2267,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">Actualización de Software</p>
-                      <p className="text-sm text-gray-200">Configuración final del sistema</p>
+                      <p className="font-bold text-xl">Actualización de Software</p>
+                      <p className="text-base text-gray-200">Configuración final del sistema</p>
                     </div>
                   </div>
                 </div>
@@ -2293,8 +2293,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">TV Instalada y Funcionando</p>
-                      <p className="text-sm text-gray-200">Servicio completo activado</p>
+                      <p className="font-bold text-xl">TV Instalada y Funcionando</p>
+                      <p className="text-base text-gray-200">Servicio completo activado</p>
                     </div>
                   </div>
                 </div>
@@ -2308,8 +2308,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">Instalación Lista</p>
-                      <p className="text-sm text-gray-200">Cliente satisfecho, servicio activado</p>
+                      <p className="font-bold text-xl">Instalación Lista</p>
+                      <p className="text-base text-gray-200">Cliente satisfecho, servicio activado</p>
                     </div>
                   </div>
                 </div>
@@ -2323,8 +2323,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">Prueba de Señal Satelital</p>
-                      <p className="text-sm text-gray-200">Verificación de todos los canales</p>
+                      <p className="font-bold text-xl">Prueba de Señal Satelital</p>
+                      <p className="text-base text-gray-200">Verificación de todos los canales</p>
                     </div>
                   </div>
                 </div>
@@ -2338,8 +2338,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">Sistema Hopper Activando</p>
-                      <p className="text-sm text-gray-200">DVR y TV por cable listos</p>
+                      <p className="font-bold text-xl">Sistema Hopper Activando</p>
+                      <p className="text-base text-gray-200">DVR y TV por cable listos</p>
                     </div>
                   </div>
                 </div>
@@ -2364,8 +2364,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">Instalación Satelital</p>
-                      <p className="text-sm text-gray-200">Trabajo en altura certificado</p>
+                      <p className="font-bold text-xl">Instalación Satelital</p>
+                      <p className="text-base text-gray-200">Trabajo en altura certificado</p>
                     </div>
                   </div>
                 </div>
@@ -2379,8 +2379,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">Instalación en Techo</p>
-                      <p className="text-sm text-gray-200">Antena satelital HD instalada</p>
+                      <p className="font-bold text-xl">Instalación en Techo</p>
+                      <p className="text-base text-gray-200">Antena satelital HD instalada</p>
                     </div>
                   </div>
                 </div>
@@ -2394,8 +2394,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">Instalación de Antena Satelital</p>
-                      <p className="text-sm text-gray-200">Técnico Dish en trabajo exterior</p>
+                      <p className="font-bold text-xl">Instalación de Antena Satelital</p>
+                      <p className="text-base text-gray-200">Técnico Dish en trabajo exterior</p>
                     </div>
                   </div>
                 </div>
@@ -2420,8 +2420,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">Instalación Profesional</p>
-                      <p className="text-sm text-gray-200">Servicio certificado Dish</p>
+                      <p className="font-bold text-xl">Instalación Profesional</p>
+                      <p className="text-base text-gray-200">Servicio certificado Dish</p>
                     </div>
                   </div>
                 </div>
@@ -2435,8 +2435,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">Servicio Dish Profesional</p>
-                      <p className="text-sm text-gray-200">Equipos certificados en sitio</p>
+                      <p className="font-bold text-xl">Servicio Dish Profesional</p>
+                      <p className="text-base text-gray-200">Equipos certificados en sitio</p>
                     </div>
                   </div>
                 </div>
@@ -2450,8 +2450,8 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                      <p className="font-bold text-lg">Flota de Servicio Dish</p>
-                      <p className="text-sm text-gray-200">Equipos profesionales listos</p>
+                      <p className="font-bold text-xl">Flota de Servicio Dish</p>
+                      <p className="text-base text-gray-200">Equipos profesionales listos</p>
                     </div>
                   </div>
                 </div>
@@ -2464,19 +2464,19 @@ export function Home() {
           {/* Stats/Features */}
           <div className="grid md:grid-cols-4 gap-6 max-w-5xl mx-auto">
             <div className="bg-blue-50 p-6 rounded-xl text-center border-2 border-blue-200">
-              <div className="text-4xl font-black text-blue-600 mb-2">100%</div>
+              <div className="text-4xl font-black text-blue-600 mb-4">100%</div>
               <p className="text-gray-700 font-semibold">Instalaciones Exitosas</p>
             </div>
             <div className="bg-green-50 p-6 rounded-xl text-center border-2 border-green-200">
-              <div className="text-4xl font-black text-green-600 mb-2">24/7</div>
+              <div className="text-4xl font-black text-green-600 mb-4">24/7</div>
               <p className="text-gray-700 font-semibold">Soporte Técnico</p>
             </div>
             <div className="bg-purple-50 p-6 rounded-xl text-center border-2 border-purple-200">
-              <div className="text-4xl font-black text-purple-600 mb-2">5⭐</div>
+              <div className="text-4xl font-black text-purple-600 mb-4">5⭐</div>
               <p className="text-gray-700 font-semibold">Calificación Clientes</p>
             </div>
             <div className="bg-orange-50 p-6 rounded-xl text-center border-2 border-orange-200">
-              <div className="text-4xl font-black text-orange-600 mb-2">+50K</div>
+              <div className="text-4xl font-black text-orange-600 mb-4">+50K</div>
               <p className="text-gray-700 font-semibold">Clientes Satisfechos</p>
             </div>
           </div>
@@ -2491,14 +2491,14 @@ export function Home() {
                 href="https://wa.me/14256528120?text=Hola%2C%20vi%20su%20trabajo%20y%20quiero%20una%20instalación%20profesional%20con%20Intel%20Plus"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-xl font-bold text-lg transition-all shadow-lg inline-flex items-center justify-center gap-2"
+                className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-xl font-bold text-xl transition-all shadow-lg inline-flex items-center justify-center gap-2"
               >
                 <MessageCircle className="w-6 h-6" />
                 Solicitar Instalación
               </a>
               <a
                 href="#planes"
-                className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl font-bold text-lg transition-all shadow-lg inline-flex items-center justify-center gap-2"
+                className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl font-bold text-xl transition-all shadow-lg inline-flex items-center justify-center gap-2"
               >
                 Ver Planes Disponibles
               </a>
@@ -2509,77 +2509,77 @@ export function Home() {
 
 
       {/* Payment Methods Section */}
-      <section id="metodos-pago" className="py-2 bg-gradient-to-br from-green-50 to-blue-50 dark:from-gray-900 dark:to-gray-800">
-        <div className="container mx-auto px-1">
+      <section id="metodos-pago" className="py-4 bg-gradient-to-br from-green-50 to-blue-50 dark:from-gray-900 dark:to-gray-800">
+        <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             {/* Header */}
-            <div className="text-center mb-1">
-              <h2 className="text-base md:text-base font-black text-gray-900 mb-0.5">
+            <div className="text-center mb-3">
+              <h2 className="text-lg md:text-lg font-black text-gray-900 mb-4">
                 💳 Métodos de Pago Fáciles y Seguros
               </h2>
-              <p className="text-xs text-gray-700 max-w-3xl mx-auto">
+              <p className="text-sm text-gray-700 max-w-3xl mx-auto">
                 Paga tu servicio de manera conveniente en miles de tiendas cerca de ti
               </p>
               <div className="w-8 h-1 bg-green-600 mx-auto mt-6"></div>
             </div>
 
             {/* Payment Methods Tabs */}
-            <div className="bg-white rounded shadow-2xl p-1 mb-1 border border-green-300">
-              <h3 className="text-sm font-bold text-gray-900 mb-1 text-center">
+            <div className="bg-white rounded shadow-2xl p-2 mb-3 border border-green-300">
+              <h3 className="text-base font-bold text-gray-900 mb-3 text-center">
                 Elige Tu Método de Pago Preferido
               </h3>
 
-              <div className="grid md:grid-cols-2 gap-1">
+              <div className="grid md:grid-cols-2 gap-2">
                 {/* Method 1: Barcode */}
-                <div className="bg-gradient-to-br from-green-50 to-green-100 rounded p-1 border border-green-400">
-                  <div className="flex items-center gap-0.5 mb-0.5">
-                    <span className="bg-green-600 text-white w-4 h-4 rounded-full flex items-center justify-center text-xs font-bold">1</span>
-                    <h4 className="text-xs font-bold text-gray-900">Pago con Código de Barras</h4>
+                <div className="bg-gradient-to-br from-green-50 to-green-100 rounded p-2 border border-green-400">
+                  <div className="flex items-center gap-2 mb-4">
+                    <span className="bg-green-600 text-white w-6 h-6 rounded-full flex items-center justify-center text-sm font-bold">1</span>
+                    <h4 className="text-sm font-bold text-gray-900">Pago con Código de Barras</h4>
                   </div>
 
                   <div className="space-y-0.5">
-                    <div className="flex items-start gap-0.5">
-                      <div className="bg-green-600 rounded-full p-1 mt-1">
-                        <CheckCircle className="w-5 h-5 text-white" />
+                    <div className="flex items-start gap-2">
+                      <div className="bg-green-600 rounded-full p-2 mt-3">
+                        <CheckCircle className="w-7 h-7 text-white" />
                       </div>
                       <div>
                         <h5 className="font-bold text-gray-900">Paso 1: Solicita tu código</h5>
-                        <p className="text-gray-700 text-sm">Contáctanos y te enviaremos tu código de barras personal</p>
+                        <p className="text-gray-700 text-base">Contáctanos y te enviaremos tu código de barras personal</p>
                       </div>
                     </div>
 
-                    <div className="flex items-start gap-0.5">
-                      <div className="bg-green-600 rounded-full p-1 mt-1">
-                        <CheckCircle className="w-5 h-5 text-white" />
+                    <div className="flex items-start gap-2">
+                      <div className="bg-green-600 rounded-full p-2 mt-3">
+                        <CheckCircle className="w-7 h-7 text-white" />
                       </div>
                       <div>
                         <h5 className="font-bold text-gray-900">Paso 2: Elige una tienda</h5>
-                        <p className="text-gray-700 text-sm">Ve a cualquier tienda de la lista con tu código</p>
+                        <p className="text-gray-700 text-base">Ve a cualquier tienda de la lista con tu código</p>
                       </div>
                     </div>
 
-                    <div className="flex items-start gap-0.5">
-                      <div className="bg-green-600 rounded-full p-1 mt-1">
-                        <CheckCircle className="w-5 h-5 text-white" />
+                    <div className="flex items-start gap-2">
+                      <div className="bg-green-600 rounded-full p-2 mt-3">
+                        <CheckCircle className="w-7 h-7 text-white" />
                       </div>
                       <div>
                         <h5 className="font-bold text-gray-900">Paso 3: Paga en efectivo</h5>
-                        <p className="text-gray-700 text-sm">Muestra el código al cajero y realiza tu pago</p>
+                        <p className="text-gray-700 text-base">Muestra el código al cajero y realiza tu pago</p>
                       </div>
                     </div>
 
-                    <div className="flex items-start gap-0.5">
-                      <div className="bg-green-600 rounded-full p-1 mt-1">
-                        <CheckCircle className="w-5 h-5 text-white" />
+                    <div className="flex items-start gap-2">
+                      <div className="bg-green-600 rounded-full p-2 mt-3">
+                        <CheckCircle className="w-7 h-7 text-white" />
                       </div>
                       <div>
                         <h5 className="font-bold text-gray-900">Paso 4: ¡Confirmación!</h5>
-                        <p className="text-gray-700 text-sm">Pago procesado automáticamente</p>
+                        <p className="text-gray-700 text-base">Pago procesado automáticamente</p>
                       </div>
                     </div>
                   </div>
 
-                  <div className="mt-6 bg-white rounded-lg p-1 border border-green-300">
+                  <div className="mt-6 bg-white rounded-lg p-2 border border-green-300">
                     <p className="text-green-800 font-bold text-center">
                       ✅ Rápido y automático
                     </p>
@@ -2587,55 +2587,55 @@ export function Home() {
                 </div>
 
                 {/* Method 2: MoneyPak */}
-                <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded p-1 border border-blue-400">
-                  <div className="flex items-center gap-0.5 mb-0.5">
-                    <span className="bg-blue-600 text-white w-4 h-4 rounded-full flex items-center justify-center text-xs font-bold">2</span>
-                    <h4 className="text-xs font-bold text-gray-900">Green Dot MoneyPak</h4>
+                <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded p-2 border border-blue-400">
+                  <div className="flex items-center gap-2 mb-4">
+                    <span className="bg-blue-600 text-white w-6 h-6 rounded-full flex items-center justify-center text-sm font-bold">2</span>
+                    <h4 className="text-sm font-bold text-gray-900">Green Dot MoneyPak</h4>
                   </div>
 
                   <div className="space-y-0.5">
-                    <div className="flex items-start gap-0.5">
-                      <div className="bg-blue-600 rounded-full p-1 mt-1">
-                        <CheckCircle className="w-5 h-5 text-white" />
+                    <div className="flex items-start gap-2">
+                      <div className="bg-blue-600 rounded-full p-2 mt-3">
+                        <CheckCircle className="w-7 h-7 text-white" />
                       </div>
                       <div>
                         <h5 className="font-bold text-gray-900">Paso 1: Ve a la tienda</h5>
-                        <p className="text-gray-700 text-sm">Busca en la sección de "Gift Cards / Prepaid"</p>
+                        <p className="text-gray-700 text-base">Busca en la sección de "Gift Cards / Prepaid"</p>
                       </div>
                     </div>
 
-                    <div className="flex items-start gap-0.5">
-                      <div className="bg-blue-600 rounded-full p-1 mt-1">
-                        <CheckCircle className="w-5 h-5 text-white" />
+                    <div className="flex items-start gap-2">
+                      <div className="bg-blue-600 rounded-full p-2 mt-3">
+                        <CheckCircle className="w-7 h-7 text-white" />
                       </div>
                       <div>
                         <h5 className="font-bold text-gray-900">Paso 2: Pide un MoneyPak</h5>
-                        <p className="text-gray-700 text-sm">Di: "Quiero comprar un Green Dot MoneyPak"</p>
+                        <p className="text-gray-700 text-base">Di: "Quiero comprar un Green Dot MoneyPak"</p>
                       </div>
                     </div>
 
-                    <div className="flex items-start gap-0.5">
-                      <div className="bg-blue-600 rounded-full p-1 mt-1">
-                        <CheckCircle className="w-5 h-5 text-white" />
+                    <div className="flex items-start gap-2">
+                      <div className="bg-blue-600 rounded-full p-2 mt-3">
+                        <CheckCircle className="w-7 h-7 text-white" />
                       </div>
                       <div>
                         <h5 className="font-bold text-gray-900">Paso 3: Carga el monto</h5>
-                        <p className="text-gray-700 text-sm">Elige cuánto cargar + $5.95 de tarifa</p>
+                        <p className="text-gray-700 text-base">Elige cuánto cargar + $5.95 de tarifa</p>
                       </div>
                     </div>
 
-                    <div className="flex items-start gap-0.5">
-                      <div className="bg-blue-600 rounded-full p-1 mt-1">
-                        <CheckCircle className="w-5 h-5 text-white" />
+                    <div className="flex items-start gap-2">
+                      <div className="bg-blue-600 rounded-full p-2 mt-3">
+                        <CheckCircle className="w-7 h-7 text-white" />
                       </div>
                       <div>
                         <h5 className="font-bold text-gray-900">Paso 4: Envíanos fotos</h5>
-                        <p className="text-gray-700 text-sm">Tarjeta y recibo para configurar tu pago</p>
+                        <p className="text-gray-700 text-base">Tarjeta y recibo para configurar tu pago</p>
                       </div>
                     </div>
                   </div>
 
-                  <div className="mt-6 bg-white rounded-lg p-1 border border-blue-300">
+                  <div className="mt-6 bg-white rounded-lg p-2 border border-blue-300">
                     <p className="text-blue-800 font-bold text-center">
                       💵 Solo efectivo • Tarifa: $5.95
                     </p>
@@ -2643,7 +2643,7 @@ export function Home() {
                 </div>
               </div>
 
-              <div className="mt-8 bg-yellow-50 border-l-4 border-yellow-500 p-1 rounded-lg">
+              <div className="mt-8 bg-yellow-50 border-l-4 border-yellow-500 p-2 rounded-lg">
                 <p className="text-yellow-800 font-semibold">
                   ⚠️ <span className="font-bold">Importante:</span> Ambos métodos solo aceptan pagos en efectivo. No se aceptan tarjetas de crédito o débito.
                 </p>
@@ -2651,16 +2651,16 @@ export function Home() {
             </div>
 
             {/* MoneyPak Detailed Section */}
-            <div className="bg-gradient-to-br from-blue-600 to-blue-800 rounded shadow-2xl p-1 mb-1 text-white">
-              <div className="text-center mb-1">
-                <h3 className="text-sm font-bold mb-0.5">🛒 Cómo Comprar un Green Dot MoneyPak</h3>
-                <p className="text-xs text-blue-100">Disponible en más de 70,000 tiendas en Estados Unidos</p>
+            <div className="bg-gradient-to-br from-blue-600 to-blue-800 rounded shadow-2xl p-2 mb-3 text-white">
+              <div className="text-center mb-3">
+                <h3 className="text-base font-bold mb-4">🛒 Cómo Comprar un Green Dot MoneyPak</h3>
+                <p className="text-sm text-blue-100">Disponible en más de 70,000 tiendas en Estados Unidos</p>
               </div>
 
-              <div className="grid md:grid-cols-3 gap-1 mb-1">
+              <div className="grid md:grid-cols-3 gap-2 mb-3">
                 {/* Supermercados */}
-                <div className="bg-white/10 backdrop-blur-sm rounded p-1">
-                  <h4 className="text-xs font-bold mb-0.5 flex items-center gap-2">
+                <div className="bg-white/10 backdrop-blur-sm rounded p-2">
+                  <h4 className="text-sm font-bold mb-4 flex items-center gap-2">
                     <span>🛒</span> Supermercados
                   </h4>
                   <ul className="space-y-2 text-blue-50">
@@ -2674,8 +2674,8 @@ export function Home() {
                 </div>
 
                 {/* Farmacias */}
-                <div className="bg-white/10 backdrop-blur-sm rounded p-1">
-                  <h4 className="text-xs font-bold mb-0.5 flex items-center gap-2">
+                <div className="bg-white/10 backdrop-blur-sm rounded p-2">
+                  <h4 className="text-sm font-bold mb-4 flex items-center gap-2">
                     <span>💊</span> Farmacias
                   </h4>
                   <ul className="space-y-2 text-blue-50">
@@ -2683,7 +2683,7 @@ export function Home() {
                     <li>• Walgreens</li>
                     <li>• Rite Aid</li>
                   </ul>
-                  <h4 className="text-xs font-bold mb-0.5 mt-6 flex items-center gap-2">
+                  <h4 className="text-sm font-bold mb-4 mt-6 flex items-center gap-2">
                     <span>💵</span> Tiendas de Dólar
                   </h4>
                   <ul className="space-y-2 text-blue-50">
@@ -2694,8 +2694,8 @@ export function Home() {
                 </div>
 
                 {/* Conveniencia */}
-                <div className="bg-white/10 backdrop-blur-sm rounded p-1">
-                  <h4 className="text-xs font-bold mb-0.5 flex items-center gap-2">
+                <div className="bg-white/10 backdrop-blur-sm rounded p-2">
+                  <h4 className="text-sm font-bold mb-4 flex items-center gap-2">
                     <span>🏪</span> 24 Horas
                   </h4>
                   <ul className="space-y-2 text-blue-50">
@@ -2703,7 +2703,7 @@ export function Home() {
                     <li>• Circle K</li>
                     <li>• Speedway</li>
                   </ul>
-                  <h4 className="text-xs font-bold mb-0.5 mt-6 flex items-center gap-2">
+                  <h4 className="text-sm font-bold mb-4 mt-6 flex items-center gap-2">
                     <span>💼</span> Servicios Financieros
                   </h4>
                   <ul className="space-y-2 text-blue-50">
@@ -2715,70 +2715,70 @@ export function Home() {
                 </div>
               </div>
 
-              <div className="bg-white rounded p-1 text-gray-900">
-                <h4 className="text-xs font-bold mb-0.5 text-center">📋 Proceso Detallado</h4>
-                <div className="grid md:grid-cols-2 gap-1">
+              <div className="bg-white rounded p-2 text-gray-900">
+                <h4 className="text-sm font-bold mb-4 text-center">📋 Proceso Detallado</h4>
+                <div className="grid md:grid-cols-2 gap-2">
                   <div className="space-y-0.5">
-                    <div className="flex items-start gap-0.5">
+                    <div className="flex items-start gap-2">
                       <span className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold flex-shrink-0">1</span>
                       <div>
-                        <h5 className="font-bold mb-1">Busca la sección correcta</h5>
-                        <p className="text-sm text-gray-600">Siempre está en "Gift Cards / Prepaid"</p>
+                        <h5 className="font-bold mb-3">Busca la sección correcta</h5>
+                        <p className="text-base text-gray-600">Siempre está en "Gift Cards / Prepaid"</p>
                       </div>
                     </div>
-                    <div className="flex items-start gap-0.5">
+                    <div className="flex items-start gap-2">
                       <span className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold flex-shrink-0">2</span>
                       <div>
-                        <h5 className="font-bold mb-1">Pregunta al cajero</h5>
-                        <p className="text-sm text-gray-600">"Quiero comprar un Green Dot MoneyPak, por favor"</p>
+                        <h5 className="font-bold mb-3">Pregunta al cajero</h5>
+                        <p className="text-base text-gray-600">"Quiero comprar un Green Dot MoneyPak, por favor"</p>
                       </div>
                     </div>
-                    <div className="flex items-start gap-0.5">
+                    <div className="flex items-start gap-2">
                       <span className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold flex-shrink-0">3</span>
                       <div>
-                        <h5 className="font-bold mb-1">Elige el monto</h5>
-                        <p className="text-sm text-gray-600">Decide cuánto dinero quieres cargar a la tarjeta</p>
+                        <h5 className="font-bold mb-3">Elige el monto</h5>
+                        <p className="text-base text-gray-600">Decide cuánto dinero quieres cargar a la tarjeta</p>
                       </div>
                     </div>
                   </div>
 
                   <div className="space-y-0.5">
-                    <div className="flex items-start gap-0.5">
+                    <div className="flex items-start gap-2">
                       <span className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold flex-shrink-0">4</span>
                       <div>
-                        <h5 className="font-bold mb-1">Paga en efectivo</h5>
-                        <p className="text-sm text-gray-600">Monto elegido + $5.95 de tarifa (solo efectivo, no tarjetas)</p>
+                        <h5 className="font-bold mb-3">Paga en efectivo</h5>
+                        <p className="text-base text-gray-600">Monto elegido + $5.95 de tarifa (solo efectivo, no tarjetas)</p>
                       </div>
                     </div>
-                    <div className="flex items-start gap-0.5">
+                    <div className="flex items-start gap-2">
                       <span className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold flex-shrink-0">5</span>
                       <div>
-                        <h5 className="font-bold mb-1">Recibe tu MoneyPak</h5>
-                        <p className="text-sm text-gray-600">Te darán la tarjeta y el recibo</p>
+                        <h5 className="font-bold mb-3">Recibe tu MoneyPak</h5>
+                        <p className="text-base text-gray-600">Te darán la tarjeta y el recibo</p>
                       </div>
                     </div>
-                    <div className="flex items-start gap-0.5">
+                    <div className="flex items-start gap-2">
                       <span className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold flex-shrink-0">6</span>
                       <div>
-                        <h5 className="font-bold mb-1">Envíanos las fotos</h5>
-                        <p className="text-sm text-gray-600">Fotografía la tarjeta completa y el recibo para configurar tu pago</p>
+                        <h5 className="font-bold mb-3">Envíanos las fotos</h5>
+                        <p className="text-base text-gray-600">Fotografía la tarjeta completa y el recibo para configurar tu pago</p>
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <div className="mt-6 grid md:grid-cols-3 gap-1">
-                  <div className="bg-green-50 border border-green-300 rounded-lg p-1 text-center">
-                    <p className="font-bold text-green-800 mb-1">✔️ Más de 70,000 tiendas</p>
-                    <p className="text-xs text-green-700">Disponible en todo EE.UU.</p>
+                <div className="mt-6 grid md:grid-cols-3 gap-2">
+                  <div className="bg-green-50 border border-green-300 rounded-lg p-2 text-center">
+                    <p className="font-bold text-green-800 mb-3">✔️ Más de 70,000 tiendas</p>
+                    <p className="text-sm text-green-700">Disponible en todo EE.UU.</p>
                   </div>
-                  <div className="bg-blue-50 border border-blue-300 rounded-lg p-1 text-center">
-                    <p className="font-bold text-blue-800 mb-1">💵 Solo efectivo</p>
-                    <p className="text-xs text-blue-700">No aceptan tarjetas</p>
+                  <div className="bg-blue-50 border border-blue-300 rounded-lg p-2 text-center">
+                    <p className="font-bold text-blue-800 mb-3">💵 Solo efectivo</p>
+                    <p className="text-sm text-blue-700">No aceptan tarjetas</p>
                   </div>
-                  <div className="bg-orange-50 border border-orange-300 rounded-lg p-1 text-center">
-                    <p className="font-bold text-orange-800 mb-1">💰 Tarifa: $5.95</p>
-                    <p className="text-xs text-orange-700">Por cada MoneyPak</p>
+                  <div className="bg-orange-50 border border-orange-300 rounded-lg p-2 text-center">
+                    <p className="font-bold text-orange-800 mb-3">💰 Tarifa: $5.95</p>
+                    <p className="text-sm text-orange-700">Por cada MoneyPak</p>
                   </div>
                 </div>
               </div>
@@ -2789,8 +2789,8 @@ export function Home() {
 
                 {/* Step 1: What to look for */}
                 <div className="bg-white rounded-lg p-4 mb-4 text-gray-900">
-                  <h5 className="text-lg font-bold mb-3 flex items-center gap-2">
-                    <span className="bg-green-600 text-white w-10 h-10 rounded-full flex items-center justify-center text-base">1</span>
+                  <h5 className="text-xl font-bold mb-3 flex items-center gap-2">
+                    <span className="bg-green-600 text-white w-10 h-10 rounded-full flex items-center justify-center text-lg">1</span>
                     Así se ve la tarjeta MoneyPak que debes buscar:
                   </h5>
                   <div className="grid md:grid-cols-2 gap-4">
@@ -2800,7 +2800,7 @@ export function Home() {
                         alt="Tarjeta MoneyPak en tienda"
                         className="w-full h-96 object-cover rounded-lg mb-4"
                       />
-                      <p className="text-base text-gray-600 text-center font-semibold">En el exhibidor de la tienda</p>
+                      <p className="text-lg text-gray-600 text-center font-semibold">En el exhibidor de la tienda</p>
                     </div>
                     <div className="bg-gray-50 rounded-lg p-4 border border-gray-200">
                       <img
@@ -2808,14 +2808,14 @@ export function Home() {
                         alt="Tarjeta MoneyPak frontal"
                         className="w-full h-96 object-cover rounded-lg mb-4"
                       />
-                      <p className="text-base text-gray-600 text-center font-semibold">Vista frontal de la tarjeta</p>
+                      <p className="text-lg text-gray-600 text-center font-semibold">Vista frontal de la tarjeta</p>
                       <div className="mt-4 bg-green-50 border-l-4 border-green-600 p-3 rounded">
-                        <p className="text-sm text-green-800 font-bold">✅ Busca el logo "green dot" y "MoneyPak" verde</p>
+                        <p className="text-base text-green-800 font-bold">✅ Busca el logo "green dot" y "MoneyPak" verde</p>
                       </div>
                     </div>
                   </div>
                   <div className="mt-4 bg-yellow-50 border-l-4 border-yellow-500 p-3 rounded-lg">
-                    <p className="text-yellow-800 text-base">
+                    <p className="text-yellow-800 text-lg">
                       <span className="font-bold">💡 Tip:</span> Pregunta al cajero: "Quiero un Green Dot MoneyPak" y te llevarán directamente a la sección correcta.
                     </p>
                   </div>
@@ -2823,8 +2823,8 @@ export function Home() {
 
                 {/* Step 2: How to send photos */}
                 <div className="bg-white rounded-lg p-4 text-gray-900">
-                  <h5 className="text-lg font-bold mb-3 flex items-center gap-2">
-                    <span className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center text-base">2</span>
+                  <h5 className="text-xl font-bold mb-3 flex items-center gap-2">
+                    <span className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center text-lg">2</span>
                     Así debes enviarnos las fotos después de comprar:
                   </h5>
                   <div className="grid md:grid-cols-2 gap-4">
@@ -2834,8 +2834,8 @@ export function Home() {
                         alt="Ejemplo: Tarjeta y recibo juntos"
                         className="w-full h-96 object-cover rounded-lg mb-4"
                       />
-                      <p className="text-base text-gray-700 text-center font-semibold mb-3">✅ Ejemplo 1: Tarjeta + Recibo</p>
-                      <ul className="text-sm text-gray-600 space-y-2">
+                      <p className="text-lg text-gray-700 text-center font-semibold mb-3">✅ Ejemplo 1: Tarjeta + Recibo</p>
+                      <ul className="text-base text-gray-600 space-y-2">
                         <li>• Coloca la tarjeta y el recibo juntos</li>
                         <li>• Asegúrate que el código de barras se vea claramente</li>
                         <li>• Foto bien iluminada</li>
@@ -2847,8 +2847,8 @@ export function Home() {
                         alt="Ejemplo: Tarjeta verde y recibo CVS"
                         className="w-full h-96 object-cover rounded-lg mb-4"
                       />
-                      <p className="text-base text-gray-700 text-center font-semibold mb-3">✅ Ejemplo 2: Vista Completa</p>
-                      <ul className="text-sm text-gray-600 space-y-2">
+                      <p className="text-lg text-gray-700 text-center font-semibold mb-3">✅ Ejemplo 2: Vista Completa</p>
+                      <ul className="text-base text-gray-600 space-y-2">
                         <li>• Tarjeta completa visible</li>
                         <li>• Recibo con todos los detalles legibles</li>
                         <li>• Ambos en la misma foto</li>
@@ -2857,7 +2857,7 @@ export function Home() {
                   </div>
 
                   <div className="mt-4 bg-red-50 border-l-4 border-red-500 p-3 rounded-lg">
-                    <p className="text-red-800 text-base font-bold">
+                    <p className="text-red-800 text-lg font-bold">
                       ⚠️ MUY IMPORTANTE: Guarda tu recibo hasta que confirmemos el pago. Es tu comprobante de compra.
                     </p>
                   </div>
@@ -2865,21 +2865,21 @@ export function Home() {
               </div>
             </div>
 
-            <div className="grid md:grid-cols-1 gap-1 mb-1">
+            <div className="grid md:grid-cols-1 gap-2 mb-3">
 
               {/* Store List for Barcode Payment */}
-              <div className="bg-white rounded shadow-xl p-1 border border-green-300">
-                <h3 className="text-xs font-bold text-gray-900 mb-1 flex items-center gap-0.5">
-                  <span className="bg-green-600 text-white w-4 h-4 rounded-full flex items-center justify-center">📱</span>
+              <div className="bg-white rounded shadow-xl p-2 border border-green-300">
+                <h3 className="text-sm font-bold text-gray-900 mb-3 flex items-center gap-2">
+                  <span className="bg-green-600 text-white w-6 h-6 rounded-full flex items-center justify-center">📱</span>
                   Tiendas para Pago con Código de Barras
                 </h3>
 
-                <p className="text-gray-700 mb-1">
+                <p className="text-gray-700 mb-3">
                   🏪 Encuentra la tienda más cercana a ti entre más de 40 opciones disponibles para usar tu código de barras:
                 </p>
 
-                <div className="bg-gray-50 rounded p-1 max-h-96 overflow-y-auto border border-gray-200">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-0.5">
+                <div className="bg-gray-50 rounded p-2 max-h-96 overflow-y-auto border border-gray-200">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                     <div className="flex items-center gap-2 text-gray-700">
                       <span className="text-green-600">•</span> 7-Eleven 🏪
                     </div>
@@ -3021,8 +3021,8 @@ export function Home() {
                   </div>
                 </div>
 
-                <div className="mt-6 bg-yellow-50 border-l-4 border-yellow-500 p-1 rounded-lg">
-                  <p className="text-yellow-800 text-sm">
+                <div className="mt-6 bg-yellow-50 border-l-4 border-yellow-500 p-2 rounded-lg">
+                  <p className="text-yellow-800 text-base">
                     📍 <span className="font-bold">Consejo:</span> Elige la tienda más cercana o la que mejor te convenga para completar tu pago.
                   </p>
                 </div>
@@ -3030,28 +3030,28 @@ export function Home() {
             </div>
 
             {/* Examples Section */}
-            <div className="mb-1">
-              <h3 className="text-sm font-bold text-gray-900 mb-1 text-center flex items-center justify-center gap-0.5">
-                <span className="bg-purple-600 text-white w-4 h-4 rounded-full flex items-center justify-center">📱</span>
+            <div className="mb-3">
+              <h3 className="text-base font-bold text-gray-900 mb-3 text-center flex items-center justify-center gap-2">
+                <span className="bg-purple-600 text-white w-6 h-6 rounded-full flex items-center justify-center">📱</span>
                 Ejemplos de Códigos de Pago
               </h3>
-              <p className="text-center text-gray-700 mb-1 text-xs">
+              <p className="text-center text-gray-700 mb-3 text-sm">
                 Así es como se ve el código que te enviaremos para pagar en las tiendas
               </p>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
                 {/* Dollar General Example */}
                 <div className="bg-white rounded shadow-lg overflow-hidden border border-gray-200 hover:shadow-2xl transition-all">
-                  <div className="bg-yellow-500 text-gray-900 font-bold text-center py-2">
+                  <div className="bg-yellow-500 text-gray-900 font-bold text-center py-4">
                     Dollar General
                   </div>
-                  <div className="p-1">
+                  <div className="p-2">
                     <img
                       src={paymentCode11}
                       alt="Código de barras Dollar General"
                       className="w-full h-auto rounded-lg"
                     />
-                    <p className="text-sm text-gray-600 text-center mt-3">
+                    <p className="text-base text-gray-600 text-center mt-3">
                       Muestra este código en Dollar General
                     </p>
                   </div>
@@ -3059,16 +3059,16 @@ export function Home() {
 
                 {/* CVS Example */}
                 <div className="bg-white rounded shadow-lg overflow-hidden border border-gray-200 hover:shadow-2xl transition-all">
-                  <div className="bg-red-600 text-white font-bold text-center py-2">
+                  <div className="bg-red-600 text-white font-bold text-center py-4">
                     CVS Pharmacy
                   </div>
-                  <div className="p-1">
+                  <div className="p-2">
                     <img
                       src={paymentCode12}
                       alt="Código de barras CVS"
                       className="w-full h-auto rounded-lg"
                     />
-                    <p className="text-sm text-gray-600 text-center mt-3">
+                    <p className="text-base text-gray-600 text-center mt-3">
                       Válido en cualquier CVS Pharmacy
                     </p>
                   </div>
@@ -3076,16 +3076,16 @@ export function Home() {
 
                 {/* Green Code Example 1 */}
                 <div className="bg-white rounded shadow-lg overflow-hidden border border-gray-200 hover:shadow-2xl transition-all">
-                  <div className="bg-green-600 text-white font-bold text-center py-2">
+                  <div className="bg-green-600 text-white font-bold text-center py-4">
                     Código Universal
                   </div>
-                  <div className="p-1">
+                  <div className="p-2">
                     <img
                       src={paymentCode8}
                       alt="Código de barras universal"
                       className="w-full h-auto rounded-lg"
                     />
-                    <p className="text-sm text-gray-600 text-center mt-3">
+                    <p className="text-base text-gray-600 text-center mt-3">
                       Pide al cajero escanear el código
                     </p>
                   </div>
@@ -3093,16 +3093,16 @@ export function Home() {
 
                 {/* Green Code Example 2 */}
                 <div className="bg-white rounded shadow-lg overflow-hidden border border-gray-200 hover:shadow-2xl transition-all">
-                  <div className="bg-green-600 text-white font-bold text-center py-2">
+                  <div className="bg-green-600 text-white font-bold text-center py-4">
                     Código Universal
                   </div>
-                  <div className="p-1">
+                  <div className="p-2">
                     <img
                       src={paymentCode7}
                       alt="Código de barras universal alternativo"
                       className="w-full h-auto rounded-lg"
                     />
-                    <p className="text-sm text-gray-600 text-center mt-3">
+                    <p className="text-base text-gray-600 text-center mt-3">
                       Válido en todas las tiendas de la lista
                     </p>
                   </div>
@@ -3110,10 +3110,10 @@ export function Home() {
 
                 {/* 7-Eleven Example */}
                 <div className="bg-white rounded shadow-lg overflow-hidden border border-gray-200 hover:shadow-2xl transition-all">
-                  <div className="bg-orange-500 text-white font-bold text-center py-2">
+                  <div className="bg-orange-500 text-white font-bold text-center py-4">
                     7-Eleven
                   </div>
-                  <div className="p-1">
+                  <div className="p-2">
                     <div className="w-full h-96 overflow-hidden rounded-lg">
                       <img
                         src={paymentCode5}
@@ -3122,7 +3122,7 @@ export function Home() {
                         style={{ objectPosition: '50% 15%' }}
                       />
                     </div>
-                    <p className="text-sm text-gray-600 text-center mt-3">
+                    <p className="text-base text-gray-600 text-center mt-3">
                       Depósito mínimo: $20
                     </p>
                   </div>
@@ -3130,10 +3130,10 @@ export function Home() {
 
                 {/* CVS Vertical Example */}
                 <div className="bg-white rounded shadow-lg overflow-hidden border border-gray-200 hover:shadow-2xl transition-all">
-                  <div className="bg-red-600 text-white font-bold text-center py-2">
+                  <div className="bg-red-600 text-white font-bold text-center py-4">
                     CVS Pharmacy
                   </div>
-                  <div className="p-1">
+                  <div className="p-2">
                     <div className="w-full h-96 overflow-hidden rounded-lg">
                       <img
                         src={paymentCode3}
@@ -3142,7 +3142,7 @@ export function Home() {
                         style={{ objectPosition: '50% 15%' }}
                       />
                     </div>
-                    <p className="text-sm text-gray-600 text-center mt-3">
+                    <p className="text-base text-gray-600 text-center mt-3">
                       Formato móvil para fácil acceso
                     </p>
                   </div>
@@ -3151,25 +3151,25 @@ export function Home() {
             </div>
 
             {/* CTA Section */}
-            <div className="bg-gradient-to-r from-green-600 to-blue-600 rounded shadow-2xl p-1 md:p-1 text-white text-center">
-              <h3 className="text-sm font-black mb-0.5">
+            <div className="bg-gradient-to-r from-green-600 to-blue-600 rounded shadow-2xl p-2 md:p-2 text-white text-center">
+              <h3 className="text-base font-black mb-4">
                 ¿Listo para obtener tu código de pago?
               </h3>
-              <p className="text-xs text-green-100 mb-1 max-w-2xl mx-auto">
+              <p className="text-sm text-green-100 mb-3 max-w-2xl mx-auto">
                 Contáctanos ahora y te enviaremos tu código de barras personal de inmediato
               </p>
-              <div className="flex flex-col sm:flex-row gap-1 justify-center">
+              <div className="flex flex-col sm:flex-row gap-2 justify-center">
                 <a
                   href="https://wa.me/14256528120?text=Hola%2C%20quiero%20obtener%20mi%20código%20de%20pago%20para%20pagar%20en%20tienda.%20¿Me%20pueden%20ayudar%3F"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white text-green-600 hover:bg-green-50 px-2 py-3 rounded font-bold text-xs transition-all shadow-lg inline-flex items-center justify-center gap-0.5 transform hover:scale-105"
+                  className="bg-white text-green-600 hover:bg-green-50 px-4 py-3 rounded font-bold text-sm transition-all shadow-lg inline-flex items-center justify-center gap-2 transform hover:scale-105"
                 >
                   <MessageCircle className="w-6 h-6" />
                   Solicitar Código por WhatsApp
                 </a>
               </div>
-              <p className="text-green-100 text-sm mt-6">
+              <p className="text-green-100 text-base mt-6">
                 💬 Respuesta inmediata • Código enviado al instante • Pago seguro garantizado
               </p>
             </div>
@@ -3179,15 +3179,15 @@ export function Home() {
 
 
       {/* FAQ Section */}
-      <section className="py-2 bg-gradient-to-b from-gray-50 to-white dark:from-gray-800 dark:to-gray-900">
-        <div className="container mx-auto px-1">
+      <section className="py-4 bg-gradient-to-b from-gray-50 to-white dark:from-gray-800 dark:to-gray-900">
+        <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-1">
-              <span className="inline-block px-1 py-2 bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400 rounded-full text-sm font-bold mb-0.5">
+            <div className="text-center mb-3">
+              <span className="inline-block px-4 py-4 bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400 rounded-full text-base font-bold mb-4">
                 FAQ
               </span>
-              <h2 className="text-base md:text-base font-black text-gray-900 dark:text-white mb-0.5">Preguntas Frecuentes</h2>
-              <p className="text-gray-600 dark:text-gray-400 text-xs">
+              <h2 className="text-lg md:text-lg font-black text-gray-900 dark:text-white mb-4">Preguntas Frecuentes</h2>
+              <p className="text-gray-600 dark:text-gray-400 text-sm">
                 Resolvemos tus dudas más comunes
               </p>
             </div>
@@ -3225,17 +3225,17 @@ export function Home() {
                 >
                   <button
                     onClick={() => setOpenFaq(openFaq === index ? null : index)}
-                    className="w-full px-2 py-1 flex items-center justify-between text-left hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
+                    className="w-full px-4 py-4 flex items-center justify-between text-left hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
                   >
-                    <span className="font-bold text-xs text-gray-900 dark:text-white pr-4">
+                    <span className="font-bold text-sm text-gray-900 dark:text-white pr-4">
                       {faq.q}
                     </span>
-                    <span className={`text-xs text-blue-600 dark:text-blue-400 transform transition-transform ${openFaq === index ? 'rotate-180' : ''}`}>
+                    <span className={`text-sm text-blue-600 dark:text-blue-400 transform transition-transform ${openFaq === index ? 'rotate-180' : ''}`}>
                       ↓
                     </span>
                   </button>
                   {openFaq === index && (
-                    <div className="px-2 py-1 bg-gray-50 dark:bg-gray-700/50 border-t border-gray-200 dark:border-gray-600 animate-fade-in">
+                    <div className="px-4 py-4 bg-gray-50 dark:bg-gray-700/50 border-t border-gray-200 dark:border-gray-600 animate-fade-in">
                       <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
                         {faq.a}
                       </p>
@@ -3250,24 +3250,24 @@ export function Home() {
 
 
       {/* Contact Section */}
-      <section id="contacto" className="py-2 bg-gradient-to-br from-blue-600 to-blue-800 text-white">
-        <div className="container mx-auto px-1">
-          <h2 className="text-base font-bold text-center mb-1">
+      <section id="contacto" className="py-4 bg-gradient-to-br from-blue-600 to-blue-800 text-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-lg font-bold text-center mb-3">
             Contáctanos
           </h2>
-          <div className="grid md:grid-cols-2 gap-1 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-2 max-w-4xl mx-auto">
             <div>
-              <h3 className="text-xs font-bold mb-1">Información de Contacto</h3>
-              <div className="space-y-0.5 mb-1">
-                <div className="flex items-start gap-0.5">
-                  <Phone className="w-6 h-6 mt-1" />
+              <h3 className="text-sm font-bold mb-3">Información de Contacto</h3>
+              <div className="space-y-0.5 mb-3">
+                <div className="flex items-start gap-2">
+                  <Phone className="w-6 h-6 mt-3" />
                   <div>
                     <p className="font-semibold">WhatsApp</p>
                     <p className="text-blue-100">+1 (425) 652-8120</p>
                   </div>
                 </div>
-                <div className="flex items-start gap-0.5">
-                  <MapPin className="w-6 h-6 mt-1" />
+                <div className="flex items-start gap-2">
+                  <MapPin className="w-6 h-6 mt-3" />
                   <div>
                     <p className="font-semibold">Oficinas</p>
                     <p className="text-blue-100">937 NW N River Dr</p>
@@ -3276,38 +3276,38 @@ export function Home() {
                   </div>
                 </div>
               </div>
-              <h4 className="text-xs font-bold mb-0.5">Contactar para Ventas:</h4>
+              <h4 className="text-sm font-bold mb-4">Contactar para Ventas:</h4>
               <div className="space-y-0.5">
                 <a
                   href="https://wa.me/14256528120?text=Hola%2C%20necesito%20información%20sobre%20los%20servicios%20de%20Intel%20Plus.%20¿Me%20pueden%20ayudar%3F"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-green-600 hover:bg-green-700 text-white py-3 rounded-lg font-bold transition-all shadow-lg flex items-center justify-center gap-0.5"
+                  className="w-full bg-green-600 hover:bg-green-700 text-white py-3 rounded-lg font-bold transition-all shadow-lg flex items-center justify-center gap-2"
                 >
-                  <MessageCircle className="w-5 h-5" />
+                  <MessageCircle className="w-7 h-7" />
                   Contactar por WhatsApp
                 </a>
               </div>
             </div>
 
             <div>
-              <h3 className="text-xs font-bold mb-1">Contáctanos Directamente</h3>
-              <p className="text-blue-100 mb-1">Chatea con nosotros ahora y te atenderemos personalmente:</p>
+              <h3 className="text-sm font-bold mb-3">Contáctanos Directamente</h3>
+              <p className="text-blue-100 mb-3">Chatea con nosotros ahora y te atenderemos personalmente:</p>
               <div className="space-y-0.5">
                 <a
                   href="https://wa.me/14256528120?text=Hola%2C%20necesito%20información%20sobre%20los%20servicios%20de%20Intel%20Plus.%20¿Me%20pueden%20ayudar%3F"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-green-600 hover:bg-green-700 text-white py-4 rounded-lg font-bold transition-all shadow-lg flex items-center justify-center gap-0.5 text-xs"
+                  className="w-full bg-green-600 hover:bg-green-700 text-white py-4 rounded-lg font-bold transition-all shadow-lg flex items-center justify-center gap-2 text-sm"
                 >
                   <MessageCircle className="w-6 h-6" />
                   Chatear por WhatsApp
                 </a>
-                <div className="mt-6 p-1 bg-white/10 backdrop-blur-sm rounded-lg">
-                  <p className="text-center text-sm text-blue-100">
+                <div className="mt-6 p-2 bg-white/10 backdrop-blur-sm rounded-lg">
+                  <p className="text-center text-base text-blue-100">
                     ⏰ Horario de atención: Lunes a Domingo 8:00 AM - 10:00 PM
                   </p>
-                  <p className="text-center text-sm text-yellow-300 font-semibold mt-2">
+                  <p className="text-center text-base text-yellow-300 font-semibold mt-4">
                     ¡Respuesta inmediata garantizada!
                   </p>
                 </div>
@@ -3322,10 +3322,10 @@ export function Home() {
       {showScrollTop && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-24 right-6 bg-blue-600 hover:bg-blue-700 text-white rounded-full p-1 shadow-2xl hover:scale-110 transition-all duration-300 z-40 animate-fade-in"
+          className="fixed bottom-24 right-6 bg-blue-600 hover:bg-blue-700 text-white rounded-full p-2 shadow-2xl hover:scale-110 transition-all duration-300 z-40 animate-fade-in"
           aria-label="Volver arriba"
         >
-          <span className="text-xs">↑</span>
+          <span className="text-sm">↑</span>
         </button>
       )}
 
@@ -3334,11 +3334,11 @@ export function Home() {
         href="https://wa.me/14256528120?text=Hola%2C%20quiero%20información%20sobre%20los%20servicios%20de%20Intel%20Plus"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white rounded-full p-1 shadow-2xl hover:scale-110 transition-all duration-300 z-50 flex items-center justify-center group animate-bounce"
+        className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white rounded-full p-2 shadow-2xl hover:scale-110 transition-all duration-300 z-50 flex items-center justify-center group animate-bounce"
         aria-label="Contactar por WhatsApp"
       >
         <MessageCircle className="w-8 h-8" />
-        <span className="absolute right-full mr-3 bg-gray-900 text-white px-1 py-2 rounded-lg text-sm font-semibold whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 shadow-lg">
+        <span className="absolute right-full mr-3 bg-gray-900 text-white px-4 py-4 rounded-lg text-base font-semibold whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 shadow-lg">
           ¡Chatea con nosotros!
         </span>
       </a>
