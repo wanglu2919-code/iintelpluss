@@ -1868,42 +1868,42 @@ export function Home() {
 
 
       {/* Our Work Gallery Section */}
-      <section id="trabajos" className="py-1 bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-gray-800">
-        <div className="container mx-auto px-2">
-          <div className="text-center mb-1">
-            <span className="inline-block px-2 py-2 bg-orange-100 dark:bg-orange-900/30 text-orange-600 dark:text-orange-400 rounded-full text-sm font-bold mb-1">
+      <section id="trabajos" className="py-0 bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-gray-800">
+        <div className="container mx-auto px-1">
+          <div className="text-center mb-0">
+            <span className="inline-block px-1 py-2 bg-orange-100 dark:bg-orange-900/30 text-orange-600 dark:text-orange-400 rounded-full text-[10px] font-bold mb-0">
               PORTAFOLIO
             </span>
-            <h2 className="text-xs md:text-xs font-black text-gray-900 dark:text-white mb-1">
+            <h2 className="text-[8px] md:text-[8px] font-black text-gray-900 dark:text-white mb-0">
               Nuestro Trabajo en Acción
             </h2>
-            <p className="text-sm text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
+            <p className="text-[10px] text-gray-600 dark:text-gray-400 max-w-xl mx-auto">
               Instalaciones profesionales con equipos de última generación de los proveedores líderes
             </p>
           </div>
 
           {/* Gallery Grid - Organized by Categories */}
-          <div className="space-y-1 mb-1">
+          <div className="space-y-0 mb-0">
 
             {/* Category 1: Equipment & Products */}
-            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded p-1 border border-blue-200">
-              <h3 className="text-sm font-bold text-gray-900 mb-1 flex items-center gap-1">
-                <span className="bg-blue-600 text-white w-4 h-4 rounded-full flex items-center justify-center text-sm">📦</span>
+            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded p-0 border border-blue-200">
+              <h3 className="text-[10px] font-bold text-gray-900 mb-0 flex items-center gap-0">
+                <span className="bg-blue-600 text-white w-2 h-1 rounded-full flex items-center justify-center text-[10px]">📦</span>
                 Equipos y Productos
               </h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-1">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0">
 
                 {/* AT&T Equipment */}
                 <div className="group relative overflow-hidden rounded shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
                   <img
                     src={photo1_1}
                     alt="Equipo AT&T Internet"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">AT&T Fiber Internet</p>
-                      <p className="text-sm text-gray-200">Equipos de última generación</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">AT&T Fiber Internet</p>
+                      <p className="text-[10px] text-gray-200">Equipos de última generación</p>
                     </div>
                   </div>
                 </div>
@@ -1913,12 +1913,12 @@ export function Home() {
                   <img
                     src={photo2_1}
                     alt="Router T-Mobile nuevo"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">T-Mobile Home Internet</p>
-                      <p className="text-sm text-gray-200">Equipos nuevos sellados</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">T-Mobile Home Internet</p>
+                      <p className="text-[10px] text-gray-200">Equipos nuevos sellados</p>
                     </div>
                   </div>
                 </div>
@@ -1928,12 +1928,12 @@ export function Home() {
                   <img
                     src={photo2_2}
                     alt="Router T-Mobile funcionando"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">Equipos Activados</p>
-                      <p className="text-sm text-gray-200">Listos para usar</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">Equipos Activados</p>
+                      <p className="text-[10px] text-gray-200">Listos para usar</p>
                     </div>
                   </div>
                 </div>
@@ -1943,12 +1943,12 @@ export function Home() {
                   <img
                     src={photo1_3}
                     alt="5G Gateway"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">5G Gateway</p>
-                      <p className="text-sm text-gray-200">Tecnología de punta</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">5G Gateway</p>
+                      <p className="text-[10px] text-gray-200">Tecnología de punta</p>
                     </div>
                   </div>
                 </div>
@@ -1958,12 +1958,12 @@ export function Home() {
                   <img
                     src={photo3_1}
                     alt="Configuración de router"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">Configuración Completa</p>
-                      <p className="text-sm text-gray-200">Todo listo para conectar</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">Configuración Completa</p>
+                      <p className="text-[10px] text-gray-200">Todo listo para conectar</p>
                     </div>
                   </div>
                 </div>
@@ -1973,12 +1973,12 @@ export function Home() {
                   <img
                     src={photo10_1}
                     alt="Gateway T-Mobile encendiendo"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">T-Mobile Gateway Activando</p>
-                      <p className="text-sm text-gray-200">Proceso de conexión inicial</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">T-Mobile Gateway Activando</p>
+                      <p className="text-[10px] text-gray-200">Proceso de conexión inicial</p>
                     </div>
                   </div>
                 </div>
@@ -1988,12 +1988,12 @@ export function Home() {
                   <img
                     src={photo11_1}
                     alt="Gateway T-Mobile en repisa"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">Gateway Instalado</p>
-                      <p className="text-sm text-gray-200">Ubicación óptima para señal</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">Gateway Instalado</p>
+                      <p className="text-[10px] text-gray-200">Ubicación óptima para señal</p>
                     </div>
                   </div>
                 </div>
@@ -2003,12 +2003,12 @@ export function Home() {
                   <img
                     src={photo12_1}
                     alt="Puertos del router T-Mobile"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">Conexiones del Router</p>
-                      <p className="text-sm text-gray-200">Puertos y especificaciones</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">Conexiones del Router</p>
+                      <p className="text-[10px] text-gray-200">Puertos y especificaciones</p>
                     </div>
                   </div>
                 </div>
@@ -2018,12 +2018,12 @@ export function Home() {
                   <img
                     src={photo13_1}
                     alt="Gateway T-Mobile iniciando"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">Sistema Iniciando</p>
-                      <p className="text-sm text-gray-200">Configuración automática</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">Sistema Iniciando</p>
+                      <p className="text-[10px] text-gray-200">Configuración automática</p>
                     </div>
                   </div>
                 </div>
@@ -2033,12 +2033,12 @@ export function Home() {
                   <img
                     src={photo14_1}
                     alt="Especificaciones técnicas del router"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">Detalles Técnicos</p>
-                      <p className="text-sm text-gray-200">Información del modelo y potencia</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">Detalles Técnicos</p>
+                      <p className="text-[10px] text-gray-200">Información del modelo y potencia</p>
                     </div>
                   </div>
                 </div>
@@ -2048,12 +2048,12 @@ export function Home() {
                   <img
                     src={photo5_1}
                     alt="All-Fi Hub conectado"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">All-Fi Hub Activo</p>
-                      <p className="text-sm text-gray-200">Señal óptima garantizada</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">All-Fi Hub Activo</p>
+                      <p className="text-[10px] text-gray-200">Señal óptima garantizada</p>
                     </div>
                   </div>
                 </div>
@@ -2063,12 +2063,12 @@ export function Home() {
                   <img
                     src={photo6_1}
                     alt="All-Fi Hub configurado"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">Equipo Configurado</p>
-                      <p className="text-sm text-gray-200">Conexión estable activa</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">Equipo Configurado</p>
+                      <p className="text-[10px] text-gray-200">Conexión estable activa</p>
                     </div>
                   </div>
                 </div>
@@ -2078,12 +2078,12 @@ export function Home() {
                   <img
                     src={photo21_1}
                     alt="AT&T Air-Fi Hub"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">AT&T Air-Fi Hub</p>
-                      <p className="text-sm text-gray-200">Equipos nuevos listos para instalar</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">AT&T Air-Fi Hub</p>
+                      <p className="text-[10px] text-gray-200">Equipos nuevos listos para instalar</p>
                     </div>
                   </div>
                 </div>
@@ -2093,12 +2093,12 @@ export function Home() {
                   <img
                     src={photo22_1}
                     alt="AT&T Air-Fi Hub encendido"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">Air-Fi Hub Conectado</p>
-                      <p className="text-sm text-gray-200">Luces verdes indicando conexión activa</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">Air-Fi Hub Conectado</p>
+                      <p className="text-[10px] text-gray-200">Luces verdes indicando conexión activa</p>
                     </div>
                   </div>
                 </div>
@@ -2108,12 +2108,12 @@ export function Home() {
                   <img
                     src={photo23_1}
                     alt="AT&T Air-Fi Hub con adaptador"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">Hub con Adaptador</p>
-                      <p className="text-sm text-gray-200">Configuración completa de conexión</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">Hub con Adaptador</p>
+                      <p className="text-[10px] text-gray-200">Configuración completa de conexión</p>
                     </div>
                   </div>
                 </div>
@@ -2123,12 +2123,12 @@ export function Home() {
                   <img
                     src={photo24_1}
                     alt="Configuración completa de equipos"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">Equipos Conectados</p>
-                      <p className="text-sm text-gray-200">Modem y router configurados</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">Equipos Conectados</p>
+                      <p className="text-[10px] text-gray-200">Modem y router configurados</p>
                     </div>
                   </div>
                 </div>
@@ -2137,24 +2137,24 @@ export function Home() {
             </div>
 
             {/* Category 2: Technicians in Action */}
-            <div className="bg-gradient-to-br from-green-50 to-green-100 rounded p-1 border border-green-200">
-              <h3 className="text-sm font-bold text-gray-900 mb-1 flex items-center gap-1">
-                <span className="bg-green-600 text-white w-4 h-4 rounded-full flex items-center justify-center text-sm">👨‍🔧</span>
+            <div className="bg-gradient-to-br from-green-50 to-green-100 rounded p-0 border border-green-200">
+              <h3 className="text-[10px] font-bold text-gray-900 mb-0 flex items-center gap-0">
+                <span className="bg-green-600 text-white w-2 h-1 rounded-full flex items-center justify-center text-[10px]">👨‍🔧</span>
                 Técnicos en Acción
               </h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-1">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0">
 
                 {/* Technician Working Inside */}
                 <div className="group relative overflow-hidden rounded shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
                   <img
                     src={photo1_4}
                     alt="Técnico certificado instalando"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">Técnicos Certificados</p>
-                      <p className="text-sm text-gray-200">Equipos de seguridad y profesionalismo</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">Técnicos Certificados</p>
+                      <p className="text-[10px] text-gray-200">Equipos de seguridad y profesionalismo</p>
                     </div>
                   </div>
                 </div>
@@ -2164,12 +2164,12 @@ export function Home() {
                   <img
                     src={photo2_4}
                     alt="Técnico AT&T instalando"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">Instalación AT&T</p>
-                      <p className="text-sm text-gray-200">Técnico autorizado en acción</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">Instalación AT&T</p>
+                      <p className="text-[10px] text-gray-200">Técnico autorizado en acción</p>
                     </div>
                   </div>
                 </div>
@@ -2179,12 +2179,12 @@ export function Home() {
                   <img
                     src={photo2_3}
                     alt="Técnico instalando TV"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">Instalación de TV</p>
-                      <p className="text-sm text-gray-200">Técnicos certificados</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">Instalación de TV</p>
+                      <p className="text-[10px] text-gray-200">Técnicos certificados</p>
                     </div>
                   </div>
                 </div>
@@ -2194,12 +2194,12 @@ export function Home() {
                   <img
                     src={photo3_2}
                     alt="Instalación exterior profesional"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">Instalación Exterior</p>
-                      <p className="text-sm text-gray-200">Trabajo profesional garantizado</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">Instalación Exterior</p>
+                      <p className="text-[10px] text-gray-200">Trabajo profesional garantizado</p>
                     </div>
                   </div>
                 </div>
@@ -2209,12 +2209,12 @@ export function Home() {
                   <img
                     src={photo5_3}
                     alt="Instalación de cableado"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">Cableado Profesional</p>
-                      <p className="text-sm text-gray-200">Instalación interna limpia</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">Cableado Profesional</p>
+                      <p className="text-[10px] text-gray-200">Instalación interna limpia</p>
                     </div>
                   </div>
                 </div>
@@ -2224,12 +2224,12 @@ export function Home() {
                   <img
                     src={photo6_2}
                     alt="Configuración de equipos"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">Configuración de Servicios</p>
-                      <p className="text-sm text-gray-200">Pruebas de calidad y velocidad</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">Configuración de Servicios</p>
+                      <p className="text-[10px] text-gray-200">Pruebas de calidad y velocidad</p>
                     </div>
                   </div>
                 </div>
@@ -2239,12 +2239,12 @@ export function Home() {
                   <img
                     src={photo6_3}
                     alt="Instalación en sótano"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">Instalación Completa</p>
-                      <p className="text-sm text-gray-200">Cableado estructurado profesional</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">Instalación Completa</p>
+                      <p className="text-[10px] text-gray-200">Cableado estructurado profesional</p>
                     </div>
                   </div>
                 </div>
@@ -2254,12 +2254,12 @@ export function Home() {
                   <img
                     src={photo9_2}
                     alt="Técnico perforando con equipo de seguridad"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">Instalación con Seguridad</p>
-                      <p className="text-sm text-gray-200">Protección y profesionalismo</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">Instalación con Seguridad</p>
+                      <p className="text-[10px] text-gray-200">Protección y profesionalismo</p>
                     </div>
                   </div>
                 </div>
@@ -2269,12 +2269,12 @@ export function Home() {
                   <img
                     src={photo16_1}
                     alt="Técnico instalando TV en dormitorio"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">Montaje de TV</p>
-                      <p className="text-sm text-gray-200">Instalación en dormitorios</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">Montaje de TV</p>
+                      <p className="text-[10px] text-gray-200">Instalación en dormitorios</p>
                     </div>
                   </div>
                 </div>
@@ -2284,12 +2284,12 @@ export function Home() {
                   <img
                     src={photo19_1}
                     alt="Equipo de técnicos instalando TV"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">Equipo Completo</p>
-                      <p className="text-sm text-gray-200">Instalación de TV en pared</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">Equipo Completo</p>
+                      <p className="text-[10px] text-gray-200">Instalación de TV en pared</p>
                     </div>
                   </div>
                 </div>
@@ -2299,12 +2299,12 @@ export function Home() {
                   <img
                     src={photo20_1}
                     alt="Técnico configurando software"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">Actualización de Software</p>
-                      <p className="text-sm text-gray-200">Configuración final del sistema</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">Actualización de Software</p>
+                      <p className="text-[10px] text-gray-200">Configuración final del sistema</p>
                     </div>
                   </div>
                 </div>
@@ -2313,24 +2313,24 @@ export function Home() {
             </div>
 
             {/* Category 3: TV Installations & Testing */}
-            <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded p-1 border border-purple-200">
-              <h3 className="text-sm font-bold text-gray-900 mb-1 flex items-center gap-1">
-                <span className="bg-purple-600 text-white w-4 h-4 rounded-full flex items-center justify-center text-sm">📺</span>
+            <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded p-0 border border-purple-200">
+              <h3 className="text-[10px] font-bold text-gray-900 mb-0 flex items-center gap-0">
+                <span className="bg-purple-600 text-white w-2 h-1 rounded-full flex items-center justify-center text-[10px]">📺</span>
                 Instalaciones de TV y Pruebas
               </h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-1">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0">
 
                 {/* TV Installation Complete */}
                 <div className="group relative overflow-hidden rounded shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
                   <img
                     src={photo3_3}
                     alt="Instalación de TV completada"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">TV Instalada y Funcionando</p>
-                      <p className="text-sm text-gray-200">Servicio completo activado</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">TV Instalada y Funcionando</p>
+                      <p className="text-[10px] text-gray-200">Servicio completo activado</p>
                     </div>
                   </div>
                 </div>
@@ -2340,12 +2340,12 @@ export function Home() {
                   <img
                     src={photo8_2}
                     alt="Instalación finalizada"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">Instalación Lista</p>
-                      <p className="text-sm text-gray-200">Cliente satisfecho, servicio activado</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">Instalación Lista</p>
+                      <p className="text-[10px] text-gray-200">Cliente satisfecho, servicio activado</p>
                     </div>
                   </div>
                 </div>
@@ -2355,12 +2355,12 @@ export function Home() {
                   <img
                     src={photo17_1}
                     alt="Prueba de señal Dish"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">Prueba de Señal Satelital</p>
-                      <p className="text-sm text-gray-200">Verificación de todos los canales</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">Prueba de Señal Satelital</p>
+                      <p className="text-[10px] text-gray-200">Verificación de todos los canales</p>
                     </div>
                   </div>
                 </div>
@@ -2370,12 +2370,12 @@ export function Home() {
                   <img
                     src={photo18_1}
                     alt="Hopper TV iniciando"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">Sistema Hopper Activando</p>
-                      <p className="text-sm text-gray-200">DVR y TV por cable listos</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">Sistema Hopper Activando</p>
+                      <p className="text-[10px] text-gray-200">DVR y TV por cable listos</p>
                     </div>
                   </div>
                 </div>
@@ -2384,24 +2384,24 @@ export function Home() {
             </div>
 
             {/* Category 4: Satellite Installations */}
-            <div className="bg-gradient-to-br from-orange-50 to-orange-100 rounded p-1 border border-orange-200">
-              <h3 className="text-sm font-bold text-gray-900 mb-1 flex items-center gap-1">
-                <span className="bg-orange-600 text-white w-4 h-4 rounded-full flex items-center justify-center text-sm">🛰️</span>
+            <div className="bg-gradient-to-br from-orange-50 to-orange-100 rounded p-0 border border-orange-200">
+              <h3 className="text-[10px] font-bold text-gray-900 mb-0 flex items-center gap-0">
+                <span className="bg-orange-600 text-white w-2 h-1 rounded-full flex items-center justify-center text-[10px]">🛰️</span>
                 Instalaciones Satelitales
               </h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0">
 
                 {/* Satellite Installation on Roof */}
                 <div className="group relative overflow-hidden rounded shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
                   <img
                     src={photo5_2}
                     alt="Instalación de antena satelital"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">Instalación Satelital</p>
-                      <p className="text-sm text-gray-200">Trabajo en altura certificado</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">Instalación Satelital</p>
+                      <p className="text-[10px] text-gray-200">Trabajo en altura certificado</p>
                     </div>
                   </div>
                 </div>
@@ -2411,12 +2411,12 @@ export function Home() {
                   <img
                     src={photo7_1}
                     alt="Instalación de antena"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">Instalación en Techo</p>
-                      <p className="text-sm text-gray-200">Antena satelital HD instalada</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">Instalación en Techo</p>
+                      <p className="text-[10px] text-gray-200">Antena satelital HD instalada</p>
                     </div>
                   </div>
                 </div>
@@ -2426,12 +2426,12 @@ export function Home() {
                   <img
                     src={photo15_1}
                     alt="Técnico Dish instalando antena"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">Instalación de Antena Satelital</p>
-                      <p className="text-sm text-gray-200">Técnico Dish en trabajo exterior</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">Instalación de Antena Satelital</p>
+                      <p className="text-[10px] text-gray-200">Técnico Dish en trabajo exterior</p>
                     </div>
                   </div>
                 </div>
@@ -2440,24 +2440,24 @@ export function Home() {
             </div>
 
             {/* Category 5: Service Vehicles */}
-            <div className="bg-gradient-to-br from-red-50 to-red-100 rounded p-1 border border-red-200">
-              <h3 className="text-sm font-bold text-gray-900 mb-1 flex items-center gap-1">
-                <span className="bg-red-600 text-white w-4 h-4 rounded-full flex items-center justify-center text-sm">🚗</span>
+            <div className="bg-gradient-to-br from-red-50 to-red-100 rounded p-0 border border-red-200">
+              <h3 className="text-[10px] font-bold text-gray-900 mb-0 flex items-center gap-0">
+                <span className="bg-red-600 text-white w-2 h-1 rounded-full flex items-center justify-center text-[10px]">🚗</span>
                 Vehículos de Servicio
               </h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0">
 
                 {/* Dish Installation Van 1 */}
                 <div className="group relative overflow-hidden rounded shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
                   <img
                     src={photo1_2}
                     alt="Camión de instalación Dish"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">Instalación Profesional</p>
-                      <p className="text-sm text-gray-200">Servicio certificado Dish</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">Instalación Profesional</p>
+                      <p className="text-[10px] text-gray-200">Servicio certificado Dish</p>
                     </div>
                   </div>
                 </div>
@@ -2467,12 +2467,12 @@ export function Home() {
                   <img
                     src={photo8_1}
                     alt="Camión Dish en servicio"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">Servicio Dish Profesional</p>
-                      <p className="text-sm text-gray-200">Equipos certificados en sitio</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">Servicio Dish Profesional</p>
+                      <p className="text-[10px] text-gray-200">Equipos certificados en sitio</p>
                     </div>
                   </div>
                 </div>
@@ -2482,12 +2482,12 @@ export function Home() {
                   <img
                     src={photo9_1}
                     alt="Flota Dish"
-                    className="w-full h-16 object-cover"
+                    className="w-full h-8 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-1 text-white">
-                      <p className="font-bold text-sm">Flota de Servicio Dish</p>
-                      <p className="text-sm text-gray-200">Equipos profesionales listos</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-0 text-white">
+                      <p className="font-bold text-[10px]">Flota de Servicio Dish</p>
+                      <p className="text-[10px] text-gray-200">Equipos profesionales listos</p>
                     </div>
                   </div>
                 </div>
@@ -2498,43 +2498,43 @@ export function Home() {
           </div>
 
           {/* Stats/Features */}
-          <div className="grid md:grid-cols-4 gap-1 max-w-5xl mx-auto">
-            <div className="bg-blue-50 p-1 rounded text-center border border-blue-200">
-              <div className="text-xs font-black text-blue-600 mb-1">100%</div>
+          <div className="grid md:grid-cols-4 gap-0 max-w-5xl mx-auto">
+            <div className="bg-blue-50 p-0 rounded text-center border border-blue-200">
+              <div className="text-[8px] font-black text-blue-600 mb-0">100%</div>
               <p className="text-gray-700 font-semibold">Instalaciones Exitosas</p>
             </div>
-            <div className="bg-green-50 p-1 rounded text-center border border-green-200">
-              <div className="text-xs font-black text-green-600 mb-1">24/7</div>
+            <div className="bg-green-50 p-0 rounded text-center border border-green-200">
+              <div className="text-[8px] font-black text-green-600 mb-0">24/7</div>
               <p className="text-gray-700 font-semibold">Soporte Técnico</p>
             </div>
-            <div className="bg-purple-50 p-1 rounded text-center border border-purple-200">
-              <div className="text-xs font-black text-purple-600 mb-1">5⭐</div>
+            <div className="bg-purple-50 p-0 rounded text-center border border-purple-200">
+              <div className="text-[8px] font-black text-purple-600 mb-0">5⭐</div>
               <p className="text-gray-700 font-semibold">Calificación Clientes</p>
             </div>
-            <div className="bg-orange-50 p-1 rounded text-center border border-orange-200">
-              <div className="text-xs font-black text-orange-600 mb-1">+50K</div>
+            <div className="bg-orange-50 p-0 rounded text-center border border-orange-200">
+              <div className="text-[8px] font-black text-orange-600 mb-0">+50K</div>
               <p className="text-gray-700 font-semibold">Clientes Satisfechos</p>
             </div>
           </div>
 
           {/* CTA */}
           <div className="text-center mt-12">
-            <p className="text-sm text-gray-700 mb-1 font-semibold">
+            <p className="text-[10px] text-gray-700 mb-0 font-semibold">
               ¿Listo para tu instalación profesional?
             </p>
-            <div className="flex flex-col sm:flex-row gap-1 justify-center">
+            <div className="flex flex-col sm:flex-row gap-0 justify-center">
               <a
                 href="https://wa.me/14256528120?text=Hola%2C%20vi%20su%20trabajo%20y%20quiero%20una%20instalación%20profesional%20con%20Intel%20Plus"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-green-600 hover:bg-green-700 text-white px-6 py-1 rounded font-bold text-sm transition-all shadow-lg inline-flex items-center justify-center gap-1"
+                className="bg-green-600 hover:bg-green-700 text-white px-6 py-0 rounded font-bold text-[10px] transition-all shadow-lg inline-flex items-center justify-center gap-0"
               >
                 <MessageCircle className="w-6 h-6" />
                 Solicitar Instalación
               </a>
               <a
                 href="#planes"
-                className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-1 rounded font-bold text-sm transition-all shadow-lg inline-flex items-center justify-center gap-1"
+                className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-0 rounded font-bold text-[10px] transition-all shadow-lg inline-flex items-center justify-center gap-0"
               >
                 Ver Planes Disponibles
               </a>
