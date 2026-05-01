@@ -21,23 +21,23 @@ export function Layout() {
       {/* Header */}
       <header className="bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-700 text-gray-900 dark:text-white fixed top-0 left-0 right-0 z-50 shadow-sm">
         <div className="container mx-auto px-4">
-          <div className="flex items-center justify-center h-12 relative">
+          <div className="flex items-center justify-center h-16 relative">
             {/* Logo - Centered */}
-            <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity group">
+            <Link to="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity group">
               <div className="relative flex-shrink-0">
                 <img
                   src={logoImg}
                   alt="Intel Plus Logo"
-                  className="w-10 h-10 object-cover rounded-lg bg-gradient-to-br from-blue-500 to-blue-700 p-0.5 shadow-md group-hover:shadow-lg transition-shadow"
+                  className="w-14 h-14 object-cover rounded-xl bg-gradient-to-br from-blue-500 to-blue-700 p-1 shadow-lg group-hover:shadow-xl transition-shadow"
                   style={{ imageRendering: 'crisp-edges' }}
                 />
-                <div className="absolute -bottom-0.5 -right-0.5 w-3 h-3 bg-green-500 rounded-full border-2 border-white dark:border-gray-900"></div>
+                <div className="absolute -bottom-1 -right-1 w-4 h-4 bg-green-500 rounded-full border-2 border-white dark:border-gray-900"></div>
               </div>
               <div className="leading-none flex flex-col">
-                <h1 className="text-lg font-black text-blue-600 dark:text-blue-400 leading-none whitespace-nowrap mt-3">
+                <h1 className="text-2xl font-black text-blue-600 dark:text-blue-400 leading-none whitespace-nowrap mt-6">
                   Intel Plus
                 </h1>
-                <p className="text-xs text-gray-500 dark:text-gray-400 font-semibold leading-none mt-1 whitespace-nowrap">Internet & TV Premium</p>
+                <p className="text-sm text-gray-500 dark:text-gray-400 font-semibold leading-none mt-1.5 whitespace-nowrap">Internet & TV Premium</p>
               </div>
             </Link>
 
@@ -192,12 +192,12 @@ export function Layout() {
       </header>
 
       {/* Main Content */}
-      <main className="flex-1 pt-14">
+      <main className="flex-1 pt-20">
         <Outlet />
       </main>
 
       {/* Footer */}
-      <footer className="bg-gradient-to-br from-gray-900 via-blue-900 to-gray-900 text-white py-8 border-t border-gray-800">
+      <footer className="bg-gradient-to-br from-gray-900 via-blue-900 to-gray-900 text-white py-12 border-t border-gray-800">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-8">
@@ -205,11 +205,11 @@ export function Layout() {
                 <img
                   src={logoImg}
                   alt="Intel Plus Logo"
-                  className="w-12 h-12 object-cover rounded-lg bg-gradient-to-br from-blue-500 to-blue-700 p-0.5 shadow-lg"
+                  className="w-16 h-16 object-cover rounded-xl bg-gradient-to-br from-blue-500 to-blue-700 p-0.5 shadow-lg"
                   style={{ imageRendering: 'crisp-edges' }}
                 />
                 <div className="text-left">
-                  <span className="text-xl font-black text-blue-400">Intel Plus</span>
+                  <span className="text-2xl font-black text-blue-400">Intel Plus</span>
                   <p className="text-xs text-gray-400">Internet & TV Premium</p>
                 </div>
               </div>
