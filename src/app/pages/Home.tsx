@@ -434,21 +434,21 @@ export function Home() {
               Opciones flexibles para todos los presupuestos y necesidades
             </p>
           </div>
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-3 gap-3">
             {/* Plan Básico */}
-            <div className="bg-gradient-to-br from-cyan-500 to-blue-600 p-3 md:p-4 lg:p-4 rounded-xl shadow-xl hover:scale-105 transition-all duration-300 text-white relative border-2 border-cyan-300">
-              <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-cyan-400 to-blue-400 text-white px-4 py-1 rounded-full font-bold text-xs shadow-md">
+            <div className="bg-gradient-to-br from-cyan-500 to-blue-600 p-2 md:p-3 lg:p-3 rounded-xl shadow-xl hover:scale-105 transition-all duration-300 text-white relative border-2 border-cyan-300">
+              <div className="absolute -top-2 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-cyan-400 to-blue-400 text-white px-3 py-0.5 rounded-full font-bold text-xs shadow-md">
                 💎 ECONÓMICO
               </div>
-              <h3 className="text-xl md:text-2xl font-bold mb-2 mt-2">Plan Básico</h3>
-              <div className="mb-3">
-                <span className="text-2xl md:text-3xl font-bold">$25</span>
-                <span className="text-cyan-100">/mes</span>
+              <h3 className="text-lg md:text-xl font-bold mb-1 mt-2">Plan Básico</h3>
+              <div className="mb-1.5">
+                <span className="text-xl md:text-2xl font-bold">$25</span>
+                <span className="text-cyan-100 text-sm">/mes</span>
               </div>
-              <div className="mb-4 p-3 bg-white border-2 border-cyan-200 rounded-lg shadow-md">
-                <p className="text-center font-bold text-blue-700 text-lg">+ $120 Instalación</p>
+              <div className="mb-2 p-2 bg-white border-2 border-cyan-200 rounded-lg shadow-md">
+                <p className="text-center font-bold text-blue-700 text-base">+ $120 Instalación</p>
               </div>
-              <ul className="space-y-2 mb-4">
+              <ul className="space-y-1 mb-2">
                 <li className="flex items-center gap-2">
                   <CheckCircle className="w-5 h-5 text-cyan-200" />
                   <span className="font-semibold">1000 Mbps Internet</span>
@@ -462,23 +462,23 @@ export function Home() {
                   <span className="font-semibold">Router WiFi incluido</span>
                 </li>
               </ul>
-              <div className="space-y-2">
+              <div className="space-y-1">
                 <a
                   href="https://wa.me/14256528120?text=Hola%2C%20estoy%20interesado%20en%20el%20Plan%20Básico%20de%20Intel%20Plus%20(%241000%20Mbps%20-%20%2425%2Fmes).%20¿Me%20pueden%20dar%20más%20información%3F"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-green-600 hover:bg-green-700 text-white py-3 rounded-lg font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-2"
+                  className="w-full bg-green-600 hover:bg-green-700 text-white py-1.5 rounded-lg font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-1 text-sm"
                 >
-                  <MessageCircle className="w-5 h-5" />
+                  <MessageCircle className="w-4 h-4" />
                   WhatsApp
                 </a>
                 <a
                   href="https://m.me/366942046511890"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-white text-blue-600 hover:bg-cyan-50 py-3 rounded-lg font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-2"
+                  className="w-full bg-white text-blue-600 hover:bg-cyan-50 py-1.5 rounded-lg font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-1 text-sm"
                 >
-                  <MessageCircle className="w-5 h-5" />
+                  <MessageCircle className="w-4 h-4" />
                   Messenger
                 </a>
                 <a
@@ -493,93 +493,93 @@ export function Home() {
                       installation: "$120"
                     });
                   }}
-                  className="w-full bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white py-3 rounded-lg font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-2"
+                  className="w-full bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white py-1.5 rounded-lg font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-1 text-sm"
                 >
-                  <Clock className="w-5 h-5" />
+                  <Clock className="w-4 h-4" />
                   Agendar Instalación
                 </a>
               </div>
             </div>
 
             {/* Plan Premium */}
-            <div className="bg-gradient-to-br from-blue-600 via-purple-600 to-blue-800 p-4 rounded-xl shadow-2xl hover:scale-110 transition-all duration-300 text-white relative border-4 border-yellow-400 transform scale-105">
-              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-yellow-400 to-orange-400 text-blue-900 px-6 py-2 rounded-full font-bold text-sm shadow-lg">
+            <div className="bg-gradient-to-br from-blue-600 via-purple-600 to-blue-800 p-2 rounded-xl shadow-2xl hover:scale-110 transition-all duration-300 text-white relative border-4 border-yellow-400 transform scale-105">
+              <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-yellow-400 to-orange-400 text-blue-900 px-4 py-1 rounded-full font-bold text-xs shadow-lg">
                 ⭐ MEJOR OFERTA ⭐
               </div>
-              <div className="absolute top-3 right-3 bg-red-500 text-white px-3 py-1 rounded-full font-bold text-xs animate-pulse">
+              <div className="absolute top-2 right-2 bg-red-500 text-white px-2 py-0.5 rounded-full font-bold text-xs animate-pulse">
                 AHORRA MÁS
               </div>
-              <h3 className="text-xl md:text-2xl font-bold mb-2 mt-4">Plan Premium</h3>
-              <p className="text-blue-100 mb-3 text-sm">El favorito de nuestros clientes</p>
-              <div className="mb-3">
-                <span className="text-2xl md:text-3xl font-bold">$40</span>
-                <span className="text-blue-100 text-xl">/mes</span>
+              <h3 className="text-lg md:text-xl font-bold mb-1 mt-3">Plan Premium</h3>
+              <p className="text-blue-100 mb-1.5 text-xs">El favorito de nuestros clientes</p>
+              <div className="mb-1.5">
+                <span className="text-xl md:text-2xl font-bold">$40</span>
+                <span className="text-blue-100 text-sm">/mes</span>
               </div>
-              <div className="mb-4 p-3 bg-yellow-400 border-2 border-yellow-500 rounded-lg shadow-lg">
-                <p className="text-center font-bold text-blue-900 text-lg">+ $135 Instalación</p>
+              <div className="mb-2 p-2 bg-yellow-400 border-2 border-yellow-500 rounded-lg shadow-lg">
+                <p className="text-center font-bold text-blue-900 text-base">+ $135 Instalación</p>
               </div>
-              <div className="bg-white/10 backdrop-blur-sm p-3 rounded-lg mb-4">
-                <p className="text-center text-yellow-300 font-bold text-sm">🎁 INCLUYE BENEFICIOS EXCLUSIVOS</p>
+              <div className="bg-white/10 backdrop-blur-sm p-1.5 rounded-lg mb-2">
+                <p className="text-center text-yellow-300 font-bold text-xs">🎁 INCLUYE BENEFICIOS EXCLUSIVOS</p>
               </div>
-              <ul className="space-y-2 mb-4">
-                <li className="flex items-center gap-2">
-                  <Star className="w-6 h-6 text-yellow-300 fill-yellow-300" />
+              <ul className="space-y-0.5 mb-2 text-sm">
+                <li className="flex items-center gap-1">
+                  <Star className="w-4 h-4 text-yellow-300 fill-yellow-300" />
                   <span className="font-semibold">Internet Ilimitado sin límite de velocidad</span>
                 </li>
-                <li className="flex items-center gap-2">
-                  <Star className="w-6 h-6 text-yellow-300 fill-yellow-300" />
-                  <span className="font-semibold text-lg">🎬 300+ Canales Premium HD</span>
+                <li className="flex items-center gap-1">
+                  <Star className="w-4 h-4 text-yellow-300 fill-yellow-300" />
+                  <span className="font-semibold">🎬 300+ Canales Premium HD</span>
                 </li>
-                <li className="flex items-center gap-2 ml-6">
-                  <CheckCircle className="w-5 h-5 text-yellow-300" />
-                  <span className="text-sm">HBO, Showtime, Starz, Cinemax</span>
+                <li className="flex items-center gap-1 ml-4">
+                  <CheckCircle className="w-3 h-3 text-yellow-300" />
+                  <span className="text-xs">HBO, Showtime, Starz, Cinemax</span>
                 </li>
-                <li className="flex items-center gap-2 ml-6">
-                  <CheckCircle className="w-5 h-5 text-yellow-300" />
-                  <span className="text-sm">Todos los canales deportivos (ESPN, Fox Sports)</span>
+                <li className="flex items-center gap-1 ml-4">
+                  <CheckCircle className="w-3 h-3 text-yellow-300" />
+                  <span className="text-xs">Todos los canales deportivos (ESPN, Fox Sports)</span>
                 </li>
-                <li className="flex items-center gap-2 ml-6">
-                  <CheckCircle className="w-5 h-5 text-yellow-300" />
-                  <span className="text-sm">Paquete familiar completo</span>
+                <li className="flex items-center gap-1 ml-4">
+                  <CheckCircle className="w-3 h-3 text-yellow-300" />
+                  <span className="text-xs">Paquete familiar completo</span>
                 </li>
-                <li className="flex items-center gap-2">
-                  <Star className="w-6 h-6 text-yellow-300 fill-yellow-300" />
+                <li className="flex items-center gap-1">
+                  <Star className="w-4 h-4 text-yellow-300 fill-yellow-300" />
                   <span className="font-semibold">Router WiFi 6 de última generación</span>
                 </li>
-                <li className="flex items-center gap-2">
-                  <Star className="w-6 h-6 text-yellow-300 fill-yellow-300" />
+                <li className="flex items-center gap-1">
+                  <Star className="w-4 h-4 text-yellow-300 fill-yellow-300" />
                   <span className="font-semibold">DVR Cloud ilimitado</span>
                 </li>
-                <li className="flex items-center gap-2">
-                  <Star className="w-6 h-6 text-yellow-300 fill-yellow-300" />
+                <li className="flex items-center gap-1">
+                  <Star className="w-4 h-4 text-yellow-300 fill-yellow-300" />
                   <span className="font-semibold">Soporte VIP 24/7</span>
                 </li>
-                <li className="flex items-center gap-2">
-                  <Star className="w-6 h-6 text-yellow-300 fill-yellow-300" />
+                <li className="flex items-center gap-1">
+                  <Star className="w-4 h-4 text-yellow-300 fill-yellow-300" />
                   <span className="font-semibold">3 meses gratis de streaming</span>
                 </li>
-                <li className="flex items-center gap-2">
-                  <Star className="w-6 h-6 text-yellow-300 fill-yellow-300" />
+                <li className="flex items-center gap-1">
+                  <Star className="w-4 h-4 text-yellow-300 fill-yellow-300" />
                   <span className="font-semibold">Sin contratos - Cancela cuando quieras</span>
                 </li>
               </ul>
-              <div className="space-y-2">
+              <div className="space-y-1">
                 <a
                   href="https://wa.me/14256528120?text=🔥%20Hola%2C%20quiero%20el%20Plan%20Premium%20de%20Intel%20Plus%20(Internet%20Ilimitado%20%2B%20300%2B%20Canales%20-%20%2440%2Fmes).%20¡La%20mejor%20oferta!"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-green-600 hover:bg-green-700 text-white py-4 rounded-lg font-bold text-lg transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-2"
+                  className="w-full bg-green-600 hover:bg-green-700 text-white py-1.5 rounded-lg font-bold text-sm transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-1"
                 >
-                  <MessageCircle className="w-6 h-6" />
+                  <MessageCircle className="w-4 h-4" />
                   WhatsApp
                 </a>
                 <a
                   href="https://m.me/366942046511890"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-gradient-to-r from-yellow-400 to-orange-400 text-blue-900 hover:from-yellow-500 hover:to-orange-500 py-4 rounded-lg font-bold text-lg transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-2"
+                  className="w-full bg-gradient-to-r from-yellow-400 to-orange-400 text-blue-900 hover:from-yellow-500 hover:to-orange-500 py-1.5 rounded-lg font-bold text-sm transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-1"
                 >
-                  <MessageCircle className="w-6 h-6" />
+                  <MessageCircle className="w-4 h-4" />
                   Messenger
                 </a>
                 <a
@@ -594,63 +594,63 @@ export function Home() {
                       installation: "$135"
                     });
                   }}
-                  className="w-full bg-white hover:bg-gray-100 text-blue-900 py-4 rounded-lg font-bold text-lg transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-2 border-2 border-yellow-400"
+                  className="w-full bg-white hover:bg-gray-100 text-blue-900 py-1.5 rounded-lg font-bold text-sm transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-1 border-2 border-yellow-400"
                 >
-                  <Clock className="w-6 h-6" />
+                  <Clock className="w-4 h-4" />
                   Agendar Instalación
                 </a>
               </div>
-              <p className="text-center text-yellow-300 text-xs mt-3 font-semibold">Oferta por tiempo limitado</p>
+              <p className="text-center text-yellow-300 text-xs mt-1.5 font-semibold">Oferta por tiempo limitado</p>
             </div>
 
             {/* Plan Ultra */}
-            <div className="bg-gradient-to-br from-orange-500 to-red-600 p-3 md:p-4 lg:p-4 rounded-xl shadow-xl hover:scale-105 transition-all duration-300 text-white relative border-2 border-orange-300">
-              <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-orange-400 to-red-400 text-white px-4 py-1 rounded-full font-bold text-xs shadow-md">
+            <div className="bg-gradient-to-br from-orange-500 to-red-600 p-2 md:p-3 lg:p-3 rounded-xl shadow-xl hover:scale-105 transition-all duration-300 text-white relative border-2 border-orange-300">
+              <div className="absolute -top-2 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-orange-400 to-red-400 text-white px-3 py-0.5 rounded-full font-bold text-xs shadow-md">
                 ⚡ ALTA VELOCIDAD
               </div>
-              <h3 className="text-xl md:text-2xl font-bold mb-2 mt-2">Plan Ultra</h3>
-              <div className="mb-3">
-                <span className="text-2xl md:text-3xl font-bold">$60</span>
-                <span className="text-orange-100">/mes</span>
+              <h3 className="text-lg md:text-xl font-bold mb-1 mt-2">Plan Ultra</h3>
+              <div className="mb-1.5">
+                <span className="text-xl md:text-2xl font-bold">$60</span>
+                <span className="text-orange-100 text-sm">/mes</span>
               </div>
-              <div className="mb-4 p-3 bg-white border-2 border-orange-200 rounded-lg shadow-md">
-                <p className="text-center font-bold text-red-700 text-lg">+ $150 Instalación</p>
+              <div className="mb-2 p-2 bg-white border-2 border-orange-200 rounded-lg shadow-md">
+                <p className="text-center font-bold text-red-700 text-base">+ $150 Instalación</p>
               </div>
-              <ul className="space-y-2 mb-4">
-                <li className="flex items-center gap-2">
-                  <CheckCircle className="w-5 h-5 text-orange-200" />
-                  <span className="font-semibold">2000 Mbps Internet</span>
+              <ul className="space-y-1 mb-2">
+                <li className="flex items-center gap-1">
+                  <CheckCircle className="w-4 h-4 text-orange-200" />
+                  <span className="font-semibold text-sm">2000 Mbps Internet</span>
                 </li>
-                <li className="flex items-center gap-2">
-                  <CheckCircle className="w-5 h-5 text-orange-200" />
-                  <span className="font-semibold">150 canales TV básicos</span>
+                <li className="flex items-center gap-1">
+                  <CheckCircle className="w-4 h-4 text-orange-200" />
+                  <span className="font-semibold text-sm">150 canales TV básicos</span>
                 </li>
-                <li className="flex items-center gap-2">
-                  <CheckCircle className="w-5 h-5 text-orange-200" />
-                  <span className="font-semibold">DVR Cloud incluido</span>
+                <li className="flex items-center gap-1">
+                  <CheckCircle className="w-4 h-4 text-orange-200" />
+                  <span className="font-semibold text-sm">DVR Cloud incluido</span>
                 </li>
-                <li className="flex items-center gap-2">
-                  <CheckCircle className="w-5 h-5 text-orange-200" />
-                  <span className="font-semibold">Router WiFi 6 gratis</span>
+                <li className="flex items-center gap-1">
+                  <CheckCircle className="w-4 h-4 text-orange-200" />
+                  <span className="font-semibold text-sm">Router WiFi 6 gratis</span>
                 </li>
               </ul>
-              <div className="space-y-2">
+              <div className="space-y-1">
                 <a
                   href="https://wa.me/14256528120?text=Hola%2C%20estoy%20interesado%20en%20el%20Plan%20Ultra%20de%20Intel%20Plus%20(2000%20Mbps%20-%20%2460%2Fmes).%20¿Me%20pueden%20dar%20más%20información%3F"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-green-600 hover:bg-green-700 text-white py-3 rounded-lg font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-2"
+                  className="w-full bg-green-600 hover:bg-green-700 text-white py-1.5 rounded-lg font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-1 text-sm"
                 >
-                  <MessageCircle className="w-5 h-5" />
+                  <MessageCircle className="w-4 h-4" />
                   WhatsApp
                 </a>
                 <a
                   href="https://m.me/366942046511890"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-white text-red-600 hover:bg-orange-50 py-3 rounded-lg font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-2"
+                  className="w-full bg-white text-red-600 hover:bg-orange-50 py-1.5 rounded-lg font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-1 text-sm"
                 >
-                  <MessageCircle className="w-5 h-5" />
+                  <MessageCircle className="w-4 h-4" />
                   Messenger
                 </a>
                 <a
@@ -665,9 +665,9 @@ export function Home() {
                       installation: "$150"
                     });
                   }}
-                  className="w-full bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white py-3 rounded-lg font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-2"
+                  className="w-full bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white py-1.5 rounded-lg font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-1 text-sm"
                 >
-                  <Clock className="w-5 h-5" />
+                  <Clock className="w-4 h-4" />
                   Agendar Instalación
                 </a>
               </div>
@@ -1411,7 +1411,7 @@ export function Home() {
 
 
       {/* Special Promotion Section */}
-      <section id="oferta-especial" className="py-8 bg-gradient-to-br from-orange-500 via-red-500 to-pink-600 relative overflow-hidden">
+      <section id="oferta-especial" className="py-4 bg-gradient-to-br from-orange-500 via-red-500 to-pink-600 relative overflow-hidden">
         {/* Animated background elements */}
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-8 left-10 w-72 h-72 bg-yellow-300 rounded-full blur-3xl animate-pulse"></div>
@@ -1421,194 +1421,194 @@ export function Home() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-5xl mx-auto">
             {/* Header */}
-            <div className="text-center mb-6">
-              <div className="inline-block bg-yellow-400 text-red-600 px-5 py-1.5 rounded-full font-black text-sm mb-3 animate-bounce">
+            <div className="text-center mb-3">
+              <div className="inline-block bg-yellow-400 text-red-600 px-3 py-1 rounded-full font-black text-xs mb-2 animate-bounce">
                 🔥 OFERTA LIMITADA - NO SIEMPRE DISPONIBLE 🔥
               </div>
-              <h2 className="text-2xl md:text-3xl lg:text-3xl font-black text-white mb-3 drop-shadow-lg">
+              <h2 className="text-xl md:text-2xl lg:text-2xl font-black text-white mb-2 drop-shadow-lg">
                 🌟 ¡Plan Especial del Año! 🌟
               </h2>
-              <p className="text-xl text-yellow-300 font-bold">
+              <p className="text-base text-yellow-300 font-bold">
                 ¡Ahorra $200 y no pagues nada más hasta Abril 2027!
               </p>
             </div>
 
             {/* Main offer card */}
-            <div className="bg-white rounded-3xl shadow-2xl p-5 md:p-6 mb-6 border-8 border-yellow-400 transform hover:scale-105 transition-all duration-300">
+            <div className="bg-white rounded-2xl shadow-2xl p-3 md:p-4 mb-4 border-4 border-yellow-400 transform hover:scale-105 transition-all duration-300">
               {/* Price comparison */}
-              <div className="text-center mb-6">
-                <div className="flex items-center justify-center gap-5 mb-3">
+              <div className="text-center mb-3">
+                <div className="flex items-center justify-center gap-3 mb-2">
                   <div className="relative">
-                    <span className="text-2xl text-gray-400 line-through">$450</span>
-                    <div className="absolute -top-2 -right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full rotate-12">
+                    <span className="text-xl text-gray-400 line-through">$450</span>
+                    <div className="absolute -top-1 -right-1 bg-red-500 text-white text-xs font-bold px-1.5 py-0.5 rounded-full rotate-12">
                       ANTES
                     </div>
                   </div>
-                  <span className="text-3xl font-black text-blue-600">→</span>
+                  <span className="text-2xl font-black text-blue-600">→</span>
                   <div className="relative">
-                    <span className="text-4xl font-black text-green-600">$250</span>
-                    <div className="absolute -top-2 -right-2 bg-green-500 text-white text-xs font-bold px-2 py-1 rounded-full rotate-12">
+                    <span className="text-3xl font-black text-green-600">$250</span>
+                    <div className="absolute -top-1 -right-1 bg-green-500 text-white text-xs font-bold px-1.5 py-0.5 rounded-full rotate-12">
                       ¡AHORA!
                     </div>
                   </div>
                 </div>
-                <div className="inline-block bg-red-500 text-white px-5 py-2 rounded-full font-bold text-lg">
+                <div className="inline-block bg-red-500 text-white px-3 py-1 rounded-full font-bold text-sm">
                   💸 ¡Ahorras $200 al año!
                 </div>
               </div>
 
               {/* Key benefits */}
-              <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-4 mb-6">
-                <h3 className="text-xl font-black text-gray-900 mb-3 text-center">
+              <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl p-2 mb-3">
+                <h3 className="text-base font-black text-gray-900 mb-2 text-center">
                   ✅ Sin Preocupaciones hasta Abril 2027
                 </h3>
-                <div className="grid md:grid-cols-3 gap-3 text-center">
-                  <div className="bg-white p-3 rounded-xl shadow-md">
-                    <p className="font-bold text-base text-red-600">❌ Sin Mensualidades</p>
+                <div className="grid md:grid-cols-3 gap-2 text-center">
+                  <div className="bg-white p-2 rounded-lg shadow-md">
+                    <p className="font-bold text-sm text-red-600">❌ Sin Mensualidades</p>
                   </div>
-                  <div className="bg-white p-3 rounded-xl shadow-md">
-                    <p className="font-bold text-base text-red-600">❌ Sin Cortes</p>
+                  <div className="bg-white p-2 rounded-lg shadow-md">
+                    <p className="font-bold text-sm text-red-600">❌ Sin Cortes</p>
                   </div>
-                  <div className="bg-white p-3 rounded-xl shadow-md">
-                    <p className="font-bold text-base text-red-600">❌ Sin Recargos</p>
+                  <div className="bg-white p-2 rounded-lg shadow-md">
+                    <p className="font-bold text-sm text-red-600">❌ Sin Recargos</p>
                   </div>
                 </div>
               </div>
 
               {/* Benefits grid */}
-              <div className="mb-6">
-                <h3 className="text-2xl font-black text-gray-900 mb-4 text-center">
+              <div className="mb-3">
+                <h3 className="text-base font-black text-gray-900 mb-2 text-center">
                   🎁 Beneficios Exclusivos Incluidos:
                 </h3>
-                <div className="grid md:grid-cols-2 gap-3">
-                  <div className="flex items-start gap-3 bg-gradient-to-r from-green-50 to-green-100 p-3 rounded-xl border-2 border-green-300">
-                    <Star className="w-8 h-8 text-green-600 fill-green-600 flex-shrink-0" />
+                <div className="grid md:grid-cols-2 gap-2">
+                  <div className="flex items-start gap-2 bg-gradient-to-r from-green-50 to-green-100 p-2 rounded-lg border border-green-300">
+                    <Star className="w-4 h-4 text-green-600 fill-green-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <p className="font-bold text-lg text-gray-900">📹 Cámaras de Seguridad</p>
-                      <p className="text-sm text-gray-600">Totalmente gratis</p>
+                      <p className="font-bold text-sm text-gray-900">📹 Cámaras de Seguridad</p>
+                      <p className="text-xs text-gray-600">Totalmente gratis</p>
                     </div>
                   </div>
-                  <div className="flex items-start gap-3 bg-gradient-to-r from-blue-50 to-blue-100 p-3 rounded-xl border-2 border-blue-300">
-                    <Star className="w-8 h-8 text-blue-600 fill-blue-600 flex-shrink-0" />
+                  <div className="flex items-start gap-2 bg-gradient-to-r from-blue-50 to-blue-100 p-2 rounded-lg border border-blue-300">
+                    <Star className="w-4 h-4 text-blue-600 fill-blue-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <p className="font-bold text-lg text-gray-900">🚚 Traslado Sin Costo</p>
-                      <p className="text-sm text-gray-600">Si te mudas, te seguimos</p>
+                      <p className="font-bold text-xs text-gray-900">🚚 Traslado Sin Costo</p>
+                      <p className="text-xs text-gray-600">Si te mudas, te seguimos</p>
                     </div>
                   </div>
-                  <div className="flex items-start gap-3 bg-gradient-to-r from-purple-50 to-purple-100 p-3 rounded-xl border-2 border-purple-300">
-                    <Star className="w-8 h-8 text-purple-600 fill-purple-600 flex-shrink-0" />
+                  <div className="flex items-start gap-2 bg-gradient-to-r from-purple-50 to-purple-100 p-2 rounded-lg border border-purple-300">
+                    <Star className="w-4 h-4 text-purple-600 fill-purple-600 flex-shrink-0" />
                     <div>
-                      <p className="font-bold text-lg text-gray-900">🛠️ Soporte Técnico 24/7</p>
-                      <p className="text-sm text-gray-600">Asistencia cuando la necesites</p>
+                      <p className="font-bold text-xs text-gray-900">🛠️ Soporte Técnico 24/7</p>
+                      <p className="text-xs text-gray-600">Asistencia cuando la necesites</p>
                     </div>
                   </div>
-                  <div className="flex items-start gap-3 bg-gradient-to-r from-yellow-50 to-yellow-100 p-3 rounded-xl border-2 border-yellow-300">
-                    <Star className="w-8 h-8 text-yellow-600 fill-yellow-600 flex-shrink-0" />
+                  <div className="flex items-start gap-2 bg-gradient-to-r from-yellow-50 to-yellow-100 p-2 rounded-lg border border-yellow-300">
+                    <Star className="w-4 h-4 text-yellow-600 fill-yellow-600 flex-shrink-0" />
                     <div>
-                      <p className="font-bold text-lg text-gray-900">🎁 Tarjeta de Regalo</p>
-                      <p className="text-sm text-gray-600">$150-$200 después de 25 días</p>
+                      <p className="font-bold text-xs text-gray-900">🎁 Tarjeta de Regalo</p>
+                      <p className="text-xs text-gray-600">$150-$200 después de 25 días</p>
                     </div>
                   </div>
-                  <div className="flex items-start gap-3 bg-gradient-to-r from-red-50 to-red-100 p-3 rounded-xl border-2 border-red-300">
-                    <Star className="w-8 h-8 text-red-600 fill-red-600 flex-shrink-0" />
+                  <div className="flex items-start gap-2 bg-gradient-to-r from-red-50 to-red-100 p-2 rounded-lg border border-red-300">
+                    <Star className="w-4 h-4 text-red-600 fill-red-600 flex-shrink-0" />
                     <div>
-                      <p className="font-bold text-lg text-gray-900">📺 TV 58 Pulgadas</p>
-                      <p className="text-sm text-gray-600">Televisor gratis incluido</p>
+                      <p className="font-bold text-xs text-gray-900">📺 TV 58 Pulgadas</p>
+                      <p className="text-xs text-gray-600">Televisor gratis incluido</p>
                     </div>
                   </div>
-                  <div className="flex items-start gap-3 bg-gradient-to-r from-pink-50 to-pink-100 p-3 rounded-xl border-2 border-pink-300">
-                    <Star className="w-8 h-8 text-pink-600 fill-pink-600 flex-shrink-0" />
+                  <div className="flex items-start gap-2 bg-gradient-to-r from-pink-50 to-pink-100 p-2 rounded-lg border border-pink-300">
+                    <Star className="w-4 h-4 text-pink-600 fill-pink-600 flex-shrink-0" />
                     <div>
-                      <p className="font-bold text-lg text-gray-900">🍿 Netflix & HBO Max</p>
-                      <p className="text-sm text-gray-600">Streaming premium incluido</p>
+                      <p className="font-bold text-xs text-gray-900">🍿 Netflix & HBO Max</p>
+                      <p className="text-xs text-gray-600">Streaming premium incluido</p>
                     </div>
                   </div>
                 </div>
               </div>
 
               {/* Payment summary */}
-              <div className="bg-gradient-to-r from-gray-800 to-gray-900 text-white rounded-2xl p-4 mb-5">
-                <h3 className="text-2xl font-black text-center mb-4 text-yellow-400">💰 Resumen de Pago</h3>
-                <div className="space-y-3 max-w-md mx-auto">
-                  <div className="flex justify-between items-center pb-2 border-b border-gray-600">
-                    <span className="text-base">Plan Anual Completo:</span>
-                    <span className="text-xl font-bold text-green-400">$250</span>
+              <div className="bg-gradient-to-r from-gray-800 to-gray-900 text-white rounded-xl p-2 mb-3">
+                <h3 className="text-base font-black text-center mb-2 text-yellow-400">💰 Resumen de Pago</h3>
+                <div className="space-y-1.5 max-w-md mx-auto text-sm">
+                  <div className="flex justify-between items-center pb-1 border-b border-gray-600">
+                    <span className="text-xs">Plan Anual Completo:</span>
+                    <span className="text-base font-bold text-green-400">$250</span>
                   </div>
-                  <div className="flex justify-between items-center pb-2 border-b border-gray-600">
-                    <span className="text-base">Instalación (con descuento):</span>
-                    <span className="text-xl font-bold text-green-400">$110</span>
+                  <div className="flex justify-between items-center pb-1 border-b border-gray-600">
+                    <span className="text-xs">Instalación (con descuento):</span>
+                    <span className="text-base font-bold text-green-400">$110</span>
                   </div>
-                  <div className="flex justify-between items-center pt-3 border-t-4 border-yellow-400">
-                    <span className="text-xl font-black">TOTAL ÚNICO:</span>
-                    <span className="text-3xl font-black text-yellow-400">$360</span>
+                  <div className="flex justify-between items-center pt-1.5 border-t-2 border-yellow-400">
+                    <span className="text-sm font-black">TOTAL ÚNICO:</span>
+                    <span className="text-xl font-black text-yellow-400">$360</span>
                   </div>
-                  <p className="text-center text-yellow-300 font-bold text-base pt-3">
+                  <p className="text-center text-yellow-300 font-bold text-xs pt-1.5">
                     ✅ ¡Sin pagar nada más hasta Abril 2027!
                   </p>
                 </div>
               </div>
 
               {/* Important info badges */}
-              <div className="space-y-2 mb-5">
-                <div className="bg-green-100 border-l-4 border-green-600 p-3 rounded-lg">
-                  <p className="text-green-800 font-bold flex items-center gap-2">
-                    <span className="text-2xl">✅</span>
+              <div className="space-y-1 mb-3">
+                <div className="bg-green-100 border-l-2 border-green-600 p-1.5 rounded text-xs">
+                  <p className="text-green-800 font-bold flex items-center gap-1">
+                    <span className="text-sm">✅</span>
                     <span>¿Ya tienes servicio con nosotros? ¡Puedes aplicar a esta oferta después de la instalación!</span>
                   </p>
                 </div>
-                <div className="bg-blue-100 border-l-4 border-blue-600 p-3 rounded-lg">
-                  <p className="text-blue-800 font-bold flex items-center gap-2">
-                    <span className="text-2xl">💡</span>
+                <div className="bg-blue-100 border-l-2 border-blue-600 p-1.5 rounded text-xs">
+                  <p className="text-blue-800 font-bold flex items-center gap-1">
+                    <span className="text-sm">💡</span>
                     <span>Clientes nuevos y existentes pueden beneficiarse de esta promoción especial</span>
                   </p>
                 </div>
-                <div className="bg-red-100 border-l-4 border-red-600 p-3 rounded-lg">
-                  <p className="text-red-800 font-bold flex items-center gap-2">
-                    <span className="text-2xl">⚠️</span>
+                <div className="bg-red-100 border-l-2 border-red-600 p-1.5 rounded text-xs">
+                  <p className="text-red-800 font-bold flex items-center gap-1">
+                    <span className="text-sm">⚠️</span>
                     <span>Este plan especial es limitado y no siempre está disponible</span>
                   </p>
                 </div>
-                <div className="bg-orange-100 border-l-4 border-orange-600 p-3 rounded-lg">
-                  <p className="text-orange-800 font-bold flex items-center gap-2">
-                    <span className="text-2xl">⚠️</span>
+                <div className="bg-orange-100 border-l-2 border-orange-600 p-1.5 rounded text-xs">
+                  <p className="text-orange-800 font-bold flex items-center gap-1">
+                    <span className="text-sm">⚠️</span>
                     <span>No está disponible para todos los clientes y puede cerrarse en cualquier momento</span>
                   </p>
                 </div>
               </div>
 
               {/* CTA Buttons */}
-              <div className="space-y-2">
-                <p className="text-center text-lg font-bold text-gray-900 mb-3">
+              <div className="space-y-1">
+                <p className="text-center text-sm font-bold text-gray-900 mb-1.5">
                   👉 Asegura este precio exclusivo hoy mismo
                 </p>
                 <a
                   href="https://wa.me/14256528120?text=🌟%20Hola%2C%20quiero%20información%20sobre%20el%20Plan%20Especial%20Anual%20de%20%24250%20(ahorro%20de%20%24200).%20¡No%20quiero%20perder%20esta%20oferta!"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white py-3 rounded-xl font-black text-lg transition-all shadow-2xl transform hover:scale-105 flex items-center justify-center gap-3"
+                  className="w-full bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white py-2 rounded-lg font-black text-sm transition-all shadow-2xl transform hover:scale-105 flex items-center justify-center gap-2"
                 >
-                  <MessageCircle className="w-6 h-6" />
+                  <MessageCircle className="w-4 h-4" />
                   🔥 ¡ASEGURAR PRECIO POR WHATSAPP!
                 </a>
                 <a
                   href="https://m.me/366942046511890"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white py-3 rounded-xl font-black text-lg transition-all shadow-2xl transform hover:scale-105 flex items-center justify-center gap-3"
+                  className="w-full bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white py-2 rounded-lg font-black text-sm transition-all shadow-2xl transform hover:scale-105 flex items-center justify-center gap-2"
                 >
-                  <MessageCircle className="w-6 h-6" />
+                  <MessageCircle className="w-4 h-4" />
                   💬 CONSULTAR POR MESSENGER
                 </a>
               </div>
 
-              <p className="text-center text-gray-600 text-sm mt-3 font-semibold">
+              <p className="text-center text-gray-600 text-xs mt-2 font-semibold">
                 ⏰ Esta oferta puede terminar en cualquier momento
               </p>
             </div>
 
             {/* Urgency footer */}
             <div className="text-center">
-              <p className="text-white text-xl font-bold drop-shadow-lg">
+              <p className="text-white text-base font-bold drop-shadow-lg">
                 ⚡ No dejes pasar esta oportunidad única ⚡
               </p>
             </div>
