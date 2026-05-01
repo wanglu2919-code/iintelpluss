@@ -423,62 +423,62 @@ export function Home() {
       {/* Plans Section */}
       <section id="planes" className="py-14 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-10">
-            <span className="inline-block px-4 py-2 bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 rounded-full text-sm font-bold mb-4">
+          <div className="text-center mb-3">
+            <span className="inline-block px-2 py-0.5 bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 rounded-full text-xs font-bold mb-1">
               PLANES
             </span>
-            <h2 className="text-4xl md:text-4xl font-black text-gray-900 dark:text-white mb-4">
+            <h2 className="text-xl md:text-2xl font-black text-gray-900 dark:text-white mb-1">
               Elige Tu Plan Perfecto
             </h2>
-            <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+            <p className="text-sm text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
               Opciones flexibles para todos los presupuestos y necesidades
             </p>
           </div>
-          <div className="grid md:grid-cols-3 gap-3">
+          <div className="grid md:grid-cols-3 gap-2">
             {/* Plan Básico */}
-            <div className="bg-gradient-to-br from-cyan-500 to-blue-600 p-2 md:p-3 lg:p-3 rounded-xl shadow-xl hover:scale-105 transition-all duration-300 text-white relative border-2 border-cyan-300">
-              <div className="absolute -top-2 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-cyan-400 to-blue-400 text-white px-3 py-0.5 rounded-full font-bold text-xs shadow-md">
+            <div className="bg-gradient-to-br from-cyan-500 to-blue-600 p-1.5 rounded-lg shadow-xl hover:scale-105 transition-all duration-300 text-white relative border border-cyan-300">
+              <div className="absolute -top-1.5 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-cyan-400 to-blue-400 text-white px-2 py-0.5 rounded-full font-bold text-xs shadow-md">
                 💎 ECONÓMICO
               </div>
-              <h3 className="text-lg md:text-xl font-bold mb-1 mt-2">Plan Básico</h3>
-              <div className="mb-1.5">
-                <span className="text-xl md:text-2xl font-bold">$25</span>
-                <span className="text-cyan-100 text-sm">/mes</span>
+              <h3 className="text-base font-bold mb-0.5 mt-1.5">Plan Básico</h3>
+              <div className="mb-0.5">
+                <span className="text-lg font-bold">$25</span>
+                <span className="text-cyan-100 text-xs">/mes</span>
               </div>
-              <div className="mb-2 p-2 bg-white border-2 border-cyan-200 rounded-lg shadow-md">
-                <p className="text-center font-bold text-blue-700 text-base">+ $120 Instalación</p>
+              <div className="mb-1 p-1 bg-white border border-cyan-200 rounded shadow-md">
+                <p className="text-center font-bold text-blue-700 text-xs">+ $120 Instalación</p>
               </div>
-              <ul className="space-y-1 mb-2">
-                <li className="flex items-center gap-2">
-                  <CheckCircle className="w-5 h-5 text-cyan-200" />
-                  <span className="font-semibold">1000 Mbps Internet</span>
+              <ul className="space-y-0.5 mb-1 text-xs">
+                <li className="flex items-center gap-0.5">
+                  <CheckCircle className="w-3 h-3 text-cyan-200" />
+                  <span>1000 Mbps Internet</span>
                 </li>
-                <li className="flex items-center gap-2">
-                  <CheckCircle className="w-5 h-5 text-cyan-200" />
-                  <span className="font-semibold">80 canales TV</span>
+                <li className="flex items-center gap-0.5">
+                  <CheckCircle className="w-3 h-3 text-cyan-200" />
+                  <span>80 canales TV</span>
                 </li>
-                <li className="flex items-center gap-2">
-                  <CheckCircle className="w-5 h-5 text-cyan-200" />
-                  <span className="font-semibold">Router WiFi incluido</span>
+                <li className="flex items-center gap-0.5">
+                  <CheckCircle className="w-3 h-3 text-cyan-200" />
+                  <span>Router WiFi incluido</span>
                 </li>
               </ul>
-              <div className="space-y-1">
+              <div className="space-y-0.5">
                 <a
                   href="https://wa.me/14256528120?text=Hola%2C%20estoy%20interesado%20en%20el%20Plan%20Básico%20de%20Intel%20Plus%20(%241000%20Mbps%20-%20%2425%2Fmes).%20¿Me%20pueden%20dar%20más%20información%3F"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-green-600 hover:bg-green-700 text-white py-1.5 rounded-lg font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-1 text-sm"
+                  className="w-full bg-green-600 hover:bg-green-700 text-white py-1 rounded font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-0.5 text-xs"
                 >
-                  <MessageCircle className="w-4 h-4" />
+                  <MessageCircle className="w-3 h-3" />
                   WhatsApp
                 </a>
                 <a
                   href="https://m.me/366942046511890"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-white text-blue-600 hover:bg-cyan-50 py-1.5 rounded-lg font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-1 text-sm"
+                  className="w-full bg-white text-blue-600 hover:bg-cyan-50 py-1 rounded font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-0.5 text-xs"
                 >
-                  <MessageCircle className="w-4 h-4" />
+                  <MessageCircle className="w-3 h-3" />
                   Messenger
                 </a>
                 <a
@@ -493,93 +493,93 @@ export function Home() {
                       installation: "$120"
                     });
                   }}
-                  className="w-full bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white py-1.5 rounded-lg font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-1 text-sm"
+                  className="w-full bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white py-1 rounded font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-0.5 text-xs"
                 >
-                  <Clock className="w-4 h-4" />
-                  Agendar Instalación
+                  <Clock className="w-3 h-3" />
+                  Agendar
                 </a>
               </div>
             </div>
 
             {/* Plan Premium */}
-            <div className="bg-gradient-to-br from-blue-600 via-purple-600 to-blue-800 p-2 rounded-xl shadow-2xl hover:scale-110 transition-all duration-300 text-white relative border-4 border-yellow-400 transform scale-105">
-              <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-yellow-400 to-orange-400 text-blue-900 px-4 py-1 rounded-full font-bold text-xs shadow-lg">
+            <div className="bg-gradient-to-br from-blue-600 via-purple-600 to-blue-800 p-1.5 rounded-lg shadow-2xl hover:scale-110 transition-all duration-300 text-white relative border-2 border-yellow-400 transform scale-105">
+              <div className="absolute -top-1.5 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-yellow-400 to-orange-400 text-blue-900 px-2 py-0.5 rounded-full font-bold text-xs shadow-lg">
                 ⭐ MEJOR OFERTA ⭐
               </div>
-              <div className="absolute top-2 right-2 bg-red-500 text-white px-2 py-0.5 rounded-full font-bold text-xs animate-pulse">
-                AHORRA MÁS
+              <div className="absolute top-1 right-1 bg-red-500 text-white px-1.5 py-0.5 rounded-full font-bold text-xs animate-pulse">
+                AHORRA
               </div>
-              <h3 className="text-lg md:text-xl font-bold mb-1 mt-3">Plan Premium</h3>
-              <p className="text-blue-100 mb-1.5 text-xs">El favorito de nuestros clientes</p>
-              <div className="mb-1.5">
-                <span className="text-xl md:text-2xl font-bold">$40</span>
-                <span className="text-blue-100 text-sm">/mes</span>
+              <h3 className="text-base font-bold mb-0.5 mt-2">Plan Premium</h3>
+              <p className="text-blue-100 mb-0.5 text-xs">El favorito de nuestros clientes</p>
+              <div className="mb-0.5">
+                <span className="text-lg font-bold">$40</span>
+                <span className="text-blue-100 text-xs">/mes</span>
               </div>
-              <div className="mb-2 p-2 bg-yellow-400 border-2 border-yellow-500 rounded-lg shadow-lg">
-                <p className="text-center font-bold text-blue-900 text-base">+ $135 Instalación</p>
+              <div className="mb-1 p-1 bg-yellow-400 border border-yellow-500 rounded shadow-lg">
+                <p className="text-center font-bold text-blue-900 text-xs">+ $135 Instalación</p>
               </div>
-              <div className="bg-white/10 backdrop-blur-sm p-1.5 rounded-lg mb-2">
-                <p className="text-center text-yellow-300 font-bold text-xs">🎁 INCLUYE BENEFICIOS EXCLUSIVOS</p>
+              <div className="bg-white/10 backdrop-blur-sm p-0.5 rounded mb-1">
+                <p className="text-center text-yellow-300 font-bold text-xs">🎁 BENEFICIOS EXCLUSIVOS</p>
               </div>
-              <ul className="space-y-0.5 mb-2 text-sm">
-                <li className="flex items-center gap-1">
-                  <Star className="w-4 h-4 text-yellow-300 fill-yellow-300" />
+              <ul className="space-y-0.5 mb-1 text-xs">
+                <li className="flex items-center gap-0.5">
+                  <Star className="w-3 h-3 text-yellow-300 fill-yellow-300" />
                   <span className="font-semibold">Internet Ilimitado sin límite de velocidad</span>
                 </li>
-                <li className="flex items-center gap-1">
-                  <Star className="w-4 h-4 text-yellow-300 fill-yellow-300" />
+                <li className="flex items-center gap-0.5">
+                  <Star className="w-3 h-3 text-yellow-300 fill-yellow-300" />
                   <span className="font-semibold">🎬 300+ Canales Premium HD</span>
                 </li>
-                <li className="flex items-center gap-1 ml-4">
+                <li className="flex items-center gap-0.5 ml-2">
                   <CheckCircle className="w-3 h-3 text-yellow-300" />
                   <span className="text-xs">HBO, Showtime, Starz, Cinemax</span>
                 </li>
-                <li className="flex items-center gap-1 ml-4">
+                <li className="flex items-center gap-0.5 ml-2">
                   <CheckCircle className="w-3 h-3 text-yellow-300" />
                   <span className="text-xs">Todos los canales deportivos (ESPN, Fox Sports)</span>
                 </li>
-                <li className="flex items-center gap-1 ml-4">
+                <li className="flex items-center gap-0.5 ml-2">
                   <CheckCircle className="w-3 h-3 text-yellow-300" />
                   <span className="text-xs">Paquete familiar completo</span>
                 </li>
-                <li className="flex items-center gap-1">
-                  <Star className="w-4 h-4 text-yellow-300 fill-yellow-300" />
+                <li className="flex items-center gap-0.5">
+                  <Star className="w-3 h-3 text-yellow-300 fill-yellow-300" />
                   <span className="font-semibold">Router WiFi 6 de última generación</span>
                 </li>
-                <li className="flex items-center gap-1">
-                  <Star className="w-4 h-4 text-yellow-300 fill-yellow-300" />
+                <li className="flex items-center gap-0.5">
+                  <Star className="w-3 h-3 text-yellow-300 fill-yellow-300" />
                   <span className="font-semibold">DVR Cloud ilimitado</span>
                 </li>
-                <li className="flex items-center gap-1">
-                  <Star className="w-4 h-4 text-yellow-300 fill-yellow-300" />
+                <li className="flex items-center gap-0.5">
+                  <Star className="w-3 h-3 text-yellow-300 fill-yellow-300" />
                   <span className="font-semibold">Soporte VIP 24/7</span>
                 </li>
-                <li className="flex items-center gap-1">
-                  <Star className="w-4 h-4 text-yellow-300 fill-yellow-300" />
+                <li className="flex items-center gap-0.5">
+                  <Star className="w-3 h-3 text-yellow-300 fill-yellow-300" />
                   <span className="font-semibold">3 meses gratis de streaming</span>
                 </li>
-                <li className="flex items-center gap-1">
-                  <Star className="w-4 h-4 text-yellow-300 fill-yellow-300" />
+                <li className="flex items-center gap-0.5">
+                  <Star className="w-3 h-3 text-yellow-300 fill-yellow-300" />
                   <span className="font-semibold">Sin contratos - Cancela cuando quieras</span>
                 </li>
               </ul>
-              <div className="space-y-1">
+              <div className="space-y-0.5">
                 <a
                   href="https://wa.me/14256528120?text=🔥%20Hola%2C%20quiero%20el%20Plan%20Premium%20de%20Intel%20Plus%20(Internet%20Ilimitado%20%2B%20300%2B%20Canales%20-%20%2440%2Fmes).%20¡La%20mejor%20oferta!"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-green-600 hover:bg-green-700 text-white py-1.5 rounded-lg font-bold text-sm transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-1"
+                  className="w-full bg-green-600 hover:bg-green-700 text-white py-1 rounded font-bold text-xs transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-0.5"
                 >
-                  <MessageCircle className="w-4 h-4" />
+                  <MessageCircle className="w-3 h-3" />
                   WhatsApp
                 </a>
                 <a
                   href="https://m.me/366942046511890"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-gradient-to-r from-yellow-400 to-orange-400 text-blue-900 hover:from-yellow-500 hover:to-orange-500 py-1.5 rounded-lg font-bold text-sm transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-1"
+                  className="w-full bg-gradient-to-r from-yellow-400 to-orange-400 text-blue-900 hover:from-yellow-500 hover:to-orange-500 py-1 rounded font-bold text-xs transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-0.5"
                 >
-                  <MessageCircle className="w-4 h-4" />
+                  <MessageCircle className="w-3 h-3" />
                   Messenger
                 </a>
                 <a
@@ -594,63 +594,63 @@ export function Home() {
                       installation: "$135"
                     });
                   }}
-                  className="w-full bg-white hover:bg-gray-100 text-blue-900 py-1.5 rounded-lg font-bold text-sm transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-1 border-2 border-yellow-400"
+                  className="w-full bg-white hover:bg-gray-100 text-blue-900 py-1 rounded font-bold text-xs transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-0.5 border border-yellow-400"
                 >
-                  <Clock className="w-4 h-4" />
-                  Agendar Instalación
+                  <Clock className="w-3 h-3" />
+                  Agendar
                 </a>
               </div>
-              <p className="text-center text-yellow-300 text-xs mt-1.5 font-semibold">Oferta por tiempo limitado</p>
+              <p className="text-center text-yellow-300 text-xs mt-0.5 font-semibold">Oferta limitada</p>
             </div>
 
             {/* Plan Ultra */}
-            <div className="bg-gradient-to-br from-orange-500 to-red-600 p-2 md:p-3 lg:p-3 rounded-xl shadow-xl hover:scale-105 transition-all duration-300 text-white relative border-2 border-orange-300">
-              <div className="absolute -top-2 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-orange-400 to-red-400 text-white px-3 py-0.5 rounded-full font-bold text-xs shadow-md">
+            <div className="bg-gradient-to-br from-orange-500 to-red-600 p-1.5 rounded-lg shadow-xl hover:scale-105 transition-all duration-300 text-white relative border border-orange-300">
+              <div className="absolute -top-1.5 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-orange-400 to-red-400 text-white px-2 py-0.5 rounded-full font-bold text-xs shadow-md">
                 ⚡ ALTA VELOCIDAD
               </div>
-              <h3 className="text-lg md:text-xl font-bold mb-1 mt-2">Plan Ultra</h3>
-              <div className="mb-1.5">
-                <span className="text-xl md:text-2xl font-bold">$60</span>
-                <span className="text-orange-100 text-sm">/mes</span>
+              <h3 className="text-base font-bold mb-0.5 mt-1.5">Plan Ultra</h3>
+              <div className="mb-0.5">
+                <span className="text-lg font-bold">$60</span>
+                <span className="text-orange-100 text-xs">/mes</span>
               </div>
-              <div className="mb-2 p-2 bg-white border-2 border-orange-200 rounded-lg shadow-md">
-                <p className="text-center font-bold text-red-700 text-base">+ $150 Instalación</p>
+              <div className="mb-1 p-1 bg-white border border-orange-200 rounded shadow-md">
+                <p className="text-center font-bold text-red-700 text-xs">+ $150 Instalación</p>
               </div>
-              <ul className="space-y-1 mb-2">
-                <li className="flex items-center gap-1">
-                  <CheckCircle className="w-4 h-4 text-orange-200" />
-                  <span className="font-semibold text-sm">2000 Mbps Internet</span>
+              <ul className="space-y-0.5 mb-1 text-xs">
+                <li className="flex items-center gap-0.5">
+                  <CheckCircle className="w-3 h-3 text-orange-200" />
+                  <span>2000 Mbps Internet</span>
                 </li>
-                <li className="flex items-center gap-1">
-                  <CheckCircle className="w-4 h-4 text-orange-200" />
-                  <span className="font-semibold text-sm">150 canales TV básicos</span>
+                <li className="flex items-center gap-0.5">
+                  <CheckCircle className="w-3 h-3 text-orange-200" />
+                  <span>150 canales TV básicos</span>
                 </li>
-                <li className="flex items-center gap-1">
-                  <CheckCircle className="w-4 h-4 text-orange-200" />
-                  <span className="font-semibold text-sm">DVR Cloud incluido</span>
+                <li className="flex items-center gap-0.5">
+                  <CheckCircle className="w-3 h-3 text-orange-200" />
+                  <span>DVR Cloud incluido</span>
                 </li>
-                <li className="flex items-center gap-1">
-                  <CheckCircle className="w-4 h-4 text-orange-200" />
-                  <span className="font-semibold text-sm">Router WiFi 6 gratis</span>
+                <li className="flex items-center gap-0.5">
+                  <CheckCircle className="w-3 h-3 text-orange-200" />
+                  <span>Router WiFi 6 gratis</span>
                 </li>
               </ul>
-              <div className="space-y-1">
+              <div className="space-y-0.5">
                 <a
                   href="https://wa.me/14256528120?text=Hola%2C%20estoy%20interesado%20en%20el%20Plan%20Ultra%20de%20Intel%20Plus%20(2000%20Mbps%20-%20%2460%2Fmes).%20¿Me%20pueden%20dar%20más%20información%3F"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-green-600 hover:bg-green-700 text-white py-1.5 rounded-lg font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-1 text-sm"
+                  className="w-full bg-green-600 hover:bg-green-700 text-white py-1 rounded font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-0.5 text-xs"
                 >
-                  <MessageCircle className="w-4 h-4" />
+                  <MessageCircle className="w-3 h-3" />
                   WhatsApp
                 </a>
                 <a
                   href="https://m.me/366942046511890"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-white text-red-600 hover:bg-orange-50 py-1.5 rounded-lg font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-1 text-sm"
+                  className="w-full bg-white text-red-600 hover:bg-orange-50 py-1 rounded font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-0.5 text-xs"
                 >
-                  <MessageCircle className="w-4 h-4" />
+                  <MessageCircle className="w-3 h-3" />
                   Messenger
                 </a>
                 <a
@@ -665,10 +665,10 @@ export function Home() {
                       installation: "$150"
                     });
                   }}
-                  className="w-full bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white py-1.5 rounded-lg font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-1 text-sm"
+                  className="w-full bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white py-1 rounded font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-0.5 text-xs"
                 >
-                  <Clock className="w-4 h-4" />
-                  Agendar Instalación
+                  <Clock className="w-3 h-3" />
+                  Agendar
                 </a>
               </div>
             </div>
@@ -1411,7 +1411,7 @@ export function Home() {
 
 
       {/* Special Promotion Section */}
-      <section id="oferta-especial" className="py-4 bg-gradient-to-br from-orange-500 via-red-500 to-pink-600 relative overflow-hidden">
+      <section id="oferta-especial" className="py-2 bg-gradient-to-br from-orange-500 via-red-500 to-pink-600 relative overflow-hidden">
         {/* Animated background elements */}
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-8 left-10 w-72 h-72 bg-yellow-300 rounded-full blur-3xl animate-pulse"></div>
@@ -1421,102 +1421,102 @@ export function Home() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-5xl mx-auto">
             {/* Header */}
-            <div className="text-center mb-3">
-              <div className="inline-block bg-yellow-400 text-red-600 px-3 py-1 rounded-full font-black text-xs mb-2 animate-bounce">
-                🔥 OFERTA LIMITADA - NO SIEMPRE DISPONIBLE 🔥
+            <div className="text-center mb-1">
+              <div className="inline-block bg-yellow-400 text-red-600 px-2 py-0.5 rounded-full font-black text-xs mb-0.5 animate-bounce">
+                🔥 OFERTA LIMITADA 🔥
               </div>
-              <h2 className="text-xl md:text-2xl lg:text-2xl font-black text-white mb-2 drop-shadow-lg">
+              <h2 className="text-base md:text-lg font-black text-white mb-0.5 drop-shadow-lg">
                 🌟 ¡Plan Especial del Año! 🌟
               </h2>
-              <p className="text-base text-yellow-300 font-bold">
+              <p className="text-xs text-yellow-300 font-bold">
                 ¡Ahorra $200 y no pagues nada más hasta Abril 2027!
               </p>
             </div>
 
             {/* Main offer card */}
-            <div className="bg-white rounded-2xl shadow-2xl p-3 md:p-4 mb-4 border-4 border-yellow-400 transform hover:scale-105 transition-all duration-300">
+            <div className="bg-white rounded-lg shadow-2xl p-2 mb-2 border-2 border-yellow-400 transform hover:scale-105 transition-all duration-300">
               {/* Price comparison */}
-              <div className="text-center mb-3">
-                <div className="flex items-center justify-center gap-3 mb-2">
+              <div className="text-center mb-1">
+                <div className="flex items-center justify-center gap-2 mb-0.5">
                   <div className="relative">
-                    <span className="text-xl text-gray-400 line-through">$450</span>
-                    <div className="absolute -top-1 -right-1 bg-red-500 text-white text-xs font-bold px-1.5 py-0.5 rounded-full rotate-12">
+                    <span className="text-base text-gray-400 line-through">$450</span>
+                    <div className="absolute -top-0.5 -right-0.5 bg-red-500 text-white text-xs font-bold px-1 py-0.5 rounded-full rotate-12">
                       ANTES
                     </div>
                   </div>
-                  <span className="text-2xl font-black text-blue-600">→</span>
+                  <span className="text-lg font-black text-blue-600">→</span>
                   <div className="relative">
-                    <span className="text-3xl font-black text-green-600">$250</span>
-                    <div className="absolute -top-1 -right-1 bg-green-500 text-white text-xs font-bold px-1.5 py-0.5 rounded-full rotate-12">
+                    <span className="text-xl font-black text-green-600">$250</span>
+                    <div className="absolute -top-0.5 -right-0.5 bg-green-500 text-white text-xs font-bold px-1 py-0.5 rounded-full rotate-12">
                       ¡AHORA!
                     </div>
                   </div>
                 </div>
-                <div className="inline-block bg-red-500 text-white px-3 py-1 rounded-full font-bold text-sm">
+                <div className="inline-block bg-red-500 text-white px-2 py-0.5 rounded-full font-bold text-xs">
                   💸 ¡Ahorras $200 al año!
                 </div>
               </div>
 
               {/* Key benefits */}
-              <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl p-2 mb-3">
-                <h3 className="text-base font-black text-gray-900 mb-2 text-center">
+              <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded p-1 mb-1">
+                <h3 className="text-xs font-black text-gray-900 mb-0.5 text-center">
                   ✅ Sin Preocupaciones hasta Abril 2027
                 </h3>
-                <div className="grid md:grid-cols-3 gap-2 text-center">
-                  <div className="bg-white p-2 rounded-lg shadow-md">
-                    <p className="font-bold text-sm text-red-600">❌ Sin Mensualidades</p>
+                <div className="grid md:grid-cols-3 gap-1 text-center">
+                  <div className="bg-white p-1 rounded shadow-md">
+                    <p className="font-bold text-xs text-red-600">❌ Sin Mensualidades</p>
                   </div>
-                  <div className="bg-white p-2 rounded-lg shadow-md">
-                    <p className="font-bold text-sm text-red-600">❌ Sin Cortes</p>
+                  <div className="bg-white p-1 rounded shadow-md">
+                    <p className="font-bold text-xs text-red-600">❌ Sin Cortes</p>
                   </div>
-                  <div className="bg-white p-2 rounded-lg shadow-md">
-                    <p className="font-bold text-sm text-red-600">❌ Sin Recargos</p>
+                  <div className="bg-white p-1 rounded shadow-md">
+                    <p className="font-bold text-xs text-red-600">❌ Sin Recargos</p>
                   </div>
                 </div>
               </div>
 
               {/* Benefits grid */}
-              <div className="mb-3">
-                <h3 className="text-base font-black text-gray-900 mb-2 text-center">
+              <div className="mb-1">
+                <h3 className="text-xs font-black text-gray-900 mb-0.5 text-center">
                   🎁 Beneficios Exclusivos Incluidos:
                 </h3>
-                <div className="grid md:grid-cols-2 gap-2">
-                  <div className="flex items-start gap-2 bg-gradient-to-r from-green-50 to-green-100 p-2 rounded-lg border border-green-300">
+                <div className="grid md:grid-cols-2 gap-1">
+                  <div className="flex items-start gap-1 bg-gradient-to-r from-green-50 to-green-100 p-1 rounded-lg border border-green-300">
                     <Star className="w-4 h-4 text-green-600 fill-green-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <p className="font-bold text-sm text-gray-900">📹 Cámaras de Seguridad</p>
+                      <p className="font-bold text-xs text-gray-900">📹 Cámaras de Seguridad</p>
                       <p className="text-xs text-gray-600">Totalmente gratis</p>
                     </div>
                   </div>
-                  <div className="flex items-start gap-2 bg-gradient-to-r from-blue-50 to-blue-100 p-2 rounded-lg border border-blue-300">
+                  <div className="flex items-start gap-1 bg-gradient-to-r from-blue-50 to-blue-100 p-1 rounded-lg border border-blue-300">
                     <Star className="w-4 h-4 text-blue-600 fill-blue-600 flex-shrink-0 mt-0.5" />
                     <div>
                       <p className="font-bold text-xs text-gray-900">🚚 Traslado Sin Costo</p>
                       <p className="text-xs text-gray-600">Si te mudas, te seguimos</p>
                     </div>
                   </div>
-                  <div className="flex items-start gap-2 bg-gradient-to-r from-purple-50 to-purple-100 p-2 rounded-lg border border-purple-300">
+                  <div className="flex items-start gap-1 bg-gradient-to-r from-purple-50 to-purple-100 p-1 rounded-lg border border-purple-300">
                     <Star className="w-4 h-4 text-purple-600 fill-purple-600 flex-shrink-0" />
                     <div>
                       <p className="font-bold text-xs text-gray-900">🛠️ Soporte Técnico 24/7</p>
                       <p className="text-xs text-gray-600">Asistencia cuando la necesites</p>
                     </div>
                   </div>
-                  <div className="flex items-start gap-2 bg-gradient-to-r from-yellow-50 to-yellow-100 p-2 rounded-lg border border-yellow-300">
+                  <div className="flex items-start gap-1 bg-gradient-to-r from-yellow-50 to-yellow-100 p-1 rounded-lg border border-yellow-300">
                     <Star className="w-4 h-4 text-yellow-600 fill-yellow-600 flex-shrink-0" />
                     <div>
                       <p className="font-bold text-xs text-gray-900">🎁 Tarjeta de Regalo</p>
                       <p className="text-xs text-gray-600">$150-$200 después de 25 días</p>
                     </div>
                   </div>
-                  <div className="flex items-start gap-2 bg-gradient-to-r from-red-50 to-red-100 p-2 rounded-lg border border-red-300">
+                  <div className="flex items-start gap-1 bg-gradient-to-r from-red-50 to-red-100 p-1 rounded-lg border border-red-300">
                     <Star className="w-4 h-4 text-red-600 fill-red-600 flex-shrink-0" />
                     <div>
                       <p className="font-bold text-xs text-gray-900">📺 TV 58 Pulgadas</p>
                       <p className="text-xs text-gray-600">Televisor gratis incluido</p>
                     </div>
                   </div>
-                  <div className="flex items-start gap-2 bg-gradient-to-r from-pink-50 to-pink-100 p-2 rounded-lg border border-pink-300">
+                  <div className="flex items-start gap-1 bg-gradient-to-r from-pink-50 to-pink-100 p-1 rounded-lg border border-pink-300">
                     <Star className="w-4 h-4 text-pink-600 fill-pink-600 flex-shrink-0" />
                     <div>
                       <p className="font-bold text-xs text-gray-900">🍿 Netflix & HBO Max</p>
@@ -1527,7 +1527,7 @@ export function Home() {
               </div>
 
               {/* Payment summary */}
-              <div className="bg-gradient-to-r from-gray-800 to-gray-900 text-white rounded-xl p-2 mb-3">
+              <div className="bg-gradient-to-r from-gray-800 to-gray-900 text-white rounded-xl p-1 mb-1">
                 <h3 className="text-base font-black text-center mb-2 text-yellow-400">💰 Resumen de Pago</h3>
                 <div className="space-y-1.5 max-w-md mx-auto text-sm">
                   <div className="flex justify-between items-center pb-1 border-b border-gray-600">
@@ -1577,39 +1577,39 @@ export function Home() {
               </div>
 
               {/* CTA Buttons */}
-              <div className="space-y-1">
-                <p className="text-center text-sm font-bold text-gray-900 mb-1.5">
-                  👉 Asegura este precio exclusivo hoy mismo
+              <div className="space-y-0.5">
+                <p className="text-center text-xs font-bold text-gray-900 mb-0.5">
+                  👉 Asegura este precio exclusivo
                 </p>
                 <a
                   href="https://wa.me/14256528120?text=🌟%20Hola%2C%20quiero%20información%20sobre%20el%20Plan%20Especial%20Anual%20de%20%24250%20(ahorro%20de%20%24200).%20¡No%20quiero%20perder%20esta%20oferta!"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white py-2 rounded-lg font-black text-sm transition-all shadow-2xl transform hover:scale-105 flex items-center justify-center gap-2"
+                  className="w-full bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white py-1 rounded font-black text-xs transition-all shadow-2xl transform hover:scale-105 flex items-center justify-center gap-1"
                 >
-                  <MessageCircle className="w-4 h-4" />
-                  🔥 ¡ASEGURAR PRECIO POR WHATSAPP!
+                  <MessageCircle className="w-3 h-3" />
+                  🔥 WHATSAPP
                 </a>
                 <a
                   href="https://m.me/366942046511890"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white py-2 rounded-lg font-black text-sm transition-all shadow-2xl transform hover:scale-105 flex items-center justify-center gap-2"
+                  className="w-full bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white py-1 rounded font-black text-xs transition-all shadow-2xl transform hover:scale-105 flex items-center justify-center gap-1"
                 >
-                  <MessageCircle className="w-4 h-4" />
-                  💬 CONSULTAR POR MESSENGER
+                  <MessageCircle className="w-3 h-3" />
+                  💬 MESSENGER
                 </a>
               </div>
 
-              <p className="text-center text-gray-600 text-xs mt-2 font-semibold">
-                ⏰ Esta oferta puede terminar en cualquier momento
+              <p className="text-center text-gray-600 text-xs mt-0.5 font-semibold">
+                ⏰ Oferta puede terminar en cualquier momento
               </p>
             </div>
 
             {/* Urgency footer */}
             <div className="text-center">
-              <p className="text-white text-base font-bold drop-shadow-lg">
-                ⚡ No dejes pasar esta oportunidad única ⚡
+              <p className="text-white text-xs font-bold drop-shadow-lg">
+                ⚡ No dejes pasar esta oportunidad ⚡
               </p>
             </div>
           </div>
