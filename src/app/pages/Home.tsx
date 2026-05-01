@@ -369,7 +369,7 @@ export function Home() {
                   </p>
                   <div className="flex flex-col sm:flex-row gap-2 justify-center">
                     <a
-                      href="https://wa.me/14256528120?text=Hola%2C%20verificqué%20que%20tienen%20servicio%20en%20mi%20área%20(ZIP%20{zipCode}).%20Quiero%20más%20información."
+                      href={`https://wa.me/14256528120?text=Hola%2C%20verificqué%20que%20tienen%20servicio%20en%20mi%20área%20(ZIP%20${zipCode}).%20Quiero%20más%20información.`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-green-600 hover:bg-green-700 text-white px-3 py-4 rounded text-sm font-bold transition-all inline-flex items-center justify-center gap-2"
@@ -400,7 +400,7 @@ export function Home() {
                     Déjanos tu contacto y te avisaremos cuando lleguemos.
                   </p>
                   <a
-                    href="https://wa.me/14256528120?text=Hola%2C%20quiero%20que%20me%20avisen%20cuando%20tengan%20servicio%20en%20mi%20área%20(ZIP%20{zipCode})"
+                    href={`https://wa.me/14256528120?text=Hola%2C%20quiero%20que%20me%20avisen%20cuando%20tengan%20servicio%20en%20mi%20área%20(ZIP%20${zipCode})`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-orange-600 hover:bg-orange-700 text-white px-3 py-4 rounded text-sm font-bold transition-all inline-flex items-center justify-center gap-2"
