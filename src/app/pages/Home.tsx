@@ -1311,10 +1311,11 @@ export function Home() {
                           const randomNum = Math.floor(100000 + Math.random() * 900000);
                           setConfirmationNumber(`CONF-${randomNum}`);
 
-                          // Show success and close
+                          // Show success - keep scheduler open to show confirmation
                           setIsProcessing(false);
                           setShowConfirmation(true);
-                          setShowScheduler(false);
+                          // DON'T close scheduler - keep it open to show confirmation
+                          // setShowScheduler(false);
                           setAppointmentName('');
                           setAppointmentPhone('');
                           setAppointmentAddress('');
