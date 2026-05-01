@@ -494,14 +494,14 @@ export function Home() {
 
             {/* Plan Premium */}
             <div className="bg-gradient-to-br from-purple-600 via-pink-600 to-red-600 p-2.5 rounded-lg shadow-2xl hover:scale-105 transition-all duration-300 text-white relative border-4 border-yellow-300">
-              <div className="absolute -top-1.5 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-yellow-300 via-orange-400 to-red-500 text-white px-4 py-0.5 rounded-full font-black text-base shadow-2xl animate-bounce">
+              <div className="absolute -top-1.5 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-yellow-300 via-orange-400 to-red-500 text-white px-4 py-0.5 rounded-full font-black text-base shadow-2xl">
                 🚨🔥 EL PLAN MÁS COMPLETO – PREMIUM 🔥🚨
               </div>
               <div className="absolute top-1 right-1 bg-yellow-400 text-red-600 px-3 py-0.5 rounded-full font-black text-sm animate-pulse shadow-lg">
                 💎 VIP
               </div>
 
-              <h3 className="text-2xl font-black mb-2 mt-6 text-center">💎 PLAN PREMIUM</h3>
+              <h3 className="text-2xl font-black mb-2 mt-8 text-center">💎 PLAN PREMIUM</h3>
               <p className="text-yellow-200 font-bold text-center mb-3 text-lg">Si quieres TODO sin límites… este es el plan que está dominando 👇</p>
 
               <div className="mb-3 bg-white/20 backdrop-blur-sm p-3 rounded-lg border-4 border-yellow-300">
