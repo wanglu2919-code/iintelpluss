@@ -565,15 +565,6 @@ export function Home() {
                   WhatsApp
                 </a>
                 <a
-                  href="https://m.me/366942046511890"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full bg-gradient-to-r from-yellow-400 to-orange-400 text-blue-900 hover:from-yellow-500 hover:to-orange-500 py-1 rounded font-bold text-xs transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-0.5"
-                >
-                  <MessageCircle className="w-3 h-3" />
-                  Messenger
-                </a>
-                <a
                   href="#agenda-instalacion"
                   onClick={() => {
                     setShowScheduler(true);
@@ -634,15 +625,6 @@ export function Home() {
                 >
                   <MessageCircle className="w-3 h-3" />
                   WhatsApp
-                </a>
-                <a
-                  href="https://m.me/366942046511890"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full bg-white text-red-600 hover:bg-orange-50 py-1 rounded font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-0.5 text-xs"
-                >
-                  <MessageCircle className="w-3 h-3" />
-                  Messenger
                 </a>
                 <a
                   href="#agenda-instalacion"
@@ -1580,15 +1562,6 @@ export function Home() {
                 >
                   <MessageCircle className="w-3 h-3" />
                   🔥 WHATSAPP
-                </a>
-                <a
-                  href="https://m.me/366942046511890"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white py-1 rounded font-black text-xs transition-all shadow-2xl transform hover:scale-105 flex items-center justify-center gap-1"
-                >
-                  <MessageCircle className="w-3 h-3" />
-                  💬 MESSENGER
                 </a>
               </div>
 
