@@ -436,19 +436,19 @@ export function Home() {
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {/* Plan Básico */}
-            <div className="bg-gradient-to-br from-cyan-500 to-blue-600 p-4 md:p-6 lg:p-6 rounded-xl shadow-xl hover:scale-105 transition-all duration-300 text-white relative border-2 border-cyan-300">
+            <div className="bg-gradient-to-br from-cyan-500 to-blue-600 p-3 md:p-4 lg:p-4 rounded-xl shadow-xl hover:scale-105 transition-all duration-300 text-white relative border-2 border-cyan-300">
               <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-cyan-400 to-blue-400 text-white px-4 py-1 rounded-full font-bold text-xs shadow-md">
                 💎 ECONÓMICO
               </div>
               <h3 className="text-xl md:text-2xl font-bold mb-2 mt-2">Plan Básico</h3>
-              <div className="mb-4">
+              <div className="mb-3">
                 <span className="text-2xl md:text-3xl font-bold">$25</span>
                 <span className="text-cyan-100">/mes</span>
               </div>
-              <div className="mb-6 p-4 bg-white border-2 border-cyan-200 rounded-lg shadow-md">
+              <div className="mb-4 p-3 bg-white border-2 border-cyan-200 rounded-lg shadow-md">
                 <p className="text-center font-bold text-blue-700 text-lg">+ $120 Instalación</p>
               </div>
-              <ul className="space-y-3 mb-8">
+              <ul className="space-y-2 mb-4">
                 <li className="flex items-center gap-2">
                   <CheckCircle className="w-5 h-5 text-cyan-200" />
                   <span className="font-semibold">1000 Mbps Internet</span>
@@ -502,7 +502,7 @@ export function Home() {
             </div>
 
             {/* Plan Premium */}
-            <div className="bg-gradient-to-br from-blue-600 via-purple-600 to-blue-800 p-6 rounded-xl shadow-2xl hover:scale-110 transition-all duration-300 text-white relative border-4 border-yellow-400 transform scale-105">
+            <div className="bg-gradient-to-br from-blue-600 via-purple-600 to-blue-800 p-4 rounded-xl shadow-2xl hover:scale-110 transition-all duration-300 text-white relative border-4 border-yellow-400 transform scale-105">
               <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-yellow-400 to-orange-400 text-blue-900 px-6 py-2 rounded-full font-bold text-sm shadow-lg">
                 ⭐ MEJOR OFERTA ⭐
               </div>
@@ -510,18 +510,18 @@ export function Home() {
                 AHORRA MÁS
               </div>
               <h3 className="text-xl md:text-2xl font-bold mb-2 mt-4">Plan Premium</h3>
-              <p className="text-blue-100 mb-4 text-sm">El favorito de nuestros clientes</p>
-              <div className="mb-4">
+              <p className="text-blue-100 mb-3 text-sm">El favorito de nuestros clientes</p>
+              <div className="mb-3">
                 <span className="text-2xl md:text-3xl font-bold">$40</span>
                 <span className="text-blue-100 text-xl">/mes</span>
               </div>
-              <div className="mb-6 p-4 bg-yellow-400 border-2 border-yellow-500 rounded-lg shadow-lg">
+              <div className="mb-4 p-3 bg-yellow-400 border-2 border-yellow-500 rounded-lg shadow-lg">
                 <p className="text-center font-bold text-blue-900 text-lg">+ $135 Instalación</p>
               </div>
-              <div className="bg-white/10 backdrop-blur-sm p-4 rounded-lg mb-6">
+              <div className="bg-white/10 backdrop-blur-sm p-3 rounded-lg mb-4">
                 <p className="text-center text-yellow-300 font-bold text-sm">🎁 INCLUYE BENEFICIOS EXCLUSIVOS</p>
               </div>
-              <ul className="space-y-3 mb-8">
+              <ul className="space-y-2 mb-4">
                 <li className="flex items-center gap-2">
                   <Star className="w-6 h-6 text-yellow-300 fill-yellow-300" />
                   <span className="font-semibold">Internet Ilimitado sin límite de velocidad</span>
@@ -604,19 +604,19 @@ export function Home() {
             </div>
 
             {/* Plan Ultra */}
-            <div className="bg-gradient-to-br from-orange-500 to-red-600 p-4 md:p-6 lg:p-6 rounded-xl shadow-xl hover:scale-105 transition-all duration-300 text-white relative border-2 border-orange-300">
+            <div className="bg-gradient-to-br from-orange-500 to-red-600 p-3 md:p-4 lg:p-4 rounded-xl shadow-xl hover:scale-105 transition-all duration-300 text-white relative border-2 border-orange-300">
               <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-orange-400 to-red-400 text-white px-4 py-1 rounded-full font-bold text-xs shadow-md">
                 ⚡ ALTA VELOCIDAD
               </div>
               <h3 className="text-xl md:text-2xl font-bold mb-2 mt-2">Plan Ultra</h3>
-              <div className="mb-4">
+              <div className="mb-3">
                 <span className="text-2xl md:text-3xl font-bold">$60</span>
                 <span className="text-orange-100">/mes</span>
               </div>
-              <div className="mb-6 p-4 bg-white border-2 border-orange-200 rounded-lg shadow-md">
+              <div className="mb-4 p-3 bg-white border-2 border-orange-200 rounded-lg shadow-md">
                 <p className="text-center font-bold text-red-700 text-lg">+ $150 Instalación</p>
               </div>
-              <ul className="space-y-3 mb-8">
+              <ul className="space-y-2 mb-4">
                 <li className="flex items-center gap-2">
                   <CheckCircle className="w-5 h-5 text-orange-200" />
                   <span className="font-semibold">2000 Mbps Internet</span>
@@ -1411,7 +1411,7 @@ export function Home() {
 
 
       {/* Special Promotion Section */}
-      <section id="oferta-especial" className="py-12 bg-gradient-to-br from-orange-500 via-red-500 to-pink-600 relative overflow-hidden">
+      <section id="oferta-especial" className="py-8 bg-gradient-to-br from-orange-500 via-red-500 to-pink-600 relative overflow-hidden">
         {/* Animated background elements */}
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-8 left-10 w-72 h-72 bg-yellow-300 rounded-full blur-3xl animate-pulse"></div>
@@ -1421,102 +1421,102 @@ export function Home() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-5xl mx-auto">
             {/* Header */}
-            <div className="text-center mb-8">
-              <div className="inline-block bg-yellow-400 text-red-600 px-6 py-2 rounded-full font-black text-sm mb-4 animate-bounce">
+            <div className="text-center mb-6">
+              <div className="inline-block bg-yellow-400 text-red-600 px-5 py-1.5 rounded-full font-black text-sm mb-3 animate-bounce">
                 🔥 OFERTA LIMITADA - NO SIEMPRE DISPONIBLE 🔥
               </div>
-              <h2 className="text-2xl md:text-3xl lg:text-4xl font-black text-white mb-4 drop-shadow-lg">
+              <h2 className="text-2xl md:text-3xl lg:text-3xl font-black text-white mb-3 drop-shadow-lg">
                 🌟 ¡Plan Especial del Año! 🌟
               </h2>
-              <p className="text-2xl text-yellow-300 font-bold">
+              <p className="text-xl text-yellow-300 font-bold">
                 ¡Ahorra $200 y no pagues nada más hasta Abril 2027!
               </p>
             </div>
 
             {/* Main offer card */}
-            <div className="bg-white rounded-3xl shadow-2xl p-6 md:p-8 mb-8 border-8 border-yellow-400 transform hover:scale-105 transition-all duration-300">
+            <div className="bg-white rounded-3xl shadow-2xl p-5 md:p-6 mb-6 border-8 border-yellow-400 transform hover:scale-105 transition-all duration-300">
               {/* Price comparison */}
-              <div className="text-center mb-8">
-                <div className="flex items-center justify-center gap-6 mb-4">
+              <div className="text-center mb-6">
+                <div className="flex items-center justify-center gap-5 mb-3">
                   <div className="relative">
-                    <span className="text-3xl text-gray-400 line-through">$450</span>
+                    <span className="text-2xl text-gray-400 line-through">$450</span>
                     <div className="absolute -top-2 -right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full rotate-12">
                       ANTES
                     </div>
                   </div>
-                  <span className="text-4xl font-black text-blue-600">→</span>
+                  <span className="text-3xl font-black text-blue-600">→</span>
                   <div className="relative">
-                    <span className="text-5xl font-black text-green-600">$250</span>
+                    <span className="text-4xl font-black text-green-600">$250</span>
                     <div className="absolute -top-2 -right-2 bg-green-500 text-white text-xs font-bold px-2 py-1 rounded-full rotate-12">
                       ¡AHORA!
                     </div>
                   </div>
                 </div>
-                <div className="inline-block bg-red-500 text-white px-6 py-3 rounded-full font-bold text-xl">
+                <div className="inline-block bg-red-500 text-white px-5 py-2 rounded-full font-bold text-lg">
                   💸 ¡Ahorras $200 al año!
                 </div>
               </div>
 
               {/* Key benefits */}
-              <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-6 mb-8">
-                <h3 className="text-2xl font-black text-gray-900 mb-4 text-center">
+              <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-4 mb-6">
+                <h3 className="text-xl font-black text-gray-900 mb-3 text-center">
                   ✅ Sin Preocupaciones hasta Abril 2027
                 </h3>
-                <div className="grid md:grid-cols-3 gap-4 text-center">
-                  <div className="bg-white p-4 rounded-xl shadow-md">
-                    <p className="font-bold text-lg text-red-600">❌ Sin Mensualidades</p>
+                <div className="grid md:grid-cols-3 gap-3 text-center">
+                  <div className="bg-white p-3 rounded-xl shadow-md">
+                    <p className="font-bold text-base text-red-600">❌ Sin Mensualidades</p>
                   </div>
-                  <div className="bg-white p-4 rounded-xl shadow-md">
-                    <p className="font-bold text-lg text-red-600">❌ Sin Cortes</p>
+                  <div className="bg-white p-3 rounded-xl shadow-md">
+                    <p className="font-bold text-base text-red-600">❌ Sin Cortes</p>
                   </div>
-                  <div className="bg-white p-4 rounded-xl shadow-md">
-                    <p className="font-bold text-lg text-red-600">❌ Sin Recargos</p>
+                  <div className="bg-white p-3 rounded-xl shadow-md">
+                    <p className="font-bold text-base text-red-600">❌ Sin Recargos</p>
                   </div>
                 </div>
               </div>
 
               {/* Benefits grid */}
-              <div className="mb-8">
-                <h3 className="text-3xl font-black text-gray-900 mb-6 text-center">
+              <div className="mb-6">
+                <h3 className="text-2xl font-black text-gray-900 mb-4 text-center">
                   🎁 Beneficios Exclusivos Incluidos:
                 </h3>
-                <div className="grid md:grid-cols-2 gap-4">
-                  <div className="flex items-start gap-3 bg-gradient-to-r from-green-50 to-green-100 p-4 rounded-xl border-2 border-green-300">
+                <div className="grid md:grid-cols-2 gap-3">
+                  <div className="flex items-start gap-3 bg-gradient-to-r from-green-50 to-green-100 p-3 rounded-xl border-2 border-green-300">
                     <Star className="w-8 h-8 text-green-600 fill-green-600 flex-shrink-0" />
                     <div>
                       <p className="font-bold text-lg text-gray-900">📹 Cámaras de Seguridad</p>
                       <p className="text-sm text-gray-600">Totalmente gratis</p>
                     </div>
                   </div>
-                  <div className="flex items-start gap-3 bg-gradient-to-r from-blue-50 to-blue-100 p-4 rounded-xl border-2 border-blue-300">
+                  <div className="flex items-start gap-3 bg-gradient-to-r from-blue-50 to-blue-100 p-3 rounded-xl border-2 border-blue-300">
                     <Star className="w-8 h-8 text-blue-600 fill-blue-600 flex-shrink-0" />
                     <div>
                       <p className="font-bold text-lg text-gray-900">🚚 Traslado Sin Costo</p>
                       <p className="text-sm text-gray-600">Si te mudas, te seguimos</p>
                     </div>
                   </div>
-                  <div className="flex items-start gap-3 bg-gradient-to-r from-purple-50 to-purple-100 p-4 rounded-xl border-2 border-purple-300">
+                  <div className="flex items-start gap-3 bg-gradient-to-r from-purple-50 to-purple-100 p-3 rounded-xl border-2 border-purple-300">
                     <Star className="w-8 h-8 text-purple-600 fill-purple-600 flex-shrink-0" />
                     <div>
                       <p className="font-bold text-lg text-gray-900">🛠️ Soporte Técnico 24/7</p>
                       <p className="text-sm text-gray-600">Asistencia cuando la necesites</p>
                     </div>
                   </div>
-                  <div className="flex items-start gap-3 bg-gradient-to-r from-yellow-50 to-yellow-100 p-4 rounded-xl border-2 border-yellow-300">
+                  <div className="flex items-start gap-3 bg-gradient-to-r from-yellow-50 to-yellow-100 p-3 rounded-xl border-2 border-yellow-300">
                     <Star className="w-8 h-8 text-yellow-600 fill-yellow-600 flex-shrink-0" />
                     <div>
                       <p className="font-bold text-lg text-gray-900">🎁 Tarjeta de Regalo</p>
                       <p className="text-sm text-gray-600">$150-$200 después de 25 días</p>
                     </div>
                   </div>
-                  <div className="flex items-start gap-3 bg-gradient-to-r from-red-50 to-red-100 p-4 rounded-xl border-2 border-red-300">
+                  <div className="flex items-start gap-3 bg-gradient-to-r from-red-50 to-red-100 p-3 rounded-xl border-2 border-red-300">
                     <Star className="w-8 h-8 text-red-600 fill-red-600 flex-shrink-0" />
                     <div>
                       <p className="font-bold text-lg text-gray-900">📺 TV 58 Pulgadas</p>
                       <p className="text-sm text-gray-600">Televisor gratis incluido</p>
                     </div>
                   </div>
-                  <div className="flex items-start gap-3 bg-gradient-to-r from-pink-50 to-pink-100 p-4 rounded-xl border-2 border-pink-300">
+                  <div className="flex items-start gap-3 bg-gradient-to-r from-pink-50 to-pink-100 p-3 rounded-xl border-2 border-pink-300">
                     <Star className="w-8 h-8 text-pink-600 fill-pink-600 flex-shrink-0" />
                     <div>
                       <p className="font-bold text-lg text-gray-900">🍿 Netflix & HBO Max</p>
@@ -1527,48 +1527,48 @@ export function Home() {
               </div>
 
               {/* Payment summary */}
-              <div className="bg-gradient-to-r from-gray-800 to-gray-900 text-white rounded-2xl p-6 mb-6">
-                <h3 className="text-3xl font-black text-center mb-6 text-yellow-400">💰 Resumen de Pago</h3>
-                <div className="space-y-4 max-w-md mx-auto">
-                  <div className="flex justify-between items-center pb-3 border-b border-gray-600">
-                    <span className="text-lg">Plan Anual Completo:</span>
-                    <span className="text-2xl font-bold text-green-400">$250</span>
+              <div className="bg-gradient-to-r from-gray-800 to-gray-900 text-white rounded-2xl p-4 mb-5">
+                <h3 className="text-2xl font-black text-center mb-4 text-yellow-400">💰 Resumen de Pago</h3>
+                <div className="space-y-3 max-w-md mx-auto">
+                  <div className="flex justify-between items-center pb-2 border-b border-gray-600">
+                    <span className="text-base">Plan Anual Completo:</span>
+                    <span className="text-xl font-bold text-green-400">$250</span>
                   </div>
-                  <div className="flex justify-between items-center pb-3 border-b border-gray-600">
-                    <span className="text-lg">Instalación (con descuento):</span>
-                    <span className="text-2xl font-bold text-green-400">$110</span>
+                  <div className="flex justify-between items-center pb-2 border-b border-gray-600">
+                    <span className="text-base">Instalación (con descuento):</span>
+                    <span className="text-xl font-bold text-green-400">$110</span>
                   </div>
-                  <div className="flex justify-between items-center pt-4 border-t-4 border-yellow-400">
-                    <span className="text-2xl font-black">TOTAL ÚNICO:</span>
-                    <span className="text-4xl font-black text-yellow-400">$360</span>
+                  <div className="flex justify-between items-center pt-3 border-t-4 border-yellow-400">
+                    <span className="text-xl font-black">TOTAL ÚNICO:</span>
+                    <span className="text-3xl font-black text-yellow-400">$360</span>
                   </div>
-                  <p className="text-center text-yellow-300 font-bold text-lg pt-4">
+                  <p className="text-center text-yellow-300 font-bold text-base pt-3">
                     ✅ ¡Sin pagar nada más hasta Abril 2027!
                   </p>
                 </div>
               </div>
 
               {/* Important info badges */}
-              <div className="space-y-3 mb-6">
-                <div className="bg-green-100 border-l-4 border-green-600 p-4 rounded-lg">
+              <div className="space-y-2 mb-5">
+                <div className="bg-green-100 border-l-4 border-green-600 p-3 rounded-lg">
                   <p className="text-green-800 font-bold flex items-center gap-2">
                     <span className="text-2xl">✅</span>
                     <span>¿Ya tienes servicio con nosotros? ¡Puedes aplicar a esta oferta después de la instalación!</span>
                   </p>
                 </div>
-                <div className="bg-blue-100 border-l-4 border-blue-600 p-4 rounded-lg">
+                <div className="bg-blue-100 border-l-4 border-blue-600 p-3 rounded-lg">
                   <p className="text-blue-800 font-bold flex items-center gap-2">
                     <span className="text-2xl">💡</span>
                     <span>Clientes nuevos y existentes pueden beneficiarse de esta promoción especial</span>
                   </p>
                 </div>
-                <div className="bg-red-100 border-l-4 border-red-600 p-4 rounded-lg">
+                <div className="bg-red-100 border-l-4 border-red-600 p-3 rounded-lg">
                   <p className="text-red-800 font-bold flex items-center gap-2">
                     <span className="text-2xl">⚠️</span>
                     <span>Este plan especial es limitado y no siempre está disponible</span>
                   </p>
                 </div>
-                <div className="bg-orange-100 border-l-4 border-orange-600 p-4 rounded-lg">
+                <div className="bg-orange-100 border-l-4 border-orange-600 p-3 rounded-lg">
                   <p className="text-orange-800 font-bold flex items-center gap-2">
                     <span className="text-2xl">⚠️</span>
                     <span>No está disponible para todos los clientes y puede cerrarse en cualquier momento</span>
@@ -1577,38 +1577,38 @@ export function Home() {
               </div>
 
               {/* CTA Buttons */}
-              <div className="space-y-3">
-                <p className="text-center text-xl font-bold text-gray-900 mb-4">
+              <div className="space-y-2">
+                <p className="text-center text-lg font-bold text-gray-900 mb-3">
                   👉 Asegura este precio exclusivo hoy mismo
                 </p>
                 <a
                   href="https://wa.me/14256528120?text=🌟%20Hola%2C%20quiero%20información%20sobre%20el%20Plan%20Especial%20Anual%20de%20%24250%20(ahorro%20de%20%24200).%20¡No%20quiero%20perder%20esta%20oferta!"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white py-5 rounded-xl font-black text-xl transition-all shadow-2xl transform hover:scale-105 flex items-center justify-center gap-3"
+                  className="w-full bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white py-3 rounded-xl font-black text-lg transition-all shadow-2xl transform hover:scale-105 flex items-center justify-center gap-3"
                 >
-                  <MessageCircle className="w-7 h-7" />
+                  <MessageCircle className="w-6 h-6" />
                   🔥 ¡ASEGURAR PRECIO POR WHATSAPP!
                 </a>
                 <a
                   href="https://m.me/366942046511890"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white py-5 rounded-xl font-black text-xl transition-all shadow-2xl transform hover:scale-105 flex items-center justify-center gap-3"
+                  className="w-full bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white py-3 rounded-xl font-black text-lg transition-all shadow-2xl transform hover:scale-105 flex items-center justify-center gap-3"
                 >
-                  <MessageCircle className="w-7 h-7" />
+                  <MessageCircle className="w-6 h-6" />
                   💬 CONSULTAR POR MESSENGER
                 </a>
               </div>
 
-              <p className="text-center text-gray-600 text-sm mt-4 font-semibold">
+              <p className="text-center text-gray-600 text-sm mt-3 font-semibold">
                 ⏰ Esta oferta puede terminar en cualquier momento
               </p>
             </div>
 
             {/* Urgency footer */}
             <div className="text-center">
-              <p className="text-white text-2xl font-bold drop-shadow-lg">
+              <p className="text-white text-xl font-bold drop-shadow-lg">
                 ⚡ No dejes pasar esta oportunidad única ⚡
               </p>
             </div>
