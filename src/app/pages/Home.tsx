@@ -628,62 +628,97 @@ export function Home() {
             </div>
 
             {/* Plan Ultra */}
-            <div className="bg-gradient-to-br from-orange-500 to-red-600 p-2.5 rounded-lg shadow-xl hover:scale-105 transition-all duration-300 text-white relative border border-orange-300">
-              <div className="absolute -top-1.5 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-orange-400 to-red-400 text-white px-4 py-0.5 rounded-full font-bold text-sm shadow-md">
-                ⚡ ALTA VELOCIDAD
+            <div className="bg-gradient-to-br from-blue-700 via-indigo-600 to-purple-700 p-2.5 rounded-lg shadow-2xl hover:scale-105 transition-all duration-300 text-white relative border-4 border-cyan-300">
+              <div className="absolute top-2 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-cyan-400 to-blue-500 text-white px-3 py-2 rounded-full font-black text-xs shadow-lg w-11/12 text-center">
+                🚀🔥 POTENCIA MÁXIMA EN TU HOGAR 🔥🚀
               </div>
-              <h3 className="text-lg font-bold mb-4 mt-3.5">Plan Ultra</h3>
-              <div className="mb-4">
-                <span className="text-sm font-bold">$60</span>
-                <span className="text-orange-100 text-sm">/mes</span>
+
+              <h3 className="text-xl font-black mb-2 mt-12 text-center">⚡️ PLAN ULTRA</h3>
+              <p className="text-cyan-200 font-bold text-center mb-3 text-base">¿Cansado de internet lento y caro? Este es el plan que lo cambia TODO 💥</p>
+
+              <div className="mb-3 bg-white/20 backdrop-blur-sm p-3 rounded-lg border-2 border-cyan-300">
+                <p className="text-center text-xl font-black">💰 Solo $49/mes</p>
+                <p className="text-center text-base font-bold text-cyan-200">🛠️ Instalación: $140 (pago único)</p>
               </div>
-              <div className="mb-3 p-2 bg-white border border-orange-200 rounded shadow-md">
-                <p className="text-center font-bold text-red-700 text-sm">+ $150 Instalación</p>
+
+              <div className="mb-3 p-3 bg-gradient-to-r from-cyan-400 to-blue-400 rounded-lg shadow-lg">
+                <p className="text-center font-black text-indigo-900 text-base">⚡️ LO QUE RECIBES:</p>
               </div>
-              <ul className="space-y-0.5 mb-3 text-sm">
-                <li className="flex items-center gap-2">
-                  <CheckCircle className="w-7 h-7 text-orange-200" />
-                  <span>2000 Mbps Internet</span>
+
+              <ul className="space-y-2 mb-3 text-base">
+                <li className="flex items-center gap-2 bg-white/10 p-2 rounded">
+                  <CheckCircle className="w-7 h-7 text-cyan-300" />
+                  <span className="font-bold">✔️ 🚀 Hasta 3000 Mbps de velocidad REAL</span>
                 </li>
-                <li className="flex items-center gap-2">
-                  <CheckCircle className="w-7 h-7 text-orange-200" />
-                  <span>150 canales TV básicos</span>
+                <li className="flex items-center gap-2 bg-white/10 p-2 rounded">
+                  <CheckCircle className="w-7 h-7 text-cyan-300" />
+                  <span className="font-bold">✔️ 📺 150+ canales en vivo para toda la familia</span>
                 </li>
-                <li className="flex items-center gap-2">
-                  <CheckCircle className="w-7 h-7 text-orange-200" />
-                  <span>DVR Cloud incluido</span>
+                <li className="flex items-center gap-2 bg-white/10 p-2 rounded">
+                  <CheckCircle className="w-7 h-7 text-cyan-300" />
+                  <span className="font-bold">✔️ ☁️ DVR en la nube incluido (graba lo que quieras)</span>
                 </li>
-                <li className="flex items-center gap-2">
-                  <CheckCircle className="w-7 h-7 text-orange-200" />
-                  <span>Router WiFi 6 gratis</span>
+                <li className="flex items-center gap-2 bg-white/10 p-2 rounded">
+                  <CheckCircle className="w-7 h-7 text-cyan-300" />
+                  <span className="font-bold">✔️ 📡 Router WiFi 6 GRATIS (máximo rendimiento)</span>
+                </li>
+                <li className="flex items-center gap-2 bg-white/10 p-2 rounded">
+                  <CheckCircle className="w-7 h-7 text-cyan-300" />
+                  <span className="font-bold">✔️ 🎮 Perfecto para Netflix, gaming y múltiples dispositivos</span>
                 </li>
               </ul>
-              <div className="space-y-0.5">
+
+              <div className="mb-3 p-3 bg-gradient-to-r from-green-400 to-emerald-500 rounded-lg shadow-lg">
+                <p className="text-center font-black text-white text-base mb-2">🔥 BENEFICIOS QUE NO TE DICEN OTROS:</p>
+                <ul className="space-y-1 text-sm">
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-5 h-5" />
+                    <span className="font-bold">✅ Sin contrato</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-5 h-5" />
+                    <span className="font-bold">✅ Sin pagos por adelantado</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-5 h-5" />
+                    <span className="font-bold">✅ Pagas SOLO cuando todo esté instalado y funcionando 💯</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-5 h-5" />
+                    <span className="font-bold">✅ Conexión estable sin interrupciones</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="mb-3 p-3 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-lg shadow-xl">
+                <p className="text-center font-black text-indigo-900 text-base">🚨 Este plan es para los que quieren LO MEJOR, sin excusas</p>
+              </div>
+              <div className="space-y-2">
                 <a
-                  href="https://wa.me/14256528120?text=Hola%2C%20estoy%20interesado%20en%20el%20Plan%20Ultra%20de%20Intel%20Plus%20(2000%20Mbps%20-%20%2460%2Fmes).%20¿Me%20pueden%20dar%20más%20información%3F"
+                  href="https://wa.me/14256528120?text=⚡️%20Hola%2C%20quiero%20el%20Plan%20Ultra%20de%20Intel%20Plus%20(Hasta%203000%20Mbps%20%2B%20150%2B%20canales%20%2B%20DVR%20-%20%2449%2Fmes).%20¡POTENCIA%20MÁXIMA!"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-green-600 hover:bg-green-700 text-white py-4 rounded font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-2 text-sm"
+                  className="w-full bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white py-4 rounded-lg font-black text-lg transition-all shadow-2xl transform hover:scale-105 flex items-center justify-center gap-2 border-4 border-cyan-300"
                 >
                   <MessageCircle className="w-7 h-7" />
-                  WhatsApp
+                  WhatsApp 🚀
                 </a>
                 <a
                   href="#agenda-instalacion"
                   onClick={() => {
                     setShowScheduler(true);
                     setSelectedPlan({
-                      name: "Plan Ultra",
-                      price: "$60/mes",
-                      speed: "2000 Mbps",
-                      channels: "150 canales TV básicos",
-                      installation: "$150"
+                      name: "Plan Ultra ⚡️",
+                      price: "$49/mes",
+                      speed: "Hasta 3000 Mbps REAL",
+                      channels: "150+ canales + DVR",
+                      installation: "$140"
                     });
                   }}
-                  className="w-full bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white py-4 rounded font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-2 text-sm"
+                  className="w-full bg-gradient-to-r from-cyan-400 to-blue-500 hover:from-cyan-500 hover:to-blue-600 text-indigo-900 py-4 rounded-lg font-black text-lg transition-all shadow-2xl transform hover:scale-105 flex items-center justify-center gap-2 border-4 border-blue-700"
                 >
                   <Clock className="w-7 h-7" />
-                  Agendar Instalación Ahora
+                  Agendar Instalación Ahora 🔥
                 </a>
               </div>
             </div>
