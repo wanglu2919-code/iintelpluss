@@ -198,15 +198,15 @@ export function Home() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-6xl mx-auto text-center">
             {/* Badge */}
-            <div className="inline-block mb-8 animate-fade-in">
-              <span className="bg-gradient-to-r from-yellow-400 to-orange-400 text-blue-900 px-6 py-3 rounded-full font-bold text-sm shadow-lg inline-flex items-center gap-2">
-                <Zap className="w-4 h-4" />
+            <div className="inline-block mb-2 animate-fade-in">
+              <span className="bg-gradient-to-r from-yellow-400 to-orange-400 text-blue-900 px-2 py-1 rounded-full font-bold text-xs shadow-lg inline-flex items-center gap-1">
+                <Zap className="w-3 h-3" />
                 Proveedor Autorizado de AT&T, Xfinity, Spectrum y más
               </span>
             </div>
 
             {/* Main headline */}
-            <h1 className="text-2xl md:text-3xl lg:text-5xl font-black text-white mb-8 leading-[1.1] tracking-tight">
+            <h1 className="text-lg md:text-xl lg:text-2xl font-black text-white mb-2 leading-[1.1] tracking-tight">
               Conectividad Premium<br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-orange-400 to-red-400">
                 Sin Límites
@@ -214,7 +214,7 @@ export function Home() {
             </h1>
 
             {/* Subheadline */}
-            <p className="text-base md:text-lg lg:text-xl text-blue-100 dark:text-gray-300 mb-8 max-w-4xl mx-auto leading-relaxed font-light">
+            <p className="text-xs md:text-sm text-blue-100 dark:text-gray-300 mb-3 max-w-4xl mx-auto leading-relaxed font-light">
               Internet de fibra óptica hasta <span className="font-bold text-yellow-300">2000 Mbps</span> y más de
               <span className="font-bold text-yellow-300"> 300 canales premium</span>.
               <br className="hidden md:block" />
@@ -222,46 +222,46 @@ export function Home() {
             </p>
 
             {/* Features highlights */}
-            <div className="grid md:grid-cols-3 gap-4 mb-8 max-w-4xl mx-auto">
-              <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6 hover:bg-white/15 transition-all group">
-                <Zap className="w-10 h-10 text-yellow-300 mb-3 mx-auto group-hover:scale-110 transition-transform" />
-                <p className="font-bold text-white text-xl mb-1">Ultra Rápido</p>
-                <p className="text-blue-200 text-sm">Hasta 2000 Mbps</p>
+            <div className="grid md:grid-cols-3 gap-2 mb-3 max-w-4xl mx-auto">
+              <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-lg p-2 hover:bg-white/15 transition-all group">
+                <Zap className="w-5 h-5 text-yellow-300 mb-1 mx-auto group-hover:scale-110 transition-transform" />
+                <p className="font-bold text-white text-sm mb-0.5">Ultra Rápido</p>
+                <p className="text-blue-200 text-xs">Hasta 2000 Mbps</p>
               </div>
-              <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6 hover:bg-white/15 transition-all group">
-                <Shield className="w-10 h-10 text-yellow-300 mb-3 mx-auto group-hover:scale-110 transition-transform" />
-                <p className="font-bold text-white text-xl mb-1">100% Confiable</p>
-                <p className="text-blue-200 text-sm">Sin interrupciones</p>
+              <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-lg p-2 hover:bg-white/15 transition-all group">
+                <Shield className="w-5 h-5 text-yellow-300 mb-1 mx-auto group-hover:scale-110 transition-transform" />
+                <p className="font-bold text-white text-sm mb-0.5">100% Confiable</p>
+                <p className="text-blue-200 text-xs">Sin interrupciones</p>
               </div>
-              <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6 hover:bg-white/15 transition-all group">
-                <Users className="w-10 h-10 text-yellow-300 mb-3 mx-auto group-hover:scale-110 transition-transform" />
-                <p className="font-bold text-white text-xl mb-1">Soporte 24/7</p>
-                <p className="text-blue-200 text-sm">Siempre disponibles</p>
+              <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-lg p-2 hover:bg-white/15 transition-all group">
+                <Users className="w-5 h-5 text-yellow-300 mb-1 mx-auto group-hover:scale-110 transition-transform" />
+                <p className="font-bold text-white text-sm mb-0.5">Soporte 24/7</p>
+                <p className="text-blue-200 text-xs">Siempre disponibles</p>
               </div>
             </div>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
+            <div className="flex flex-col sm:flex-row gap-2 justify-center items-center mb-3">
               <a
                 href="#planes"
-                className="group bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-500 hover:to-orange-600 text-gray-900 px-8 py-3 rounded-2xl text-lg font-bold transition-all shadow-2xl inline-flex items-center gap-3 transform hover:scale-105 hover:shadow-yellow-500/50"
+                className="group bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-500 hover:to-orange-600 text-gray-900 px-4 py-1.5 rounded-lg text-sm font-bold transition-all shadow-2xl inline-flex items-center gap-1 transform hover:scale-105 hover:shadow-yellow-500/50"
               >
                 Ver Planes y Precios
-                <span className="text-2xl group-hover:translate-x-1 transition-transform">→</span>
+                <span className="text-base group-hover:translate-x-1 transition-transform">→</span>
               </a>
               <a
                 href="#oferta-especial"
-                className="bg-white/10 backdrop-blur-md border-2 border-white/40 hover:bg-white hover:text-blue-900 text-white px-8 py-3 rounded-2xl text-lg font-bold transition-all inline-flex items-center gap-2 hover:shadow-xl"
+                className="bg-white/10 backdrop-blur-md border border-white/40 hover:bg-white hover:text-blue-900 text-white px-4 py-1.5 rounded-lg text-sm font-bold transition-all inline-flex items-center gap-1 hover:shadow-xl"
               >
-                <span className="text-2xl">🔥</span>
+                <span className="text-base">🔥</span>
                 Ver Oferta Especial
               </a>
             </div>
 
             {/* Trust indicator */}
-            <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 px-6 py-3 rounded-full">
-              <Star className="w-5 h-5 text-yellow-300 fill-yellow-300" />
-              <p className="text-white font-semibold text-sm">
+            <div className="inline-flex items-center gap-1 bg-white/10 backdrop-blur-sm border border-white/20 px-3 py-1 rounded-full">
+              <Star className="w-3 h-3 text-yellow-300 fill-yellow-300" />
+              <p className="text-white font-semibold text-xs">
                 Más de 50,000 clientes satisfechos en Estados Unidos
               </p>
             </div>
@@ -271,34 +271,34 @@ export function Home() {
 
 
       {/* Statistics Section */}
-      <section className="py-14 bg-gradient-to-br from-blue-600 via-blue-700 to-purple-700 dark:from-blue-900 dark:via-purple-900 dark:to-gray-900 relative overflow-hidden">
+      <section className="py-3 bg-gradient-to-br from-blue-600 via-blue-700 to-purple-700 dark:from-blue-900 dark:via-purple-900 dark:to-gray-900 relative overflow-hidden">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f12_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f12_1px,transparent_1px)] bg-[size:64px_64px]"></div>
 
         <div className="container mx-auto px-4 relative z-10">
-          <div className="text-center mb-10">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-black text-white mb-4">Números que Hablan por Sí Solos</h2>
-            <p className="text-blue-100 text-lg">La confianza de miles de clientes nos respalda</p>
+          <div className="text-center mb-2">
+            <h2 className="text-base md:text-lg font-black text-white mb-1">Números que Hablan por Sí Solos</h2>
+            <p className="text-blue-100 text-xs">La confianza de miles de clientes nos respalda</p>
           </div>
 
-          <div className="grid md:grid-cols-4 gap-6 max-w-6xl mx-auto">
-            <div className="bg-white/10 backdrop-blur-md border-2 border-white/20 rounded-2xl p-6 text-center hover:bg-white/15 transition-all transform hover:scale-105">
-              <div className="text-2xl md:text-3xl lg:text-4xl font-black text-yellow-300 mb-3">50K+</div>
-              <p className="text-white text-lg font-semibold">Clientes Satisfechos</p>
+          <div className="grid md:grid-cols-4 gap-2 max-w-6xl mx-auto">
+            <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-lg p-2 text-center hover:bg-white/15 transition-all transform hover:scale-105">
+              <div className="text-lg md:text-xl font-black text-yellow-300 mb-0.5">50K+</div>
+              <p className="text-white text-xs font-semibold">Clientes Satisfechos</p>
             </div>
 
-            <div className="bg-white/10 backdrop-blur-md border-2 border-white/20 rounded-2xl p-6 text-center hover:bg-white/15 transition-all transform hover:scale-105">
-              <div className="text-2xl md:text-3xl lg:text-4xl font-black text-green-300 mb-3">6+</div>
-              <p className="text-white text-lg font-semibold">Años de Experiencia</p>
+            <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-lg p-2 text-center hover:bg-white/15 transition-all transform hover:scale-105">
+              <div className="text-lg md:text-xl font-black text-green-300 mb-0.5">6+</div>
+              <p className="text-white text-xs font-semibold">Años de Experiencia</p>
             </div>
 
-            <div className="bg-white/10 backdrop-blur-md border-2 border-white/20 rounded-2xl p-6 text-center hover:bg-white/15 transition-all transform hover:scale-105">
-              <div className="text-2xl md:text-3xl lg:text-4xl font-black text-pink-300 mb-3">98%</div>
-              <p className="text-white text-lg font-semibold">Satisfacción del Cliente</p>
+            <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-lg p-2 text-center hover:bg-white/15 transition-all transform hover:scale-105">
+              <div className="text-lg md:text-xl font-black text-pink-300 mb-0.5">98%</div>
+              <p className="text-white text-xs font-semibold">Satisfacción del Cliente</p>
             </div>
 
-            <div className="bg-white/10 backdrop-blur-md border-2 border-white/20 rounded-2xl p-6 text-center hover:bg-white/15 transition-all transform hover:scale-105">
-              <div className="text-2xl md:text-3xl lg:text-4xl font-black text-orange-300 mb-3">24/7</div>
-              <p className="text-white text-lg font-semibold">Soporte Disponible</p>
+            <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-lg p-2 text-center hover:bg-white/15 transition-all transform hover:scale-105">
+              <div className="text-lg md:text-xl font-black text-orange-300 mb-0.5">24/7</div>
+              <p className="text-white text-xs font-semibold">Soporte Disponible</p>
             </div>
           </div>
         </div>
@@ -306,18 +306,18 @@ export function Home() {
 
 
       {/* Coverage Checker Section */}
-      <section className="py-10 bg-gradient-to-br from-blue-600 to-purple-700 dark:from-purple-900 dark:to-blue-900">
+      <section className="py-3 bg-gradient-to-br from-blue-600 to-purple-700 dark:from-purple-900 dark:to-blue-900">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto text-center">
-            <h2 className="text-4xl font-bold text-white mb-4">
+            <h2 className="text-base md:text-lg font-bold text-white mb-1">
               ¿Tenemos Servicio en Tu Área?
             </h2>
-            <p className="text-blue-100 text-lg mb-8">
+            <p className="text-blue-100 text-xs mb-2">
               Ingresa tu código postal (ZIP Code) para verificar la disponibilidad de servicio
             </p>
 
-            <div className="bg-white rounded-2xl shadow-2xl p-6">
-              <div className="flex flex-col sm:flex-row gap-4 mb-6">
+            <div className="bg-white rounded-lg shadow-2xl p-2">
+              <div className="flex flex-col sm:flex-row gap-1 mb-2">
                 <input
                   type="text"
                   placeholder="Ej: 98101"
@@ -327,31 +327,31 @@ export function Home() {
                     setZipCode(value);
                     setCoverageResult(null);
                   }}
-                  className="flex-1 px-6 py-4 border-2 border-gray-300 rounded-xl text-lg focus:outline-none focus:border-blue-600 transition"
+                  className="flex-1 px-3 py-2 border border-gray-300 rounded text-sm focus:outline-none focus:border-blue-600 transition"
                   maxLength={5}
                 />
                 <button
                   onClick={checkCoverage}
                   disabled={zipCode.length !== 5 || isCheckingCoverage}
-                  className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-6 py-3 rounded-xl font-bold text-lg transition-all shadow-lg disabled:opacity-50 disabled:cursor-not-allowed transform hover:scale-105"
+                  className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-3 py-2 rounded font-bold text-xs transition-all shadow-lg disabled:opacity-50 disabled:cursor-not-allowed transform hover:scale-105"
                 >
                   {isCheckingCoverage ? "Verificando..." : "Verificar"}
                 </button>
               </div>
 
               {isCheckingCoverage && (
-                <div className="bg-blue-50 dark:bg-blue-900/30 border-2 border-blue-300 dark:border-blue-700 rounded-xl p-6 animate-fade-in">
-                  <div className="flex flex-col items-center justify-center gap-4">
-                    <div className="relative w-16 h-16">
-                      <div className="absolute inset-0 border-4 border-blue-200 dark:border-blue-800 rounded-full"></div>
-                      <div className="absolute inset-0 border-4 border-blue-600 dark:border-blue-400 rounded-full border-t-transparent animate-spin"></div>
+                <div className="bg-blue-50 dark:bg-blue-900/30 border border-blue-300 dark:border-blue-700 rounded p-2 animate-fade-in">
+                  <div className="flex flex-col items-center justify-center gap-1">
+                    <div className="relative w-8 h-8">
+                      <div className="absolute inset-0 border-2 border-blue-200 dark:border-blue-800 rounded-full"></div>
+                      <div className="absolute inset-0 border-2 border-blue-600 dark:border-blue-400 rounded-full border-t-transparent animate-spin"></div>
                     </div>
                     <div className="text-center">
-                      <h3 className="text-xl font-bold text-blue-800 dark:text-blue-300 mb-2">
+                      <h3 className="text-xs font-bold text-blue-800 dark:text-blue-300 mb-0.5">
                         Verificando Cobertura...
                       </h3>
-                      <p className="text-blue-600 dark:text-blue-400">
-                        Consultando disponibilidad para ZIP {zipCode}
+                      <p className="text-blue-600 dark:text-blue-400 text-xs">
+                        Consultando ZIP {zipCode}
                       </p>
                     </div>
                   </div>
@@ -359,27 +359,27 @@ export function Home() {
               )}
 
               {coverageResult === "available" && !isCheckingCoverage && (
-                <div className="bg-green-50 border-2 border-green-500 rounded-xl p-6 animate-fade-in">
-                  <div className="flex items-center justify-center gap-3 mb-3">
-                    <CheckCircle className="w-8 h-8 text-green-600" />
-                    <h3 className="text-2xl font-bold text-green-800">¡Excelente Noticia!</h3>
+                <div className="bg-green-50 border border-green-500 rounded p-2 animate-fade-in">
+                  <div className="flex items-center justify-center gap-1 mb-1">
+                    <CheckCircle className="w-4 h-4 text-green-600" />
+                    <h3 className="text-sm font-bold text-green-800">¡Excelente Noticia!</h3>
                   </div>
-                  <p className="text-green-700 text-lg mb-4">
+                  <p className="text-green-700 text-xs mb-2">
                     Tenemos cobertura en tu área (ZIP {zipCode})
                   </p>
-                  <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                  <div className="flex flex-col sm:flex-row gap-1 justify-center">
                     <a
                       href="https://wa.me/14256528120?text=Hola%2C%20verificqué%20que%20tienen%20servicio%20en%20mi%20área%20(ZIP%20{zipCode}).%20Quiero%20más%20información."
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-bold transition-all inline-flex items-center justify-center gap-2"
+                      className="bg-green-600 hover:bg-green-700 text-white px-3 py-1 rounded text-xs font-bold transition-all inline-flex items-center justify-center gap-1"
                     >
-                      <MessageCircle className="w-5 h-5" />
-                      Contactar por WhatsApp
+                      <MessageCircle className="w-3 h-3" />
+                      WhatsApp
                     </a>
                     <a
                       href="#planes"
-                      className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-bold transition-all"
+                      className="bg-blue-600 hover:bg-blue-700 text-white px-3 py-1 rounded text-xs font-bold transition-all"
                     >
                       Ver Planes
                     </a>
@@ -388,31 +388,31 @@ export function Home() {
               )}
 
               {coverageResult === "unavailable" && !isCheckingCoverage && (
-                <div className="bg-orange-50 border-2 border-orange-500 rounded-xl p-6 animate-fade-in">
-                  <div className="flex items-center justify-center gap-3 mb-3">
-                    <MapPin className="w-8 h-8 text-orange-600" />
-                    <h3 className="text-2xl font-bold text-orange-800">Área en Expansión</h3>
+                <div className="bg-orange-50 border border-orange-500 rounded p-2 animate-fade-in">
+                  <div className="flex items-center justify-center gap-1 mb-1">
+                    <MapPin className="w-4 h-4 text-orange-600" />
+                    <h3 className="text-sm font-bold text-orange-800">Área en Expansión</h3>
                   </div>
-                  <p className="text-orange-700 text-lg mb-4">
-                    Aún no tenemos servicio en ZIP {zipCode}, pero estamos expandiéndonos constantemente.
+                  <p className="text-orange-700 text-xs mb-1">
+                    Aún no tenemos servicio en ZIP {zipCode}, pero estamos expandiéndonos.
                   </p>
-                  <p className="text-orange-600 mb-4">
-                    Déjanos tu contacto y te avisaremos cuando lleguemos a tu área.
+                  <p className="text-orange-600 text-xs mb-1">
+                    Déjanos tu contacto y te avisaremos cuando lleguemos.
                   </p>
                   <a
                     href="https://wa.me/14256528120?text=Hola%2C%20quiero%20que%20me%20avisen%20cuando%20tengan%20servicio%20en%20mi%20área%20(ZIP%20{zipCode})"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-orange-600 hover:bg-orange-700 text-white px-6 py-3 rounded-lg font-bold transition-all inline-flex items-center justify-center gap-2"
+                    className="bg-orange-600 hover:bg-orange-700 text-white px-3 py-1 rounded text-xs font-bold transition-all inline-flex items-center justify-center gap-1"
                   >
-                    <MessageCircle className="w-5 h-5" />
-                    Dejar mi contacto
+                    <MessageCircle className="w-3 h-3" />
+                    Dejar contacto
                   </a>
                 </div>
               )}
             </div>
 
-            <p className="text-blue-100 text-sm mt-6">
+            <p className="text-blue-100 text-xs mt-2">
               📍 Actualmente damos servicio en Washington, Oregon y áreas circundantes
             </p>
           </div>
