@@ -652,7 +652,7 @@ export function Home() {
                 </li>
                 <li className="flex items-center gap-2 bg-white/10 p-2 rounded">
                   <CheckCircle className="w-7 h-7 text-cyan-300" />
-                  <span className="font-bold">✔️ 📺 150+ canales en vivo para toda la familia</span>
+                  <span className="font-bold">✔️ 📺 350 canales en vivo para toda la familia</span>
                 </li>
                 <li className="flex items-center gap-2 bg-white/10 p-2 rounded">
                   <CheckCircle className="w-7 h-7 text-cyan-300" />
@@ -695,7 +695,7 @@ export function Home() {
               </div>
               <div className="space-y-2">
                 <a
-                  href="https://wa.me/14256528120?text=⚡️%20Hola%2C%20quiero%20el%20Plan%20Ultra%20de%20Intel%20Plus%20(Hasta%203000%20Mbps%20%2B%20150%2B%20canales%20%2B%20DVR%20-%20%2449%2Fmes).%20¡POTENCIA%20MÁXIMA!"
+                  href="https://wa.me/14256528120?text=⚡️%20Hola%2C%20quiero%20el%20Plan%20Ultra%20de%20Intel%20Plus%20(Hasta%203000%20Mbps%20%2B%20350%20canales%20%2B%20DVR%20-%20%2449%2Fmes).%20¡POTENCIA%20MÁXIMA!"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white py-4 rounded-lg font-black text-lg transition-all shadow-2xl transform hover:scale-105 flex items-center justify-center gap-2 border-4 border-cyan-300"
@@ -711,7 +711,7 @@ export function Home() {
                       name: "Plan Ultra ⚡️",
                       price: "$49/mes",
                       speed: "Hasta 3000 Mbps REAL",
-                      channels: "150+ canales + DVR",
+                      channels: "350 canales + DVR",
                       installation: "$140"
                     });
                   }}
