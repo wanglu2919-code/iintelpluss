@@ -493,96 +493,106 @@ export function Home() {
             </div>
 
             {/* Plan Premium */}
-            <div className="bg-gradient-to-br from-blue-600 via-purple-600 to-blue-800 p-2.5 rounded-lg shadow-2xl hover:scale-110 transition-all duration-300 text-white relative border border-yellow-400 transform scale-105">
-              <div className="absolute -top-1.5 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-yellow-400 to-orange-400 text-blue-900 px-4 py-0.5 rounded-full font-bold text-sm shadow-lg">
-                ⭐ MEJOR OFERTA ⭐
+            <div className="bg-gradient-to-br from-purple-600 via-pink-600 to-red-600 p-2.5 rounded-lg shadow-2xl hover:scale-110 transition-all duration-300 text-white relative border-8 border-yellow-300 transform scale-110 animate-pulse-glow">
+              <div className="absolute -top-1.5 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-yellow-300 via-orange-400 to-red-500 text-white px-4 py-0.5 rounded-full font-black text-base shadow-2xl animate-bounce">
+                🚨🔥 EL PLAN MÁS COMPLETO – PREMIUM 🔥🚨
               </div>
-              <div className="absolute top-1 right-1 bg-red-500 text-white px-4.5 py-0.5 rounded-full font-bold text-sm animate-pulse">
-                AHORRA
+              <div className="absolute top-1 right-1 bg-yellow-400 text-red-600 px-3 py-0.5 rounded-full font-black text-sm animate-pulse shadow-lg">
+                💎 VIP
               </div>
-              <h3 className="text-lg font-bold mb-4 mt-4">Plan Premium</h3>
-              <p className="text-blue-100 mb-4 text-sm">El favorito de nuestros clientes</p>
-              <div className="mb-4">
-                <span className="text-sm font-bold">$40</span>
-                <span className="text-blue-100 text-sm">/mes</span>
+
+              <h3 className="text-2xl font-black mb-2 mt-6 text-center">💎 PLAN PREMIUM</h3>
+              <p className="text-yellow-200 font-bold text-center mb-3 text-lg">Si quieres TODO sin límites… este es el plan que está dominando 👇</p>
+
+              <div className="mb-3 bg-white/20 backdrop-blur-sm p-3 rounded-lg border-4 border-yellow-300">
+                <p className="text-center text-2xl font-black">💰 Solo $40/mes</p>
+                <p className="text-center text-lg font-bold text-yellow-200">🛠️ Instalación: $135 (pago único)</p>
               </div>
-              <div className="mb-3 p-2 bg-yellow-400 border border-yellow-500 rounded shadow-lg">
-                <p className="text-center font-bold text-blue-900 text-sm">+ $135 Instalación</p>
+
+              <div className="mb-3 p-3 bg-gradient-to-r from-yellow-300 to-orange-400 rounded-lg shadow-lg">
+                <p className="text-center font-black text-purple-900 text-lg">📡 INCLUYE TODO:</p>
               </div>
-              <div className="bg-white/10 backdrop-blur-sm p-0.5 rounded mb-3">
-                <p className="text-center text-yellow-300 font-bold text-sm">🎁 BENEFICIOS EXCLUSIVOS</p>
-              </div>
-              <ul className="space-y-0.5 mb-3 text-sm">
-                <li className="flex items-center gap-2">
+
+              <ul className="space-y-2 mb-3 text-base">
+                <li className="flex items-center gap-2 bg-white/10 p-2 rounded">
                   <Star className="w-7 h-7 text-yellow-300 fill-yellow-300" />
-                  <span className="font-semibold">Internet Ilimitado sin límite de velocidad</span>
+                  <span className="font-bold">⚡ Internet ilimitado y de alta velocidad</span>
                 </li>
-                <li className="flex items-center gap-2">
+                <li className="flex items-center gap-2 bg-white/10 p-2 rounded">
                   <Star className="w-7 h-7 text-yellow-300 fill-yellow-300" />
-                  <span className="font-semibold">🎬 300+ Canales Premium HD</span>
+                  <span className="font-bold">📺 +500 CANALES PREMIUM HD & 4K 🔥</span>
                 </li>
-                <li className="flex items-center gap-2 ml-2">
-                  <CheckCircle className="w-7 h-7 text-yellow-300" />
-                  <span className="text-sm">HBO, Showtime, Starz, Cinemax</span>
-                </li>
-                <li className="flex items-center gap-2 ml-2">
-                  <CheckCircle className="w-7 h-7 text-yellow-300" />
-                  <span className="text-sm">Todos los canales deportivos (ESPN, Fox Sports)</span>
-                </li>
-                <li className="flex items-center gap-2 ml-2">
-                  <CheckCircle className="w-7 h-7 text-yellow-300" />
-                  <span className="text-sm">Paquete familiar completo</span>
-                </li>
-                <li className="flex items-center gap-2">
+                <li className="flex items-center gap-2 bg-white/10 p-2 rounded">
                   <Star className="w-7 h-7 text-yellow-300 fill-yellow-300" />
-                  <span className="font-semibold">Router WiFi 6 de última generación</span>
+                  <span className="font-bold">🎬 HBO, Showtime, Starz, Cinemax incluidos</span>
                 </li>
-                <li className="flex items-center gap-2">
+                <li className="flex items-center gap-2 bg-white/10 p-2 rounded">
                   <Star className="w-7 h-7 text-yellow-300 fill-yellow-300" />
-                  <span className="font-semibold">DVR Cloud ilimitado</span>
+                  <span className="font-bold">🏈 Todos los deportes (ESPN, Fox Sports, PPV y más)</span>
                 </li>
-                <li className="flex items-center gap-2">
+                <li className="flex items-center gap-2 bg-white/10 p-2 rounded">
                   <Star className="w-7 h-7 text-yellow-300 fill-yellow-300" />
-                  <span className="font-semibold">Soporte VIP 24/7</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <Star className="w-7 h-7 text-yellow-300 fill-yellow-300" />
-                  <span className="font-semibold">3 meses gratis de streaming</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <Star className="w-7 h-7 text-yellow-300 fill-yellow-300" />
-                  <span className="font-semibold">Sin contratos - Cancela cuando quieras</span>
+                  <span className="font-bold">📶 Router WiFi incluido</span>
                 </li>
               </ul>
-              <div className="space-y-0.5">
+
+              <div className="mb-3 p-3 bg-gradient-to-r from-green-400 to-emerald-500 rounded-lg shadow-lg">
+                <p className="text-center font-black text-white text-lg mb-2">🔥 BENEFICIOS EXCLUSIVOS:</p>
+                <ul className="space-y-1 text-base">
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-6 h-6" />
+                    <span className="font-bold">✔️ Sin contrato</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-6 h-6" />
+                    <span className="font-bold">✔️ Sin pagos por adelantado</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-6 h-6" />
+                    <span className="font-bold">✔️ Pagas cuando todo esté instalado</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="mb-2 p-2 bg-yellow-300 rounded-lg">
+                <p className="text-center font-black text-purple-900 text-base">⭐ El favorito de nuestros clientes</p>
+              </div>
+
+              <div className="mb-3 p-2 bg-orange-500 rounded-lg">
+                <p className="text-center font-black text-white text-base">💥 Más canales que la competencia por menos dinero</p>
+              </div>
+
+              <div className="mb-3 p-3 bg-red-600 rounded-lg animate-pulse shadow-xl">
+                <p className="text-center font-black text-white text-lg">🚨 Oferta limitada — este plan se está agotando rápido</p>
+              </div>
+              <div className="space-y-2">
                 <a
-                  href="https://wa.me/14256528120?text=🔥%20Hola%2C%20quiero%20el%20Plan%20Premium%20de%20Intel%20Plus%20(Internet%20Ilimitado%20%2B%20300%2B%20Canales%20-%20%2440%2Fmes).%20¡La%20mejor%20oferta!"
+                  href="https://wa.me/14256528120?text=🔥%20Hola%2C%20quiero%20el%20Plan%20Premium%20de%20Intel%20Plus%20(Internet%20Ilimitado%20%2B%20500%2B%20Canales%20Premium%20HD%20%26%204K%20-%20%2440%2Fmes).%20¡El%20plan%20más%20completo!"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-green-600 hover:bg-green-700 text-white py-4 rounded font-bold text-sm transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-2"
+                  className="w-full bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white py-4 rounded-lg font-black text-lg transition-all shadow-2xl transform hover:scale-105 flex items-center justify-center gap-2 border-4 border-yellow-300"
                 >
                   <MessageCircle className="w-7 h-7" />
-                  WhatsApp
+                  WhatsApp 🚀
                 </a>
                 <a
                   href="#agenda-instalacion"
                   onClick={() => {
                     setShowScheduler(true);
                     setSelectedPlan({
-                      name: "Plan Premium",
+                      name: "Plan Premium 💎",
                       price: "$40/mes",
                       speed: "Internet Ilimitado",
-                      channels: "300+ Canales Premium HD",
+                      channels: "+500 Canales Premium HD & 4K",
                       installation: "$135"
                     });
                   }}
-                  className="w-full bg-white hover:bg-gray-100 text-blue-900 py-4 rounded font-bold text-sm transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-2 border border-yellow-400"
+                  className="w-full bg-gradient-to-r from-yellow-300 to-orange-400 hover:from-yellow-400 hover:to-orange-500 text-purple-900 py-4 rounded-lg font-black text-lg transition-all shadow-2xl transform hover:scale-105 flex items-center justify-center gap-2 border-4 border-purple-600"
                 >
                   <Clock className="w-7 h-7" />
-                  Agendar Instalación Ahora
+                  Agendar Instalación Ahora 🔥
                 </a>
               </div>
-              <p className="text-center text-yellow-300 text-sm mt-0.5 font-semibold">Oferta limitada</p>
             </div>
 
             {/* Plan Ultra */}
