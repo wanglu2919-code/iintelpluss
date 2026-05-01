@@ -494,15 +494,15 @@ export function Home() {
               <div className="mb-3 p-2 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg">
                 <p className="text-center font-black text-white text-base">📩 Escríbeme ahora o entra y agenda tu instalación HOY MISMO 🚀</p>
               </div>
-              <div className="space-y-0.5">
+              <div className="space-y-2">
                 <a
                   href="https://wa.me/14256528120?text=🚀%20Hola%2C%20quiero%20el%20Plan%20Básico%20Económico%20de%20Intel%20Plus%20(1000%20Mbps%20ULTRA%20RÁPIDO%20%2B%20250%2B%20Canales%20-%20%2425%2Fmes).%20¡EL%20MÁS%20SOLICITADO!"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-green-600 hover:bg-green-700 text-white py-4 rounded font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-2 text-sm"
+                  className="w-full bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white py-4 rounded-lg font-black text-lg transition-all shadow-2xl transform hover:scale-105 flex items-center justify-center gap-2 border-4 border-yellow-300"
                 >
                   <MessageCircle className="w-7 h-7" />
-                  WhatsApp
+                  WhatsApp 🚀
                 </a>
                 <a
                   href="#agenda-instalacion"
@@ -516,10 +516,10 @@ export function Home() {
                       installation: "$120"
                     });
                   }}
-                  className="w-full bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white py-4 rounded font-bold transition-all shadow-lg transform hover:scale-105 flex items-center justify-center gap-2 text-sm"
+                  className="w-full bg-gradient-to-r from-yellow-300 to-orange-400 hover:from-yellow-400 hover:to-orange-500 text-red-600 py-4 rounded-lg font-black text-lg transition-all shadow-2xl transform hover:scale-105 flex items-center justify-center gap-2 border-4 border-red-600"
                 >
                   <Clock className="w-7 h-7" />
-                  Agendar Instalación Ahora
+                  Agendar Instalación Ahora 🔥
                 </a>
               </div>
             </div>
